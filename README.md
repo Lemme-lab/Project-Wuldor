@@ -1,7 +1,7 @@
 # Robotic-Arm
 A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
 
-##Features 
+## Features 
 - Self Designed Stepper Motor Controller (A4988) 
 - Self designed Main Controller with a small footprint
 - Compact Size Factor
@@ -9,9 +9,24 @@ A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award.
 - Many other little Features
 
 ## Stepper Motor Controller 
+
+![Screenshot_87](https://user-images.githubusercontent.com/71924682/149657614-93588fce-9137-472c-8ab5-dbcc37ed5673.png)
+![Screenshot_88](https://user-images.githubusercontent.com/71924682/149657616-39791c2b-6787-49b9-add6-81caddfa2a57.png)
+![Screenshot_89](https://user-images.githubusercontent.com/71924682/149657618-6caefc3f-7ed7-4157-9a78-b03e740644e6.png)
+
 ------
-## Main Controller 
+
+## Main Controller
+![Screenshot_84](https://user-images.githubusercontent.com/71924682/149657624-1eb0acbe-f4c5-4585-a5af-4f5c8efa5fe1.png)
+![Screenshot_85](https://user-images.githubusercontent.com/71924682/149657626-f1591be5-b1aa-4c6b-9bd4-08e4d52d23d9.png)
+![Screenshot_86](https://user-images.githubusercontent.com/71924682/149657629-08d64892-84f8-43e0-9938-04f28876ea78.png)
+
+
 ------
+
 ## Roboter-Arm
+![3D-Modell v46](https://user-images.githubusercontent.com/71924682/149657667-de446a71-3c7a-4007-9531-d618ca604209.png)
+![Motor_PCB_Arm Axis 2-3 v49](https://user-images.githubusercontent.com/71924682/149657669-7b315286-1817-4b4d-8d44-8f2fd5e48dcf.png)
+![Main Controller PCB v58](https://user-images.githubusercontent.com/71924682/149657674-de1ed52c-6856-4fef-bc03-7a0a702d993b.png)
 ------
 
