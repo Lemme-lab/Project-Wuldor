@@ -8,7 +8,7 @@ A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award.
 - Esthetic 
 - Many other little Features
 
-## Stepper Motor Controller 
+## Stepper Motor + Reducer
 ![17HS4401 v4](https://user-images.githubusercontent.com/71924682/150653919-8b7a52bc-3ce9-4164-8b6d-ce85b9841b62.png)
 ![17HS15-1684S-HG100 v7](https://user-images.githubusercontent.com/71924682/150653922-3cf2f257-2f4f-4d51-ae6c-f86ad0cd32d8.png)
 
