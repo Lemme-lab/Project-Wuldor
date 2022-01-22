@@ -31,8 +31,9 @@ A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award.
 ------
 
 ## Roboter-Arm
-![3D-Modell v65](https://user-images.githubusercontent.com/71924682/149658639-ff50d84b-67a1-4791-8582-7b2563c2829d.png)
+![3D-Modell v72](https://user-images.githubusercontent.com/71924682/150656999-ab2c5ad5-986b-422f-9f7f-c9955460a6c4.png)
 ![Motor_PCB_Arm Axis 2-3 v49](https://user-images.githubusercontent.com/71924682/149657790-5d52edd6-3830-4168-96ad-475e444d0b6f.png)
-![Main Controller PCB v58](https://user-images.githubusercontent.com/71924682/149657674-de1ed52c-6856-4fef-bc03-7a0a702d993b.png)
+![3D-Modell Base](https://user-images.githubusercontent.com/71924682/150656997-9a376b11-d8d0-4669-a42b-64931b0b7a32.png)
+
 ------
 
