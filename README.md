@@ -24,8 +24,8 @@ A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award.
 
 ## Main Controller
 ![Screenshot_84](https://user-images.githubusercontent.com/71924682/149657624-1eb0acbe-f4c5-4585-a5af-4f5c8efa5fe1.png)
-![Screenshot_102](https://user-images.githubusercontent.com/71924682/151059465-e2530e00-e2cc-4713-83f9-9dc081f9f34e.png)
-![Screenshot_103](https://user-images.githubusercontent.com/71924682/151059469-0062f842-8931-4f31-b10a-73fedf2479e1.png)
+![Screenshot_104](https://user-images.githubusercontent.com/71924682/151062183-fe436bf2-2823-4516-bb16-6c0121e07579.png)
+![Screenshot_105](https://user-images.githubusercontent.com/71924682/151062188-47fc3033-ed11-4ca1-b21d-1296ac7657d7.png)
 
 
 
