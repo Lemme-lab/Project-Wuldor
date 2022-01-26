@@ -72,6 +72,8 @@ Last we will do a Mobile Client app for controlling and checking the robot arm o
 ---
 The whole code will be versioned via GIT, inputs to the Roboter Arm tested, and the whole project will be publicly available on GitHub.
 ---
+https://trello.com/b/jWCULnX8
+---
 
 ## Stepper Motor + Reducer
 ![17HS4401 v4](https://user-images.githubusercontent.com/71924682/150653919-8b7a52bc-3ce9-4164-8b6d-ce85b9841b62.png)
