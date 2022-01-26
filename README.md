@@ -10,7 +10,9 @@ A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award.
 
 
 ## Planned Code  
-  
+
+---
+
 ### General:  
 A few bullet points and explanations for the code part. Different technologies and programming languages such as C++, WEB-Dev, and Flutter will be used. It will go from Basic C and register manipulation to UI-Development on Cross-Platform Mobile Apps.  
   
@@ -21,6 +23,8 @@ A few bullet points and explanations for the code part. Different technologies a
 - Website  
 - Mobile App  
 - PHP Database  
+
+---
   
 ### Website:  
 An HTML Website that must be functional and appealing to use. Features will be send via a ESP32 and the included Wireless module. Cross-platform Data will mean that we will have to save the current data and inputs on a small database. UI and other Features will mean that we have to use JS with or without an additional framework.  
@@ -35,6 +39,8 @@ An HTML Website that must be functional and appealing to use. Features will be s
 - Stop/Start/hold -->pan> Slide buttons  
 - Speed  
 - Axis coordinates  
+  
+--- 
   
 ### Desktop Client  
 A C++ or Java desktop client to be used when wired up to the robot arm. From the User ready interface to debbuging, testing and programming features will be included. This is one of the most important interface to the robot arm and as such it will be programmed first.  
@@ -51,6 +57,8 @@ A C++ or Java desktop client to be used when wired up to the robot arm. From the
 - Stop/Start/Hold -->  slidebuttons  
 - Speed  
   
+--- 
+  
 ### Mobile Client  
 Last we will do a Mobile Client app for controlling and checking the robot arm on the go. It will be programmed in Flutter or another Mobile Cross Platform Developer Kit.  
   
@@ -58,9 +66,11 @@ Last we will do a Mobile Client app for controlling and checking the robot arm o
 - Check Wireless Connection  
 - Current-Voltage/Power Levels  
 - Settings  
-- Live Cam  
+- Live Cam   
   
+---
 The whole code will be versioned via GIT, inputs to the Roboter Arm tested, and the whole project will be publicly available on GitHub.
+---
 
 ## Stepper Motor + Reducer
 ![17HS4401 v4](https://user-images.githubusercontent.com/71924682/150653919-8b7a52bc-3ce9-4164-8b6d-ce85b9841b62.png)
