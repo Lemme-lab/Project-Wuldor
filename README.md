@@ -23,6 +23,7 @@ A few bullet points and explanations for the code part. Different technologies a
 - Website  
 - Mobile App  
 - PHP Database  
+- C++, HTML, CSS, JS, FLUTTER, JAVA
 
 ---
   
