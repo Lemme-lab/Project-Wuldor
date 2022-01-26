@@ -68,6 +68,14 @@ Last we will do a Mobile Client app for controlling and checking the robot arm o
 - Current-Voltage/Power Levels  
 - Settings  
 - Live Cam   
+
+---
+
+### Self-Test
+Testclasses to exclude code-mistakes. Motors are working in the corract way and also the remote connection and controlling from the web applicatio, if so then we can put everything together and test the whole thing
+
+- Motor
+- Remote Connection
   
 ---
 The whole code will be versioned via GIT, inputs to the Roboter Arm tested, and the whole project will be publicly available on GitHub.
