@@ -22,7 +22,8 @@ A few bullet points and explanations for the code part. Different technologies a
 - Website  
 - Mobile App  
 - PHP Database  
-- C++, HTML, CSS, JS, FLUTTER, JAVA
+- C++, HTML, CSS, JS, FLUTTER, JAVA, Python
+- Tensorflow, Keras
 
 ---
   
@@ -76,6 +77,7 @@ KI-Learning programm to improve the detection part of the robot arm and make it 
 - Detect-Items
 - CNN
 - Auto Pick-Up
+- Tensorflow, Keras Python-3
 
 ---
 
