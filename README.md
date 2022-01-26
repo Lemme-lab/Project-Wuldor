@@ -71,6 +71,15 @@ Last we will do a Mobile Client app for controlling and checking the robot arm o
 
 ---
 
+### KI Recognition
+KI-Learning programm to improve the detection part of the robot arm and make it possible for the robot to find an object automatically without helping from the remote controll setting.
+
+- Detect-Items
+- CNN
+- Auto Pick-Up
+
+---
+
 ### Self-Test
 Testclasses to exclude code-mistakes. Motors are working in the corract way and also the remote connection and controlling from the web applicatio, if so then we can put everything together and test the whole thing
 
