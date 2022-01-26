@@ -8,6 +8,60 @@ A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award.
 - Esthetic 
 - Many other little Features
 
+
+## Planned Code  
+  
+### General:  
+A few bullet points and explanations for the code part. Different technologies and programming languages such as C++, WEB-Dev, and Flutter will be used. It will go from Basic C and register manipulation to UI-Development on Cross-Platform Mobile Apps.  
+  
+- Controlling Axis 1- 5  
+- Save Control sequence  
+- Remote  Connection  
+- Desktop  Application  
+- Website  
+- Mobile App  
+- PHP Database  
+  
+### Website:  
+An HTML Website that must be functional and appealing to use. Features will be send via a ESP32 and the included Wireless module. Cross-platform Data will mean that we will have to save the current data and inputs on a small database. UI and other Features will mean that we have to use JS with or without an additional framework.  
+  
+- Checking Power Status  
+- Check Wireless Connection  
+- Current Voltage/Power Levels  
+- Slider  Controlls for Motors  
+- Test Motor func  
+- Switch Mode (Normal Control, Train ,AI)  
+- Cam Live Stream implementation  
+- Stop/Start/hold -->pan> Slide buttons  
+- Speed  
+- Axis coordinates  
+  
+### Desktop Client  
+A C++ or Java desktop client to be used when wired up to the robot arm. From the User ready interface to debbuging, testing and programming features will be included. This is one of the most important interface to the robot arm and as such it will be programmed first.  
+  
+- Checking Power Status  
+- Check Wireless Connection  
+- Current Voltage/Power Levels  
+- Slider  Controlls for Motors  
+- Test Motor func  
+- Switch Mode (Normal Control,AI)  
+- Cam  
+- Debug Features / Console  
+- Test  Features  
+- Stop/Start/Hold -->  slidebuttons  
+- Speed  
+  
+### Mobile Client  
+Last we will do a Mobile Client app for controlling and checking the robot arm on the go. It will be programmed in Flutter or another Mobile Cross Platform Developer Kit.  
+  
+- Checking Power Status  
+- Check Wireless Connection  
+- Current-Voltage/Power Levels  
+- Settings  
+- Live Cam  
+  
+The whole code will be versioned via GIT, inputs to the Roboter Arm tested, and the whole project will be publicly available on GitHub.
+
 ## Stepper Motor + Reducer
 ![17HS4401 v4](https://user-images.githubusercontent.com/71924682/150653919-8b7a52bc-3ce9-4164-8b6d-ce85b9841b62.png)
 ![17HS15-1684S-HG100 v7](https://user-images.githubusercontent.com/71924682/150653922-3cf2f257-2f4f-4d51-ae6c-f86ad0cd32d8.png)
