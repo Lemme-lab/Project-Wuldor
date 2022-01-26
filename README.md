@@ -76,6 +76,7 @@ Testclasses to exclude code-mistakes. Motors are working in the corract way and 
 
 - Motor
 - Remote Connection
+- Connections Seriell/Connectors 
   
 ---
 The whole code will be versioned via GIT, inputs to the Roboter Arm tested, and the whole project will be publicly available on GitHub.
