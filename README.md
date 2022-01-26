@@ -9,9 +9,8 @@ A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award.
 - Many other little Features
 
 
-## Planned Code  
+## Planned Code:
 
----
 
 ### General:  
 A few bullet points and explanations for the code part. Different technologies and programming languages such as C++, WEB-Dev, and Flutter will be used. It will go from Basic C and register manipulation to UI-Development on Cross-Platform Mobile Apps.  
