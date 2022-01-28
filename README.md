@@ -108,9 +108,10 @@ https://trello.com/b/jWCULnX8
 ------
 
 ## Roboter-Arm
-![3D-Modell v75](https://user-images.githubusercontent.com/71924682/150689990-f1d128a2-0e9f-4a6a-8e31-2b595b9557f2.png)
-![Motor_PCB_Arm Axis 2-3 v49](https://user-images.githubusercontent.com/71924682/149657790-5d52edd6-3830-4168-96ad-475e444d0b6f.png)
-![3D-Modell Base](https://user-images.githubusercontent.com/71924682/150656997-9a376b11-d8d0-4669-a42b-64931b0b7a32.png)
+![3D-Modell_2022-Jan-28_03-14-19PM-000_CustomizedView16913976212_png_alpha](https://user-images.githubusercontent.com/71924682/151576516-e4c7f3a3-9b1a-4ea8-88b5-608c753854fe.png)
+![3D-Modell_2022-Jan-28_03-34-16PM-000_CustomizedView15960228523_png_alpha](https://user-images.githubusercontent.com/71924682/151576557-f95538bd-4424-4fea-9d09-4fdc534dc684.png)
+![3D-Modell_2022-Jan-28_03-15-30PM-000_CustomizedView17019143235_png_alpha](https://user-images.githubusercontent.com/71924682/151576568-d9ed1642-342a-4d1c-b3df-be4d3e9d3efb.png)
+![3D-Modell_2022-Jan-28_03-18-30PM-000_CustomizedView57839688345_png_alpha](https://user-images.githubusercontent.com/71924682/151576577-b62aa032-670c-4729-9b7a-601d7926480b.png)
 
 ------
 
