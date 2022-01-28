@@ -1,3 +1,4 @@
+UNITS=MM
 .out_mirror = no
 .lpol_done = no
 .cu_base = no
@@ -10,8 +11,8 @@
 .out_x_scale = 1.000000
 .out_y_scale = 1.000000
 .out_comp = 0.000000
-.et_adjacency = 20.000000
-.layer_dielectric = 0.0004
+.et_adjacency = 508.000000
+.layer_dielectric = 0.01016
 .loss_tangent = 0
 .dielectric_constant = 3.5
 .comment = Solder Resist
