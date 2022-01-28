@@ -85,8 +85,10 @@ https://trello.com/b/jWCULnX8
 ---
 
 ## Stepper Motor + Reducer
-![17HS4401 v4](https://user-images.githubusercontent.com/71924682/150653919-8b7a52bc-3ce9-4164-8b6d-ce85b9841b62.png)
-![17HS15-1684S-HG100 v7](https://user-images.githubusercontent.com/71924682/150653922-3cf2f257-2f4f-4d51-ae6c-f86ad0cd32d8.png)
+![17HS4401 v4](https://user-images.githubusercontent.com/71924682/151578890-066346a8-974f-4be0-9f1c-069c8c8576e6.png)
+---
+![17HS15-1684S-HG100_2022-Jan-28_03-43-12PM-000_CustomizedView44815963857_png_alpha](https://user-images.githubusercontent.com/71924682/151578900-7265139c-0a06-48ec-9082-841aff1cec45.png)
+
 
 ------
 
@@ -109,8 +111,11 @@ https://trello.com/b/jWCULnX8
 
 ## Roboter-Arm
 ![3D-Modell_2022-Jan-28_03-14-19PM-000_CustomizedView16913976212_png_alpha](https://user-images.githubusercontent.com/71924682/151576516-e4c7f3a3-9b1a-4ea8-88b5-608c753854fe.png)
+---
 ![3D-Modell_2022-Jan-28_03-34-16PM-000_CustomizedView15960228523_png_alpha](https://user-images.githubusercontent.com/71924682/151576557-f95538bd-4424-4fea-9d09-4fdc534dc684.png)
+---
 ![3D-Modell_2022-Jan-28_03-15-30PM-000_CustomizedView17019143235_png_alpha](https://user-images.githubusercontent.com/71924682/151576568-d9ed1642-342a-4d1c-b3df-be4d3e9d3efb.png)
+---
 ![3D-Modell_2022-Jan-28_03-18-30PM-000_CustomizedView57839688345_png_alpha](https://user-images.githubusercontent.com/71924682/151576577-b62aa032-670c-4729-9b7a-601d7926480b.png)
 
 ------
