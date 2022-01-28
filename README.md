@@ -85,7 +85,7 @@ https://trello.com/b/jWCULnX8
 ---
 
 ## Stepper Motor + Reducer
-![17HS4401 v4](https://user-images.githubusercontent.com/71924682/151578890-066346a8-974f-4be0-9f1c-069c8c8576e6.png)
+![17HS4401_2022-Jan-28_03-43-26PM-000_CustomizedView4834872443_png_alpha](https://user-images.githubusercontent.com/71924682/151579065-36452863-686c-48b2-8af4-593cb885783d.png)
 ---
 ![17HS15-1684S-HG100_2022-Jan-28_03-43-12PM-000_CustomizedView44815963857_png_alpha](https://user-images.githubusercontent.com/71924682/151578900-7265139c-0a06-48ec-9082-841aff1cec45.png)
 
