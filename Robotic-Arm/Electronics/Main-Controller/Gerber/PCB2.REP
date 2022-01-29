@@ -2,107 +2,6 @@
 FileName = PCB2.GBR
 AutoAperture = True
 *************************************************************
-Generating : Dielectric 1
-      File : PCB2.1
-
-    Adding Layer      : Dielectric 1
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Multi-Layer
-      File : PCB2.GML
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-*************************************************************
-
-*************************************************************
-Generating : Courtyard Top
-      File : PCB2.GM15
-
-    Adding Layer      : Courtyard Top
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-*************************************************************
-
-*************************************************************
-Generating : 3D Top
-      File : PCB2.GM13
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-*************************************************************
-
-*************************************************************
 Generating : Assembly Top
       File : PCB2.GM8
 
@@ -110,19 +9,11 @@ Generating : Assembly Top
 
     Adding Layer      : Outline
 
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
 
 Used DCodes :
     D12
-    D13
     D14
-    D15
-    D16
+    D95
 *************************************************************
 
 *************************************************************
@@ -133,223 +24,9 @@ Generating : Outline
 
     Adding Layer      : Outline
 
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
 
 Used DCodes :
-    D12
-    D13
     D14
-    D15
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : PCB2.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : PCB2.GTO
-
-    Adding Layer      : Top Overlay
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : PCB2.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : PCB2.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-    D23
-    D25
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : PCB2.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-    D32
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
 *************************************************************
 
 *************************************************************
@@ -360,23 +37,15 @@ Generating : Top Solder
 
     Adding Layer      : Outline
 
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
     Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D12
-    D13
     D14
-    D15
-    D16
+    D24
+    D25
     D26
     D27
     D28
@@ -396,8 +65,55 @@ Used DCodes :
     D42
     D43
     D44
-    D45
-    D46
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : PCB2.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D30
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
 *************************************************************
 
 *************************************************************
@@ -408,20 +124,12 @@ Generating : Top Paste
 
     Adding Layer      : Outline
 
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
     Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D12
-    D13
     D14
     D15
     D16
@@ -432,8 +140,6 @@ Used DCodes :
     D21
     D22
     D23
-    D24
-    D25
 *************************************************************
 
 *************************************************************
@@ -444,12 +150,6 @@ Generating : Bottom Overlay
 
     Adding Layer      : Outline
 
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
 
 Used DCodes :
     D10
@@ -457,114 +157,21 @@ Used DCodes :
     D12
     D13
     D14
-    D15
-    D16
-    D95
-    D96
+    D93
+    D94
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : PCB2.GBP
+Generating : Keep-Out Layer
+      File : PCB2.GKO
 
-    Adding Layer      : Bottom Paste
+    Adding Layer      : Keep-Out Layer
 
     Adding Layer      : Outline
 
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
 
 Used DCodes :
-    D12
-    D13
     D14
-    D15
-    D16
-    D23
-    D25
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : PCB2.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-    D23
-    D25
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
 *************************************************************
 
 *************************************************************
@@ -575,18 +182,10 @@ Generating : Top Layer
 
     Adding Layer      : Outline
 
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D12
-    D13
     D14
     D15
     D16
@@ -597,8 +196,55 @@ Used DCodes :
     D21
     D22
     D23
-    D24
-    D25
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PCB2.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : PCB2.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D14
+    D21
+    D23
+    D45
+    D46
     D47
     D48
     D49
@@ -611,59 +257,58 @@ Used DCodes :
     D56
     D57
     D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
 *************************************************************
 
 *************************************************************
-Generating : Drill Drawing
-      File : PCB2.GD1
+Generating : Bottom Paste
+      File : PCB2.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Outline
 
-    Adding Layer      : Assembly Top
+    Adding Layer      : Bottom Layer
 
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D12
-    D13
     D14
-    D15
-    D16
-    D97
-    D98
-    D99
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : PCB2.GG1
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : 3D Top
-
-    Adding Layer      : Courtyard Top
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-    D97
+    D21
+    D23
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
 *************************************************************
 
