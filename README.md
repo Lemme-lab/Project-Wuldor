@@ -1,6 +1,10 @@
 # Robotic-Arm
 A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
 
+---
+https://user-images.githubusercontent.com/71924682/151710063-9db27246-7a1b-44c6-b239-f1be6f41b894.mp4
+---
+
 ## Features 
 - Self Designed Stepper Motor Controller (A4988) 
 - Self designed Main Controller with a small footprint
@@ -85,9 +89,10 @@ https://trello.com/b/jWCULnX8
 ---
 
 ## Stepper Motor + Reducer
-![17HS4401_2022-Jan-28_03-43-26PM-000_CustomizedView4834872443_png_alpha](https://user-images.githubusercontent.com/71924682/151579065-36452863-686c-48b2-8af4-593cb885783d.png)
+![17HS4401 v4](https://user-images.githubusercontent.com/71924682/151709967-6a5edc47-0b74-4c29-b76b-47b9c884aeba.png)
 ---
-![17HS15-1684S-HG100_2022-Jan-28_03-43-12PM-000_CustomizedView44815963857_png_alpha](https://user-images.githubusercontent.com/71924682/151578900-7265139c-0a06-48ec-9082-841aff1cec45.png)
+![17HS15-1684S-HG100 v7](https://user-images.githubusercontent.com/71924682/151709971-32960aa0-3ec6-4480-b924-76f72bf15298.png)
+
 
 
 ------
@@ -102,9 +107,10 @@ https://trello.com/b/jWCULnX8
 
 ## Main Controller
 ![Screenshot_84](https://user-images.githubusercontent.com/71924682/149657624-1eb0acbe-f4c5-4585-a5af-4f5c8efa5fe1.png)
-![Screenshot_104](https://user-images.githubusercontent.com/71924682/151062183-fe436bf2-2823-4516-bb16-6c0121e07579.png)
-![Screenshot_105](https://user-images.githubusercontent.com/71924682/151062188-47fc3033-ed11-4ca1-b21d-1296ac7657d7.png)
-
+![Screenshot_116](https://user-images.githubusercontent.com/71924682/151710008-9bf59189-8c15-4fa5-9e86-883bba198f3f.png)
+![Screenshot_117](https://user-images.githubusercontent.com/71924682/151710009-8073c25a-6749-4175-a218-0f23f822f554.png)
+------
+![3D-Modell_2022-Jan-30_05-11-22PM-000_CustomizedView10729507097_png_alpha](https://user-images.githubusercontent.com/71924682/151709983-bdec6fbc-fdbe-4707-89a5-e2252b18024d.png)
 
 
 ------
@@ -114,7 +120,8 @@ https://trello.com/b/jWCULnX8
 ---
 ![3D-Modell_2022-Jan-28_03-34-16PM-000_CustomizedView15960228523_png_alpha](https://user-images.githubusercontent.com/71924682/151576557-f95538bd-4424-4fea-9d09-4fdc534dc684.png)
 ---
-![3D-Modell_2022-Jan-28_03-15-30PM-000_CustomizedView17019143235_png_alpha](https://user-images.githubusercontent.com/71924682/151576568-d9ed1642-342a-4d1c-b3df-be4d3e9d3efb.png)
+![3D-Modell_2022-Jan-30_05-14-15PM-000_CustomizedView10615854532_png_alpha](https://user-images.githubusercontent.com/71924682/151710051-910bca13-9c6a-401b-93c5-b84edc98b227.png)
+
 ---
 ![3D-Modell_2022-Jan-28_03-18-30PM-000_CustomizedView57839688345_png_alpha](https://user-images.githubusercontent.com/71924682/151576577-b62aa032-670c-4729-9b7a-601d7926480b.png)
 
