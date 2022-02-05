@@ -2,7 +2,7 @@
 A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
 
 ---
-![3D-Modell_2022-Jan-30_05-35-17PM-000_CustomizedView31376254288_mp4](https://user-images.githubusercontent.com/71924682/151710974-fddfbdde-fa8f-4701-bb9f-cde8c7c6023d.gif)
+![3D-Model-gif](https://user-images.githubusercontent.com/71924682/152644406-568d48c5-d681-446b-9cf5-e314b62246ff.gif)
 ---
 
 ## Features 
@@ -92,7 +92,8 @@ https://trello.com/b/jWCULnX8
 ![17HS4401 v4](https://user-images.githubusercontent.com/71924682/151709967-6a5edc47-0b74-4c29-b76b-47b9c884aeba.png)
 ---
 ![17HS15-1684S-HG100 v7](https://user-images.githubusercontent.com/71924682/151709971-32960aa0-3ec6-4480-b924-76f72bf15298.png)
-
+---
+![11HS20-0674S-PG51 v3](https://user-images.githubusercontent.com/71924682/152644415-916e31d6-8924-4a1c-a3fa-ed6c7dad81c9.png)
 
 
 ------
@@ -124,6 +125,11 @@ https://trello.com/b/jWCULnX8
 
 ---
 ![3D-Modell_2022-Jan-28_03-18-30PM-000_CustomizedView57839688345_png_alpha](https://user-images.githubusercontent.com/71924682/151576577-b62aa032-670c-4729-9b7a-601d7926480b.png)
+---
+![3D-Modell_2022-Feb-05_01-00-41PM-000_CustomizedView25572094672_png_alpha](https://user-images.githubusercontent.com/71924682/152644422-1287711d-1eaa-47f1-a6d5-a836cf54f318.png)
+---
+![3D-Modell_2022-Feb-05_01-01-10PM-000_CustomizedView2886227796_png_alpha](https://user-images.githubusercontent.com/71924682/152644424-894c7fe1-6b6d-499b-8763-fa1748624ffa.png)
+
 
 ------
 
