@@ -2,7 +2,7 @@
 A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
 
 ---
-![Better-gif](https://user-images.githubusercontent.com/71924682/152644479-c22f3e37-cec3-47ab-b7cb-5aec9a792f75.gif)
+![Model-360-Deg](https://user-images.githubusercontent.com/71924682/152699535-0eebaa05-6c42-4b58-bbcc-1f0f59ed617c.gif)
 ---
 
 ## Features 
@@ -117,18 +117,28 @@ https://trello.com/b/jWCULnX8
 ------
 
 ## Roboter-Arm
+---
+![3D-Modell_2022-Feb-06_07-47-47PM-000_CustomizedView1100969649_png_alpha](https://user-images.githubusercontent.com/71924682/152699568-6e041a6d-62b4-485a-a660-f3c4246ec42c.png)
+---
+![3D-Modell_2022-Feb-06_07-51-40PM-000_CustomizedView3747360556_png_alpha](https://user-images.githubusercontent.com/71924682/152699621-9c6c062c-bc43-4e2e-86bb-4410e49b3ff8.png)
+---
+![3D-Modell_2022-Feb-06_07-48-11PM-000_CustomizedView9406945675_png_alpha](https://user-images.githubusercontent.com/71924682/152699570-498950cf-22ce-4426-90c0-57d9f88f0b29.png)
+---
 ![3D-Modell_2022-Jan-28_03-14-19PM-000_CustomizedView16913976212_png_alpha](https://user-images.githubusercontent.com/71924682/151576516-e4c7f3a3-9b1a-4ea8-88b5-608c753854fe.png)
 ---
 ![3D-Modell_2022-Jan-28_03-34-16PM-000_CustomizedView15960228523_png_alpha](https://user-images.githubusercontent.com/71924682/151576557-f95538bd-4424-4fea-9d09-4fdc534dc684.png)
 ---
-![3D-Modell_2022-Jan-30_05-14-15PM-000_CustomizedView10615854532_png_alpha](https://user-images.githubusercontent.com/71924682/151710051-910bca13-9c6a-401b-93c5-b84edc98b227.png)
+![3D-Modell_2022-Feb-06_07-50-04PM-000_CustomizedView9911668160_png_alpha](https://user-images.githubusercontent.com/71924682/152699598-6b9dcfbd-070f-469c-a999-702acb0ce110.png)
+---
+![3D-Modell_2022-Feb-06_07-49-34PM-000_CustomizedView28675666798_png_alpha](https://user-images.githubusercontent.com/71924682/152699626-ab212ec5-96c7-4e84-abfb-e7028b8682b1.png)
+---
+![3D-Modell_2022-Feb-06_07-49-13PM-000_CustomizedView20823925102_png_alpha](https://user-images.githubusercontent.com/71924682/152699629-e575d5be-39cd-4df8-b0a8-069e9ec5129f.png)
+---
+![3D-Modell_2022-Feb-06_07-48-44PM-000_CustomizedView8093273590_png_alpha](https://user-images.githubusercontent.com/71924682/152699632-eeb06648-6860-49b0-839b-4d245fe9d239.png)
+---
+![3D-Modell_2022-Feb-06_07-52-02PM-000_CustomizedView39627629825_png_alpha](https://user-images.githubusercontent.com/71924682/152699641-c0175d86-3633-43f8-a082-423339b548a7.png)
+---
 
----
-![3D-Modell_2022-Jan-28_03-18-30PM-000_CustomizedView57839688345_png_alpha](https://user-images.githubusercontent.com/71924682/151576577-b62aa032-670c-4729-9b7a-601d7926480b.png)
----
-![3D-Modell_2022-Feb-05_01-00-41PM-000_CustomizedView25572094672_png_alpha](https://user-images.githubusercontent.com/71924682/152644422-1287711d-1eaa-47f1-a6d5-a836cf54f318.png)
----
-![3D-Modell_2022-Feb-05_01-01-10PM-000_CustomizedView2886227796_png_alpha](https://user-images.githubusercontent.com/71924682/152644424-894c7fe1-6b6d-499b-8763-fa1748624ffa.png)
 
 
 ------
