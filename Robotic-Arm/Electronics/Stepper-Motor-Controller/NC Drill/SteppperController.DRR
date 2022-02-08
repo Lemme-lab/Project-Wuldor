@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: SteppperController.CMPcbDoc   29.01.2022  10:57:41
+NCDrill File Report For: SteppperController.CMPcbDoc   08.02.2022  17:38:49
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -9,11 +9,10 @@ Tool       Hole Size               Hole Tolerance               Hole Type       
 ----------------------------------------------------------------------------------------------------------------------------------
 T1      10mil (0.254mm)                                           Round             1         PTH        0.00inch (0.00mm)
 T2      12mil (0.3mm)                                             Round             9         PTH        0.35inch (8.80mm)
-T3      28mil (0.711mm)                                           Round             10        PTH        2.59inch (65.80mm)
-T4      30mil (0.762mm)                                           Round             3         PTH        0.25inch (6.35mm)
-T5      70mil (1.778mm)                                           Round             2         PTH        0.27inch (6.79mm)
-T6      98mil (2.5mm)                                             Round             4         PTH        3.86inch (98.00mm)
+T3      28mil (0.711mm)                                           Round             8         PTH        2.18inch (55.42mm)
+T4      70mil (1.778mm)                                           Round             2         PTH        0.27inch (6.79mm)
+T5      98mil (2.5mm)                                             Round             4         PTH        3.86inch (98.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              29
+Totals                                                                              24
 
 Total Processing Time (hh:mm:ss) : 00:00:00
