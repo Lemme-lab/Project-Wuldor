@@ -5,13 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controll Panel</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     
 <nav class = Main >
-    <div class = switch>
-
+    <div class = switch_modes>
+        <div class="tab">
+            <button class="tablinks" onclick="changemode(event, 'Normal')">Normal</button>
+            <button class="tablinks" onclick="changemode(event, 'Training')">Training</button>
+            <button class="tablinks" onclick="changemode(event, 'Sleep')">Sleep</button>
+          </div>
     </div>
+    
+    <!--//Hier das ganze vom Matteo einfügen-->
+    <div id="Training" class="tabcontent">
+        
+    </div>
+    
+    <div id="Normal" class="tabcontent">
+        
+    </div>
+
+    <div id="Sleep" class="tabcontent">
+        
+    </div>
+
     <div class = status_modes>
 
     </div>
