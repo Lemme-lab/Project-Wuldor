@@ -22,7 +22,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 20px 80px;
+    padding: 10px 80px;
     transition: 0.3s;
     
   }
@@ -31,13 +31,12 @@
   .tab button:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(84, 85, 85);
-    padding: 20px 140px;
+    padding: 12px 140px;
   }
   
   
   .tab button.active {
-    background-color: rgb(158, 158, 158);
-    
+    background-color: rgb(117, 117, 117);
   }
 
   .tabcontent {
