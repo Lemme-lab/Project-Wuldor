@@ -1,10 +1,12 @@
 .status_modes{
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid rgb(255, 255, 255);
-    padding: 50px;
-    margin: 20px;
+  background-color: lightgrey;
+  width: 300px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
+
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -27,14 +29,12 @@
     transition: 0.3s;
     
   }
-
-
+  
   .tab button:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(224, 224, 224);
     padding: 12px 140px;
   }
-  
   
   .tab button.active {
     background-color: rgb(255, 255, 255);
