@@ -5,7 +5,8 @@
     background-color: #f1f1f1;
     text-align: center;
     width: 90%;
-    margin-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .tablinks{
@@ -13,30 +14,28 @@
   }
 
   .status_modes{
-      margin-top: 50px;
+      margin-top: 120px;
       border-color: rgba(204, 204, 204, 0);
+      display: flex;
+      justify-content: center;
   }
 
-  .box1{
-    background-color: #ccc;
+  .box{
+    background-color: rgb(0, 0, 0);
     float:left;
-    width: 100px;
-    padding: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
-    text-align: center;
-    margin-left: 150px;
+    width: 60px;
+    height: 60px;
+    padding: 60px;
+    padding-top: 40px;
+    border-color: black;
+    border: 5px solid rgb(39, 39, 39);
   }
-  .box2{
-    background-color: #ccc;
-    float:right;
-    width: 100px;
-    padding: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
-    text-align: center;
-    margin-right: 150px;
+
+  .power_img{
+    margin-left: -37px;
+    margin-top: -33px;
   }
+
   .tab button {
     background-color: inherit;
     border: none;
@@ -66,13 +65,14 @@
 
   .cam{
     background-color: rgb(0, 0, 0);
-    width: 700px; 
+    width: 500px; 
     height: 500px; 
     margin-left:auto;
     margin-right:auto;
+    margin-top: 50px;
   }
 
   .cam_img{
-    margin-left:auto;
-    margin-right:auto; 
+    margin-left: 12px;
+    margin-top: 12px;
   }
