@@ -2,30 +2,35 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    text-align: center;
+
   }
   
   .tablinks{
-      font-size: 4rem;
+      font-size: 2rem;
 }
 
   .tab button {
     background-color: inherit;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 200px 80px;
+    padding: 20px 80px;
     transition: 0.3s;
+    
   }
   
   
   .tab button:hover {
-    color: turquoise;
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 85, 85);
+    padding: 20px 140px;
   }
   
   
   .tab button.active {
-    background-color: #ccc;
+    background-color: rgb(158, 158, 158);
+    
   }
 
   .tabcontent {
