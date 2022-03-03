@@ -1,10 +1,12 @@
 .status_modes{
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+  background-color: lightgrey;
+  width: 300px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
+
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -14,8 +16,8 @@
   }
   
   .tablinks{
-      font-size: 2rem;
-}
+    font-size: 2rem;
+  }
 
   .tab button {
     background-color: inherit;
@@ -27,13 +29,11 @@
     
   }
   
-  
   .tab button:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(84, 85, 85);
     padding: 12px 140px;
   }
-  
   
   .tab button.active {
     background-color: rgb(117, 117, 117);
