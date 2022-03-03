@@ -12,12 +12,13 @@
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     text-align: center;
-
+    width: 90%;
+    margin-left: 100px;
   }
   
   .tablinks{
-    font-size: 2rem;
-  }
+      font-size: 2.3rem;
+}
 
   .tab button {
     background-color: inherit;
@@ -30,13 +31,13 @@
   }
   
   .tab button:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(84, 85, 85);
+    color: rgb(0, 0, 0);
+    background-color: rgb(224, 224, 224);
     padding: 12px 140px;
   }
   
   .tab button.active {
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(255, 255, 255);
   }
 
   .tabcontent {
