@@ -29,7 +29,8 @@ background-color: rgba(243, 243, 243, 0.753);
       border: 5px solid rgb(39, 39, 39);
       background-color: rgb(255, 255, 255);
       height: 100px;
-      margin-right: 100px;
+      width: 300px;
+      margin-right: 10px;
       float:left;
   }
 
@@ -61,11 +62,27 @@ background-color: rgba(243, 243, 243, 0.753);
    }
 
    #rightbox{
+    
     float:right;
-    background:rgb(54, 54, 54);
-    width:200px;
-    height:280px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
 }
+
+  .Voltage{
+    border: 5px solid rgb(39, 39, 39);
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 150px;
+  }
+
+  .speed{
+    border: 5px solid rgb(39, 39, 39);
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 150px;
+    margin-left: -10px;
+  }
 
   .tab button {
     background-color: inherit;
