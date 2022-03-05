@@ -83,9 +83,35 @@ background-color: rgba(243, 243, 243, 0.753);
       font-size: 1.9em;
     }
 
+    #input2{
+      margin-top: +50px;
+      margin-left: +25px;
+      border-color: rgba(204, 204, 204, 0);
+      color: black;
+      font-size: 1.9em;
+    }
+
+    #input3{
+      margin-top: +50px;
+      margin-left: +15px;
+      border-color: rgba(204, 204, 204, 0);
+      color: black;
+      font-size: 1.7em;
+    }
+
     #input1::placeholder {
       color: black;
       font-size: 1.1em;
+    }
+
+    #input2::placeholder {
+      color: black;
+      font-size: 1em;
+    }
+
+    #input3::placeholder {
+      color: black;
+      font-size: 1em;
     }
    
 
