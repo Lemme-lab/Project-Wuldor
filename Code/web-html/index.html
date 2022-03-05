@@ -34,21 +34,40 @@
            <!--//test imgae-->
            <img name="main" class="cam_img" width="475" height="475" src="data/shutter.png">
        </div>
+
+
+       <div class = lower_boxes>
+
+            <div class = Coordinates>
+            <h1 style="font-size: 2em; margin-top: -0px;">Coordinates: </h1>
+            <h3 style="font-size: 1.6em; margin-top: -10px;" id = "coordinates_text">20/123/233/65</h1>
+            </div>
         
             <div class = status_modes>
    
                 <div class = box>
-                    <img name="power" class="power_img" width="125" height="125" src="data/PowerOn.png">
+                    <img name="power" class="power_img_power" onclick="next_power()" width="75" height="75" src="data/PowerOn.png" >
                 </div>
     
                 <div class = box>
-    
-                    <img name="power" class="power_img" width="135" height="120" src="data/connection_on.png">
-            
+                    <img name="status" class="power_img_status" onclick="next_connection()" width="80" height="70" src="data/connection_on.png"> 
                 </div>
         
         
             </div>
+             
+            <div id = "rightbox">
+                <h2>Contribute:</h2>
+                Any geeks can help other geeks by writing
+                articles on the GeeksforGeeks, publishing
+                articles follow few steps that are Articles
+                that need little modification/improvement
+                from reviewers are published first.
+            </div>
+
+
+
+        </div>
 
     
     </div>
