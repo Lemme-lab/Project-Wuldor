@@ -17,8 +17,10 @@ function changemode(evt, cityName) {
 
   var power_img_power = document.querySelector('.power_img_power');
   var power_img_status = document.querySelector('.power_img_status');
+  var check_img = document.querySelector('.check_img');
   var images1 = ['PowerOn.png', 'PowerOff.png'];
   var images2 = ['connection_off.png', 'connection_on.png'];
+  var images3 = ['check_green.png', 'check_red.png'];
   var i = 0;
   
   function next_power(){
@@ -31,7 +33,13 @@ function changemode(evt, cityName) {
     if(i >= images2.length-1) i = -1;
     i++;
     return setImg2();			 
-}
+  }
+
+  function next_check(){
+    if(i >= images3.length-1) i = -1;
+    i++;
+    return setImg3();			 
+  }
 
 
 function setImg1(){
@@ -40,6 +48,10 @@ function setImg1(){
 
   function setImg2(){
       return power_img_status.setAttribute('src', "data/"+images2[i]);    
+  }
+
+  function setImg3(){
+    return check_img.setAttribute('src', "data/"+images3[i]);    
   }
 
 

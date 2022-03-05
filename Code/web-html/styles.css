@@ -4,30 +4,29 @@ background-color: rgba(243, 243, 243, 0.753);
 
 }
 
-
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #dddcdc;
     text-align: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .tablinks{
-      font-size: 1.5rem;
+      font-size: 1.9rem;
   }
 
   .buttons{
-    margin-top: 60px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     color: white;
   }
 
   .lower_boxes{
-    margin-top: 30px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
   }
@@ -131,17 +130,30 @@ background-color: rgba(243, 243, 243, 0.753);
     border-top: none;
   }
 
+  .upper_boxes{
+    display: flex;
+    justify-content: center;
+    float:left;
+    padding-top: 100px;
+    padding-left: 60px;
+  }
 
   .cam{
     background-color: rgb(0, 0, 0);
-    width: 500px; 
-    height: 500px; 
+    width: 550px; 
+    height: 550px; 
     margin-left:auto;
     margin-right:auto;
     margin-top: 50px;
   }
 
+
+
   .cam_img{
     margin-left: 12px;
     margin-top: 12px;
+  }
+
+  .buttons_side{
+    
   }
