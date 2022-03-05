@@ -29,18 +29,36 @@
     <div id="Normal" class="tabcontent">
         <div class = cam>
             <!--//Cam-->
-           <!--<img name="main" class="cam_img" width="680" height="480" src="http://192.168.1.109">-->
+           <!--<img name="main" class="cam_img" width="475" height="475" src="http://192.168.1.109">-->
 
            <!--//test imgae-->
            <img name="main" class="cam_img" width="475" height="475" src="data/shutter.png">
+       </div>
+
+       <div class = buttons>
+
+          <div class = stop>
+            <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);"> <img src="data/84381.png" height ="80" width="80" /></button>
+          </div>
+
+          <div class = start>
+            <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);"> <img src="data/startsymbol.png" height ="80" width="80" /></button>
+          </div>
+
+          <div class = hold>
+            <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);"> <img src="data/pause.png" height ="80" width="80" /></button>
+          </div>
+
+
        </div>
 
 
        <div class = lower_boxes>
 
             <div class = Coordinates>
-            <h1 style="font-size: 2.6em; margin-top: -0px;margin-left: 20px">Coordinates: </h1>
-            <h3 style="font-size: 1.9em; margin-top: -30px; margin-left: 40px;" id = "coordinates_text">20/123/233/65</h1>
+            
+            <input id="input1" type="text" style="width: 252px; height: 44px;" placeholder="20/123/233/65">
+            <h1 style="font-size: 2.6em; margin-top: 0px;margin-left: 20px; margin-top: -100px;">Coordinates: </h1>
             </div>
         
             <div class = status_modes>
@@ -67,7 +85,6 @@
                     <h3 style="font-size: 1.7em; margin-top: -20px; margin-left: 25px;" id = "coordinates_text">20 Steps</h1>
                 </div>
                 
-
             </div>
 
 

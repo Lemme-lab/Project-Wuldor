@@ -19,8 +19,15 @@ background-color: rgba(243, 243, 243, 0.753);
       font-size: 1.5rem;
   }
 
+  .buttons{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
   .lower_boxes{
-    margin-top: 180px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
   }
@@ -68,6 +75,20 @@ background-color: rgba(243, 243, 243, 0.753);
     display: flex;
     justify-content: center;
 }
+
+    #input1{
+      margin-top: +50px;
+      margin-left: +25px;
+      border-color: rgba(204, 204, 204, 0);
+      color: black;
+      font-size: 1.9em;
+    }
+
+    #input1::placeholder {
+      color: black;
+      font-size: 1.1em;
+    }
+   
 
   .Voltage{
     border: 5px solid rgb(39, 39, 39);
