@@ -2,7 +2,7 @@
 A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
 
 ---
-![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/71924682/156928545-74c1e6a2-890d-41c7-82b4-3563d2797471.gif)
+![ezgif com-gif-maker (8)](https://user-images.githubusercontent.com/71924682/156928626-7d0b5bae-c7b2-422a-ba28-f1f84daf24d4.gif)
 ---
 
 ## Features 
@@ -100,15 +100,13 @@ https://trello.com/b/jWCULnX8
 
 ## Stepper Motor Controller 
 
-![Screenshot_87](https://user-images.githubusercontent.com/71924682/149657614-93588fce-9137-472c-8ab5-dbcc37ed5673.png)
-![Screenshot_88](https://user-images.githubusercontent.com/71924682/149657616-39791c2b-6787-49b9-add6-81caddfa2a57.png)
+[Nema 17 Stepper Motor Controller.pdf](https://github.com/Lemme-lab/Robotic-Arm/files/8192839/Nema.17.Stepper.Motor.Controller.pdf)
 ![Screenshot_89](https://user-images.githubusercontent.com/71924682/149657618-6caefc3f-7ed7-4157-9a78-b03e740644e6.png)
 
 ------
 
 ## Main Controller
-![Screenshot_84](https://user-images.githubusercontent.com/71924682/149657624-1eb0acbe-f4c5-4585-a5af-4f5c8efa5fe1.png)
-![Screenshot_116](https://user-images.githubusercontent.com/71924682/151710008-9bf59189-8c15-4fa5-9e86-883bba198f3f.png)
+[Roboter Arm Main Controller.pdf](https://github.com/Lemme-lab/Robotic-Arm/files/8192837/Roboter.Arm.Main.Controller.pdf)
 ![Screenshot_117](https://user-images.githubusercontent.com/71924682/151710009-8073c25a-6749-4175-a218-0f23f822f554.png)
 ------
 ![3D-Modell_2022-Jan-30_05-11-22PM-000_CustomizedView10729507097_png_alpha](https://user-images.githubusercontent.com/71924682/151709983-bdec6fbc-fdbe-4707-89a5-e2252b18024d.png)
