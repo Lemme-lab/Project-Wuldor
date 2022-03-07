@@ -2,7 +2,7 @@
 A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
 
 ---
-![Model-360-Deg](https://user-images.githubusercontent.com/71924682/152699535-0eebaa05-6c42-4b58-bbcc-1f0f59ed617c.gif)
+![ezgif com-gif-maker (16)](https://user-images.githubusercontent.com/71924682/156929833-3aeb3690-7c2c-4587-8655-9fb804bf347f.gif)
 ---
 
 ## Features 
@@ -99,16 +99,21 @@ https://trello.com/b/jWCULnX8
 ------
 
 ## Stepper Motor Controller 
-
-![Screenshot_87](https://user-images.githubusercontent.com/71924682/149657614-93588fce-9137-472c-8ab5-dbcc37ed5673.png)
-![Screenshot_88](https://user-images.githubusercontent.com/71924682/149657616-39791c2b-6787-49b9-add6-81caddfa2a57.png)
+![Screenshot_175](https://user-images.githubusercontent.com/71924682/156928832-3986db69-d386-4c26-937b-db4ccc1eadf6.png)
+------
+![Screenshot_176](https://user-images.githubusercontent.com/71924682/156928836-a2b7b5c8-ac6f-4433-93d5-e319139ed07f.png)
+------
+![Screenshot_177](https://user-images.githubusercontent.com/71924682/156928839-b26b0f5b-6ffd-4dd3-a89a-9f2da9806b8a.png)
+------
 ![Screenshot_89](https://user-images.githubusercontent.com/71924682/149657618-6caefc3f-7ed7-4157-9a78-b03e740644e6.png)
 
 ------
 
 ## Main Controller
-![Screenshot_84](https://user-images.githubusercontent.com/71924682/149657624-1eb0acbe-f4c5-4585-a5af-4f5c8efa5fe1.png)
-![Screenshot_116](https://user-images.githubusercontent.com/71924682/151710008-9bf59189-8c15-4fa5-9e86-883bba198f3f.png)
+![Screenshot_178](https://user-images.githubusercontent.com/71924682/156928879-2f2f591a-757a-42b8-84b4-ae6c8691ae27.png)
+------
+![Screenshot_179](https://user-images.githubusercontent.com/71924682/156928880-1687afad-905a-47e9-b161-ab6e3cdffd22.png)
+------
 ![Screenshot_117](https://user-images.githubusercontent.com/71924682/151710009-8073c25a-6749-4175-a218-0f23f822f554.png)
 ------
 ![3D-Modell_2022-Jan-30_05-11-22PM-000_CustomizedView10729507097_png_alpha](https://user-images.githubusercontent.com/71924682/151709983-bdec6fbc-fdbe-4707-89a5-e2252b18024d.png)
@@ -118,9 +123,9 @@ https://trello.com/b/jWCULnX8
 
 ## Roboter-Arm
 ---
-![3D-Modell_2022-Feb-06_07-47-47PM-000_CustomizedView1100969649_png_alpha](https://user-images.githubusercontent.com/71924682/152699568-6e041a6d-62b4-485a-a660-f3c4246ec42c.png)
+![3D-Modell_2022-Feb-27_11-14-22AM-000_CustomizedView53697882146_png_alpha](https://user-images.githubusercontent.com/71924682/156929014-9f787127-f632-4e5e-9c66-65dd12c056f3.png)
 ---
-![3D-Modell_2022-Feb-06_07-48-11PM-000_CustomizedView9406945675_png_alpha](https://user-images.githubusercontent.com/71924682/152699570-498950cf-22ce-4426-90c0-57d9f88f0b29.png)
+![3D-Modell_2022-Feb-27_11-14-49AM-000_CustomizedView13790056020_png_alpha](https://user-images.githubusercontent.com/71924682/156929020-ac2b4ec7-d14f-4d22-ad0b-3128137605bf.png)
 ---
 ![3D-Modell_2022-Feb-06_07-51-40PM-000_CustomizedView3747360556_png_alpha](https://user-images.githubusercontent.com/71924682/152699621-9c6c062c-bc43-4e2e-86bb-4410e49b3ff8.png)
 ---
