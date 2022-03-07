@@ -25,6 +25,7 @@ background-color: rgba(243, 243, 243, 0.753);
     color: white;
   }
 
+ 
   .lower_boxes{
     margin-top: 15px;
     display: flex;
@@ -180,6 +181,4 @@ background-color: rgba(243, 243, 243, 0.753);
     margin-top: 12px;
   }
 
-  .buttons_side{
-    
-  }
+  

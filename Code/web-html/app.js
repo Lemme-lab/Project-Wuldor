@@ -55,6 +55,22 @@ function setImg1(){
   }
 
 
+  number = 0;
+  var loader_img = ["loading_gif.gif","loading_png.png"
+];
+
+
+function character() {
+  image = document.getElementById('hiddenimageid');
+  image.src = "data/" + loader_img[number];
+  if(number==1){
+    number = 0;
+  }else{
+    number++;
+  }
+  
+}
+
 /*
   const words = input.split(" ");
   if(words[0] == "Coordinates:"){
