@@ -172,4 +172,29 @@ background-color: rgba(243, 243, 243, 0.753);
     margin-top: 12px;
   }
 
+  .axis{
+    border: 5px solid rgb(39, 39, 39);
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .upper_boxesTraining{
+    display: flex;
+    justify-content: center;
+    float:left;
+    padding-top: 100px;
+    padding-left: 60px;
+  }
+
+  #inputAXIS{
+    margin-top: +49px;
+    margin-left: +1px;
+    border-color: rgba(204, 204, 204, 0);
+    color: black;
+    font-size: 1.7em;
+  }
+
   
