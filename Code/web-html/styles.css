@@ -262,7 +262,7 @@ background-color: rgba(243, 243, 243, 0.753);
     margin-left: -4px;
     margin-top: 21px;
     width: 290px; 
-    height: 44px; 
+    height: 45px; 
     border-top: 5px solid black;
     border-left: 5px solid black;
     border-right: 5px solid black;
@@ -273,27 +273,20 @@ background-color: rgba(243, 243, 243, 0.753);
     float: left;
     border: 5px solid rgb(39, 39, 39);
     background-color: rgb(255, 255, 255);
-    
   }
 
   .axism{
     border: 5px solid rgb(39, 39, 39);
     background-color: rgb(255, 255, 255);
-    height: 100px;
-    width: 300px;
     float: left;
-    display: flex;
     margin-left: 100px;
   }
 
   .axisr{
     border: 5px solid rgb(39, 39, 39);
     background-color: rgb(255, 255, 255);
-    height: 100px;
-    width: 300px;
+    float: right;
     margin-left: 100px;
-    display: flex;
-
   }
 
   .axisup{
@@ -311,9 +304,8 @@ background-color: rgba(243, 243, 243, 0.753);
   }
 
   .slidecontainer {
-    width: 296px;
-    padding-top: 10px;
-    
+    width: 300px;
+    padding-top: 20px;
   }
   
   .slider {
