@@ -198,9 +198,16 @@ background-color: rgba(243, 243, 243, 0.753);
   }
 
 
-  .elements{
-   
+  .mid_left{
+    padding-top: 400px;
+    padding-left: 350px;
+    float: both; 
   }
+
+ .upper_boxesTraining{
+    float: both; 
+
+}
 
   .upper_boxesTraining{
     display: flex;
