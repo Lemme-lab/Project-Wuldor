@@ -255,18 +255,25 @@ background-color: rgba(243, 243, 243, 0.753);
     justify-content: center;
   }
 
+  .lower_boxesTraining{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
   .inputAXIS{
     border-color: rgba(204, 204, 204, 0);
     color: black;
     font-size: 1.7em;
     margin-left: -4px;
     margin-top: 21px;
+    margin-bottom: -4px;
     width: 290px; 
     height: 45px; 
     border-top: 5px solid black;
     border-left: 5px solid black;
     border-right: 5px solid black;
-    border-bottom: 1px solid black;
+    border-bottom: 5px solid black;
   }
   
   .axisl{
@@ -279,14 +286,14 @@ background-color: rgba(243, 243, 243, 0.753);
     border: 5px solid rgb(39, 39, 39);
     background-color: rgb(255, 255, 255);
     float: left;
-    margin-left: 100px;
+    margin-left: 30px;
   }
 
   .axisr{
     border: 5px solid rgb(39, 39, 39);
     background-color: rgb(255, 255, 255);
     float: right;
-    margin-left: 100px;
+    margin-left: 30px;
   }
 
   .axisup{
