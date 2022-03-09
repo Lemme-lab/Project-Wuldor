@@ -84,7 +84,6 @@ background-color: rgba(243, 243, 243, 0.753);
       font-size: 1.9em;
     }
 
- 
 
     #input3{
       margin-top: +50px;
@@ -94,14 +93,26 @@ background-color: rgba(243, 243, 243, 0.753);
       font-size: 1.7em;
     }
 
+    #input4{
+      margin-top: +50px;
+      margin-left: +15px;
+      border-color: rgba(204, 204, 204, 0);
+      color: black;
+      font-size: 1.9em;
+      border: 5px solid rgb(39, 39, 39);
+    }
+
     #input1::placeholder {
       color: black;
       font-size: 0.9em;
     }
 
-
-
     #input3::placeholder {
+      color: black;
+      font-size: 1.2em;
+    }
+
+    #input4::placeholder {
       color: black;
       font-size: 1em;
     }
@@ -135,7 +146,7 @@ background-color: rgba(243, 243, 243, 0.753);
   .tab button:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(224, 224, 224);
-    padding: 12px 140px;
+    padding: 0px 140px;
   }
   
   .tab button.active {
@@ -171,5 +182,32 @@ background-color: rgba(243, 243, 243, 0.753);
     margin-left: 12px;
     margin-top: 12px;
   }
+  .EOAT{
+    float: both; 
+  }
+
+  .path_list{
+    float: both; 
+    margin-top: -5px;
+    margin-left: +15px;
+    border: 5px solid rgb(39, 39, 39);
+    background-color: rgb(255, 255, 255);
+    width: 212px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+
+  .elements{
+   
+  }
 
   
+#style_element{
+  border: 3px solid rgb(39, 39, 39);
+  background-color: rgb(214, 214, 214);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30px;
+}
