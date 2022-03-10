@@ -226,14 +226,13 @@ background-color: rgba(243, 243, 243, 0.753);
   }
 
   .buttons_training{
-    height: 88px;
+    height: 85px;
     width: 120px;
-    margin-top: 2px;
     border: 5px solid rgb(39, 39, 39);
   }
   .add{
     width: 120px;
-    height: 47px;
+    height: 44px;
     float: both;
     border-bottom: 5px solid rgb(39, 39, 39);
   }
