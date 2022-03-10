@@ -190,13 +190,14 @@ background-color: rgba(243, 243, 243, 0.753);
     border: 5px solid rgb(39, 39, 39);
     background-color: rgb(255, 255, 255);
     width: 212px;
-    height: 270px;
+    height: 350px;
     overflow-y: scroll;
   }
 
   .mid{
     display: flex;
     justify-content: center;
+    margin-top: -100px;
 
   }
 
@@ -224,28 +225,28 @@ background-color: rgba(243, 243, 243, 0.753);
   }
 
   .lower{
-    margin-top: 105px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     color: white;
   }
 
   .buttons_training{
-    height: 85px;
+    height: 88px;
     width: 120px;
-    margin-top: -0px;
+    margin-top: 2px;
     border: 5px solid rgb(39, 39, 39);
   }
   .add{
     width: 120px;
-    height: 45px;
+    height: 47px;
     float: both;
     border-bottom: 5px solid rgb(39, 39, 39);
   }
 
   .remove{
     width: 120px;
-    height: 40px;
+    height: 42px;
     float: both;
   }
 
