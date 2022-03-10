@@ -144,6 +144,30 @@ function removeCoordinates() {
   child.parentNode.removeChild(child);
 }
 
+function stop_programm(){
+  console.log("Stopped Programm");
+}
+
+function start_programm(){
+  console.log("Startet Programm");
+}
+
+function hold_programm(){
+  console.log("Holding Programm");
+}
+
+function estop_programm(){
+  console.log("E-Stop ");
+}
+
+function save_programm(){
+  console.log("saved Programm");
+}
+
+function test_programm(){
+  console.log("testing Programm");
+}
+
 
 /*
   const words = input.split(" ");

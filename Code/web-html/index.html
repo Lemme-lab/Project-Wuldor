@@ -56,15 +56,15 @@
        <div class = buttons>
 
           <div class = stop>
-            <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);"> <img src="data/84381.png" height ="80" width="80" /></button>
+            <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);" onclick="stop_programm();"> <img src="data/84381.png" height ="80" width="80" /></button>
           </div>
 
           <div class = start>
-            <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);"> <img src="data/startsymbol.png" height ="80" width="80" /></button>
+            <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);" onclick="start_programm();"> <img src="data/startsymbol.png" height ="80" width="80" /></button>
           </div>
 
           <div class = hold>
-            <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);"> <img src="data/pause.png" height ="80" width="80" /></button>
+            <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);" onclick="hold_programm();"> <img src="data/pause.png" height ="80" width="80" /></button>
           </div>
 
 
@@ -184,17 +184,12 @@
 
          <div class = lower>
 
-            <div class = estop>
-                <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39);"> <img src="data/estop.png" height ="80" width="120" /></button>
-              </div>
+            
+                <button type="button" class = estop onclick="estop_programm();"></button>
     
-              <div class = save>
-                <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39); padding-left: 20px; padding-right: 20px;"> <img src="data/save.png" height ="80" width="80" /></button>
-              </div>
+                <button type="button" class = save onclick="save_programm();"></button>
     
-              <div class = test>
-                <button type="button" style="color: white; background-color: white;  border: 5px solid rgb(39, 39, 39); padding-left: 20px; padding-right: 20px;" > <img src="data/test.png" height ="80" width="80" /></button>
-              </div>
+                <button type="button"  class = test onclick="test_programm();"></button>
 
               <div class = buttons_training>
                 <button class = "add" style="color: white; background-color: rgb(0, 255, 179); font-size: 2rem;" onclick="addCoordiantes()">+</button>

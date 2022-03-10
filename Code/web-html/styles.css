@@ -233,6 +233,45 @@ background-color: rgba(243, 243, 243, 0.753);
     width: 120px;
     border: 5px solid rgb(39, 39, 39);
   }
+  .estop{
+    height: 95px;
+    width: 115px;
+    background: url('data/estop.png');
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    color: white; 
+    background-color: white;  
+    border: 5px solid rgb(39, 39, 39);
+  }
+
+  .save{
+    height: 95px;
+    width: 115px;
+    background: url('data/save.png');
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    color: white; 
+    background-color: white;  
+    border: 5px solid rgb(39, 39, 39); 
+    padding-left: 20px; padding-right: 20px;
+  }
+
+  .test{
+    height: 95px;
+    width: 115px;
+    background: url('data/test.png');
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    color: white; 
+    background-color: white;  
+    border: 5px solid rgb(39, 39, 39);
+     padding-left: 20px; 
+     padding-right: 20px;
+  }
+
   .add{
     width: 120px;
     height: 44px;
