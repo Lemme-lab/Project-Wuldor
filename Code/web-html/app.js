@@ -71,6 +71,25 @@ function character() {
   
 }
 
+var counter = 2;
+
+
+function addCoordiantes(){
+   var text_in = "312/23/123/212/78/54";
+   var tag = document.createElement("h1");
+   tag.id = "style_element";
+   tag.className = "element" + counter;
+   var text = document.createTextNode(text_in);
+   tag.appendChild(text);
+   var element = document.getElementById("elements");
+   element.appendChild(tag);
+   console.log("WOrked");
+   alert("WOrked");
+   counter++;
+   console.log("counter");
+}
+    
+
 /*
   const words = input.split(" ");
   if(words[0] == "Coordinates:"){
