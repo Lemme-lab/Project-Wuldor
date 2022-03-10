@@ -202,13 +202,16 @@ background-color: rgba(243, 243, 243, 0.753);
     padding-right: 200px;
   }
 
-  #style_element{
+  .style_element{
     border: 3px solid rgb(39, 39, 39);
     background-color: rgb(214, 214, 214);
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     height: 30px;
+    font-size: 0.8em; 
+    padding-top: 10px; 
+    padding-left: 8px; 
   } 
 
   .arm_img{
