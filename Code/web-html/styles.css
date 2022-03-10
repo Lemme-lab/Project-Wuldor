@@ -69,7 +69,6 @@ background-color: rgba(243, 243, 243, 0.753);
    }
 
    #rightbox{
-    
     float:right;
     margin-left: 10px;
     display: flex;
@@ -176,14 +175,10 @@ background-color: rgba(243, 243, 243, 0.753);
     margin-top: 50px;
   }
 
-
-
   .cam_img{
     margin-left: 12px;
     margin-top: 12px;
   }
-
-
 
   .path_list{
     margin-left: +15px;
@@ -200,7 +195,6 @@ background-color: rgba(243, 243, 243, 0.753);
     margin-top: -100px;
 
   }
-
 
   .mid_left{
     padding-top: 100px;
