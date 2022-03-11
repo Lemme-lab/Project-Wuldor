@@ -1,12 +1,12 @@
 
 body {
-  background: #182625;
+  background: #0d1117;
 }
 
 .tab {
     overflow: hidden;
     border: 1px solid #455559;
-    background-color: #2F3D40;
+    background-color: #031122;
     text-align: center;
     width: 90%;
     margin-left: auto;
@@ -15,6 +15,7 @@ body {
 
   .tablinks{
       font-size: 1.9rem;
+      color: white;
   }
 
   .buttons{
@@ -156,6 +157,7 @@ body {
   
   .tab button.active {
     background-color: rgb(255, 255, 255);
+    color: black;
     border-radius: 10px;
   }
 
