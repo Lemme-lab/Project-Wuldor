@@ -429,3 +429,21 @@ body {
     background: #000000;
     cursor: pointer;
   }
+
+
+
+  .box_sleep{
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-top: -20px;
+    background-color: rgb(0, 0, 0);
+    height: 800px;
+    width: 700px;
+  }
+
+  .mid_boxes_sleep{
+
+    display: flex;
+    justify-content: center;
+
+  }
