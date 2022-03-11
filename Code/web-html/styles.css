@@ -320,19 +320,19 @@ body {
   .axisl{
     float: left;
     border: 5px solid #28403D;
-    background-color: rgb(255, 255, 255);
+    background-color: #455559;
   }
 
   .axism{
     border: 5px solid #28403D;
-    background-color: rgb(255, 255, 255);
+    background-color: #455559;
     float: left;
     margin-left: 30px;
   }
 
   .axisr{
     border: 5px solid #28403D;
-    background-color: rgb(255, 255, 255);
+    background-color: #455559;
     float: right;
     margin-left: 30px;
   }
@@ -350,6 +350,49 @@ body {
     height: 50px;
     width: 300px;
   }
+  #inaxis1{
+    background-color: #455559;
+  }
+  #inaxis2{
+    background-color: #455559;
+  }
+  #inaxis3{
+    background-color: #455559;
+  }
+  #inaxis4{
+    background-color: #455559;
+  }
+  #inaxis5{
+    background-color: #455559;
+  }
+  #inaxis6{
+    background-color: #455559;
+  }
+
+  #inaxis1::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis2::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis3::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis4::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis5::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis6::placeholder{
+    background-color: #455559;
+    color: white;
+  }
 
   .slidecontainer {
     width: 300px;
@@ -359,8 +402,8 @@ body {
   .slider {
     -webkit-appearance: none;
     width: calc(100% - 10px);
-    height: 8px;
-    background: #4ac4ac;
+    height: 30px;
+    background: #000000;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
@@ -375,8 +418,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #0f4534;
-    background-color: rgba(100, 100, 100, 1);
+    background-color: #ffffff;
     cursor: pointer;
   }
   
