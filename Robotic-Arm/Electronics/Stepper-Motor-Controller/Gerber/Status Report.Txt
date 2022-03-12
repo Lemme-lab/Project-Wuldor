@@ -1,0 +1,26 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Nema 17 Stepper Motor Controller.PrjPcb]
+   Generated File[SteppperController.GTO]
+   Generated File[SteppperController.GTP]
+   Generated File[SteppperController.GTS]
+   Generated File[SteppperController.GTL]
+   Generated File[SteppperController.GBL]
+   Generated File[SteppperController.GBS]
+   Generated File[SteppperController.GBP]
+   Generated File[SteppperController.GBO]
+   Generated File[SteppperController.GM1]
+   Generated File[SteppperController.GM2]
+   Generated File[SteppperController.GM3]
+   Generated File[SteppperController.GM4]
+   Generated File[SteppperController.GM5]
+   Generated File[SteppperController.GM6]
+   Generated File[SteppperController.RUL]
+   Generated File[SteppperController.EXTREP]
+   Generated File[SteppperController.REP]
+
+
+Files Generated   : 17
+Documents Printed : 0
+
+Finished Output Generation At 15:28:34 On 12.03.2022

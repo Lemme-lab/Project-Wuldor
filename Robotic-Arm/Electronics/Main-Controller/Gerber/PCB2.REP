@@ -2,82 +2,70 @@
 FileName = PCB2.GBR
 AutoAperture = True
 *************************************************************
-Generating : Assembly Top
-      File : PCB2.GM8
+Generating : Top Layer
+      File : PCB2.GTL
 
-    Adding Layer      : Assembly Top
-
-    Adding Layer      : Outline
-
-
-Used DCodes :
-    D13
-    D15
-    D100
-*************************************************************
-
-*************************************************************
-Generating : Outline
-      File : PCB2.GM1
+    Adding Layer      : Top Layer
 
     Adding Layer      : Outline
-
-    Adding Layer      : Outline
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : PCB2.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-    Adding Layer      : Outline
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : PCB2.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Outline
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D98
-    D99
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : PCB2.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D15
+    D17
+    D18
+    D19
+    D20
+    D21
     D22
+    D23
     D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D44
+    D45
+    D46
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : PCB2.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D17
+    D21
+    D27
+    D44
+    D45
+    D46
+    D58
+    D59
+    D60
+    D61
     D62
     D63
     D64
@@ -96,39 +84,6 @@ Used DCodes :
     D77
     D78
     D79
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : PCB2.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D31
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
     D80
     D81
     D82
@@ -136,83 +91,6 @@ Used DCodes :
     D84
     D85
     D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : PCB2.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : PCB2.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
 *************************************************************
 
 *************************************************************
@@ -231,24 +109,72 @@ Used DCodes :
     D13
     D14
     D15
+    D16
+    D17
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : PCB2.GBL
+Generating : Top Paste
+      File : PCB2.GTP
 
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Top Paste
 
     Adding Layer      : Outline
+
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D13
-    D15
+    D17
+    D18
+    D19
+    D20
+    D21
     D22
+    D23
     D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : PCB2.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
     D48
     D49
     D50
@@ -259,17 +185,76 @@ Used DCodes :
     D55
     D56
     D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : PCB2.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D34
+    D40
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : PCB2.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D21
+    D27
     D69
     D70
     D71
@@ -281,43 +266,101 @@ Used DCodes :
     D77
     D78
     D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : PCB2.GTL
+Generating : Bottom Overlay
+      File : PCB2.GBO
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Bottom Overlay
 
     Adding Layer      : Outline
 
-    Adding Layer      : Multi-Layer
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D17
+    D105
+    D106
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : PCB2.GM3
+
+    Adding Layer      : Top Courtyard
+
+    Adding Layer      : Outline
 
 
 Used DCodes :
-    D15
-    D16
+    D11
     D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : PCB2.GM5
+
+    Adding Layer      : Top Assembly
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D11
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Assembly Top
+      File : PCB2.GM8
+
+    Adding Layer      : Assembly Top
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D13
+    D17
+    D107
+*************************************************************
+
+*************************************************************
+Generating : Outline
+      File : PCB2.GM1
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : PCB2.GM2
+
+    Adding Layer      : Top 3D Body
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D11
+    D17
 *************************************************************
 
