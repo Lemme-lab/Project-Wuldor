@@ -6,7 +6,7 @@ body {
 .tab {
     overflow: hidden;
     border: 1px solid #455559;
-    background-color: #031122;
+    background-color: #010e1d;
     text-align: center;
     width: 90%;
     margin-left: auto;
@@ -159,6 +159,7 @@ body {
     background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 10px;
+    width: 20%;
   }
 
   .tabcontent {
