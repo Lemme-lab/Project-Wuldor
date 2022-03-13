@@ -1,3 +1,46 @@
+var power_img_power = document.querySelector('.power_img_power');
+var power_img_status = document.querySelector('.power_img_status');
+var check_img = document.querySelector('.check_img');
+var images1 = ['PowerOn.png', 'PowerOff.png'];
+var images2 = ['connection_off.png', 'connection_on.png'];
+var images3 = ['check_green.png', 'check_red.png'];
+var i = 0;
+
+var slider1 = document.getElementById("myRange1");
+var output1 = document.getElementById("inaxis1");
+output1.placeholder = "              AXIS 1";
+var slider2 = document.getElementById("myRange2");
+var output2 = document.getElementById("inaxis2");
+output2.placeholder = "              AXIS 2";
+var slider3 = document.getElementById("myRange3");
+var output3 = document.getElementById("inaxis3");
+output3.placeholder = "              AXIS 3";
+var slider4 = document.getElementById("myRange4");
+var output4 = document.getElementById("inaxis4");
+output4.placeholder = "              AXIS 4";
+var slider5 = document.getElementById("myRange5");
+var output5 = document.getElementById("inaxis5");
+output5.placeholder = "              AXIS 5";
+var slider6 = document.getElementById("myRange6");
+var output6 = document.getElementById("inaxis6");
+output6.placeholder = "              AXIS 6";
+
+var stop_status = false;
+var start_status = false;
+var hold_status = false;
+
+var input1 = 0;
+var input2 = 0;
+var input3 = 0;
+var input4 = 0;
+var input5 = 0;
+var input6 = 0;
+
+number = 0;
+var loader_img = ["loading_gif.gif", "loading_png.png"];
+var counter = 0;
+
+
 function changemode(evt, cityName) {
   var i, tabcontent, tablinks;
 
@@ -15,59 +58,31 @@ function changemode(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-var power_img_power = document.querySelector('.power_img_power');
-var power_img_status = document.querySelector('.power_img_status');
-var check_img = document.querySelector('.check_img');
-var images1 = ['PowerOn.png', 'PowerOff.png'];
-var images2 = ['connection_off.png', 'connection_on.png'];
-var images3 = ['check_green.png', 'check_red.png'];
-var i = 0;
-
-var input1 = 0;
-var input2 = 0;
-var input3 = 0;
-var input4 = 0;
-var input5 = 0;
-var input6 = 0;
-
-var slider1 = document.getElementById("myRange1");
-var output1 = document.getElementById("inaxis1");
-output1.placeholder = "              AXIS 1";
 slider1.oninput = function () {
   output1.placeholder = this.value;
   input1 = this.value;
 }
-var slider2 = document.getElementById("myRange2");
-var output2 = document.getElementById("inaxis2");
-output2.placeholder = "              AXIS 2";
+
 slider2.oninput = function () {
   output2.placeholder = this.value;
   input2 = this.value;
 }
-var slider3 = document.getElementById("myRange3");
-var output3 = document.getElementById("inaxis3");
-output3.placeholder = "              AXIS 3";
+
 slider3.oninput = function () {
   output3.placeholder = this.value;
   input3 = this.value;
 }
-var slider4 = document.getElementById("myRange4");
-var output4 = document.getElementById("inaxis4");
-output4.placeholder = "              AXIS 4";
+
 slider4.oninput = function () {
   output4.placeholder = this.value;
   input4 = this.value;
 }
-var slider5 = document.getElementById("myRange5");
-var output5 = document.getElementById("inaxis5");
-output5.placeholder = "              AXIS 5";
+
 slider5.oninput = function () {
   output5.placeholder = this.value;
   input5 = this.value;
 }
-var slider6 = document.getElementById("myRange6");
-var output6 = document.getElementById("inaxis6");
-output6.placeholder = "              AXIS 6";
+
 slider6.oninput = function () {
   output6.placeholder = this.value;
   input6 = this.value;
@@ -104,11 +119,6 @@ function setImg3() {
   return check_img.setAttribute('src', "data/" + images3[i]);
 }
 
-
-number = 0;
-var loader_img = ["loading_gif.gif", "loading_png.png"];
-
-
 function character() {
   image = document.getElementById('hiddenimageid');
   image.src = "data/" + loader_img[number];
@@ -120,7 +130,6 @@ function character() {
 
 }
 
-var counter = 0;
 
 
 
@@ -146,6 +155,7 @@ function removeCoordinates() {
 
 function stop_programm(){
   console.log("Stopped Programm");
+  console.log(stop_status);
 }
 
 function start_programm(){
