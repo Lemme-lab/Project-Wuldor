@@ -2,11 +2,11 @@
 
 #include <HTTPClient.h>
 
-const char * ssid = "Name";
+const char * ssid = "ssid";
 const char * password = "pwd";
 
 
-String serverName = "http://127.0.0.1:5500/Code/web-html/index.html";
+String serverName = "https://lemme-lab.github.io";
 
 unsigned long lastTime = 0;
 unsigned long timerDelay = 200;
@@ -31,7 +31,7 @@ void loop() {
     if (WiFi.status() == WL_CONNECTED) {
       HTTPClient http;
 
-      String serverPath = serverName;
+      String serverPath = serverName + "?stop_status=true";
 
 
       http.begin(serverPath.c_str());
