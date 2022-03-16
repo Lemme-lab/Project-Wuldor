@@ -435,7 +435,11 @@ body {
     cursor: pointer;
   }
 
-
+  .sleep_main {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
 
   .box_sleep{
     border-radius: 20px;
