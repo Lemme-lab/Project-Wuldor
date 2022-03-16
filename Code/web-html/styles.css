@@ -516,10 +516,11 @@ body {
     margin-left: 10px;
     border: 5px solid #28403D;
     border-radius: 20px;
-    width: 280px;
+    width: 270px;
   }
 
   .doxc{
+    padding-left: 50px;
     margin-top: -20px;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -529,6 +530,7 @@ body {
   }
 
   .github{
+    padding-left: 50px;
     margin-top: -20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -539,7 +541,7 @@ body {
 
   .version{
     height: 180px;
-    width: 180px;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 10px;
     padding-top: 10px;
