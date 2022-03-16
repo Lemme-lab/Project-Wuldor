@@ -441,14 +441,14 @@ body {
   }
 
   .box_sleep_left {
+    padding-top: 50px;
     margin-top: 50px;
-    padding-top: -60px;
     border-radius: 20px;
     border-color: #28403D;
     color: black;
     font-size: 1.7em;
     width: 300px; 
-    height: 755px; 
+    height: 740px; 
     border: 5px solid #28403D;
   }
 
@@ -457,7 +457,17 @@ body {
     margin-left: 15px;
     border: 5px solid #28403D;
     border-radius: 20px;
-    color: black;
+    background-color: white;
+    width: 260px;
+    height: 70px;
+  }
+
+  .box_sleep_left_innerboxes {
+    margin-top: 40px;
+    margin-left: 15px;
+    border: 5px solid #28403D;
+    border-radius: 20px;
+    background-color: white;
     width: 260px;
     height: 70px;
   }
@@ -468,7 +478,7 @@ body {
     margin-left: 45px;
     border: 5px solid #28403D;
     border-radius: 20px;
-    color: black;
+    background-color: white;
     width: 200px;
     height: 70px;
   }
