@@ -435,7 +435,22 @@ body {
     cursor: pointer;
   }
 
+  .sleep_main {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
 
+  .box_sleep_left {
+    margin-top: 50px;
+    padding-top: -20px;
+    border-color: #28403D;
+    color: black;
+    font-size: 1.7em;
+    width: 300px; 
+    height: 700px; 
+    border: 5px solid #28403D;
+  }
 
   .box_sleep{
     border-radius: 20px;
@@ -443,8 +458,8 @@ body {
     margin-top: 50px;
     padding-top: -20px;
     background-color: rgb(0, 0, 0);
-    height: 780px;
-    width: 600px;
+    width: 300px; 
+    height: 700px; 
   }
 
   .mid_boxes_sleep{
