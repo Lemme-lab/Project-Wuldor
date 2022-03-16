@@ -436,7 +436,6 @@ body {
   }
 
   .sleep_main {
-    padding-top: 30px;
     display: flex;
     justify-content: center;
   }
@@ -487,16 +486,14 @@ body {
   }
 
   .mid_boxes_sleep{
-
     display: flex;
     justify-content: center;
-    
+    margin-top: -20px;
   }
 
   .arm_img_2{
-    margin-left: 40px;
-    margin-top: 20px;
-    
+    margin-left: 45px;
+    margin-top: -80px;
   }
 
   .sleep_main{
@@ -507,22 +504,23 @@ body {
   .sleep_rigth_box{
     margin-top: 50px;
     margin-left: 50px;
-    padding-top: 10px;
     border: 5px solid #28403D;
     border-radius: 20px;
   }
 
   .doxc{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: -20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     border-top:5px solid #28403D;
     border-bottom:5px solid #28403D;
     background-color: white;
   }
 
   .github{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: -20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-top:5px solid #28403D;
     border-bottom:5px solid #28403D;
     background-color: white;
