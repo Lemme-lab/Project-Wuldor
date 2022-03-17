@@ -155,15 +155,19 @@ function removeCoordinates() {
 
 function stop_programm(){
   console.log("Stopped Programm");
+  stop_status = true;
   console.log(stop_status);
+  
 }
 
 function start_programm(){
   console.log("Startet Programm");
+  start_status = true;
 }
 
 function hold_programm(){
   console.log("Holding Programm");
+  hold_status = true;
 }
 
 function estop_programm(){
@@ -177,6 +181,18 @@ function save_programm(){
 function test_programm(){
   console.log("testing Programm");
 }
+
+const params = new Proxy(new URLSearchParams(window.location.search), {
+  get: (searchParams, prop) => searchParams.get(prop),
+});
+
+stop_status = params.stop_input;
+start_status = params.start_input;
+hold_status = params.hold_input;
+
+
+
+
 
 
 /*

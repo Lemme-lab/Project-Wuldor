@@ -47,8 +47,7 @@ void loop() {
         Serial.println(httpResponseCode);
       }
 
-      String serverPath = serverName + "?hold_status=true";
-
+      String serverPath = serverName + "?hold_input=true";
 
       http.begin(serverPath.c_str());
       int httpResponseCode = http.GET();
