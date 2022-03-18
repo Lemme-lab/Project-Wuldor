@@ -2,8 +2,8 @@
 
 #include <HTTPClient.h>
 
-const char * ssid = "ssid";
-const char * password = "pwd";
+const char * ssid = "LenardoWireless";
+const char * password = "0987654321";
 
 
 String serverName = "https://lemme-lab.github.io";
@@ -47,10 +47,25 @@ void loop() {
         Serial.println(httpResponseCode);
       }
 
-      String serverPath = serverName + "?hold_input=true";
+      serverPath = serverName + "?hold_input=true";
 
       http.begin(serverPath.c_str());
-      int httpResponseCode = http.GET();
+      httpResponseCode = http.GET();
+
+      if (httpResponseCode > 0) {
+        Serial.print("HTTP Response code: ");
+        Serial.println(httpResponseCode);
+        String payload = http.getString();
+        Serial.println(payload);
+      } else {
+        Serial.print("Error code: ");
+        Serial.println(httpResponseCode);
+      }
+
+      serverPath = serverName + "?start_input=true";
+
+      http.begin(serverPath.c_str());
+      httpResponseCode = http.GET();
 
       if (httpResponseCode > 0) {
         Serial.print("HTTP Response code: ");
