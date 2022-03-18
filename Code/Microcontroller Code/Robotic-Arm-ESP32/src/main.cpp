@@ -2,8 +2,8 @@
 
 #include <HTTPClient.h>
 
-const char * ssid = "LenardoWireless";
-const char * password = "0987654321";
+const char * ssid = "ssid";
+const char * password = "pwd";
 
 
 String serverName = "https://lemme-lab.github.io";
