@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VCC Pin=-2
+Removed Member From Class: ClassName=MainSchematic Member=
+Added Member To Class: ClassName=MainSchematic Member=Component * Texas Instruments LM7805MPX/NOPB
+Added Member To Class: ClassName=MainSchematic Member=Component * Molex 90142-0010
+Added Member To Class: ClassName=MainSchematic Member=Component * Hirose DF1BZ-4P-2.5DSA
+Added Room: Name=MainSchematic

@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SteppperController.PcbDoc   19.03.2022  09:34:32
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SteppperController.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.254mm (10mil)                                           Round             1         PTH        0.00mm (0.00inch)
+T2      0.3mm (12mil)                                             Round             9         PTH        8.80mm (0.35inch)
+T3      0.711mm (28mil)                                           Round             13        PTH        113.59mm (4.47inch)
+T4      1.778mm (70mil)                                           Round             2         PTH        6.79mm (0.27inch)
+T5      2.5mm (98mil)                                             Round             4         PTH        98.00mm (3.86inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              29
+
+Total Processing Time (hh:mm:ss) : 00:00:00

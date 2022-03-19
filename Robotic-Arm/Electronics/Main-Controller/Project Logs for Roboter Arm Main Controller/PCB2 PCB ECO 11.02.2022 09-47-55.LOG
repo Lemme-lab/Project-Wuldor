@@ -1,0 +1,47 @@
+Change Footprint: Footprint Not Found PCB-dbci3ib1q6wlta0cp8e4-1
+Change Footprint: Footprint Not Found PCB-dbci3ib1q6wlta0cp8e4-1
+Change Footprint: Footprint Not Found PCB-dbci3ib1q6wlta0cp8e4-1
+Change Footprint: Footprint Not Found PCB-dbci3ib1q6wlta0cp8e4-1
+Add Component: Footprint Not Found PCB-oacwd38k8qq9rl4q0vql-1
+Add Component: Footprint Not Found PCB-8gfa86omdps060zikj8u-1
+Add Component: Footprint Not Found RESC1608X55X30LL15T15
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Pin To Net: Unknown Pin: Pin *3-1
+Add Pin To Net: Unknown Pin: Pin *3-2
+Add Pin To Net: Unknown Pin: Pin *3-3
+Add Pin To Net: Unknown Pin: Pin *3-4
+Added Pin To Net: NetName=Vin Pin=*-1
+Added Pin To Net: NetName=DTR Pin=*-2
+Added Pin To Net: NetName=RXD Pin=-2
+Added Pin To Net: NetName=RXD Pin=-2
+Added Pin To Net: NetName=TXD Pin=-2
+Added Pin To Net: NetName=TXD Pin=-2
+Add Pin To Net: Unknown Pin: Pin D?-A
+Add Pin To Net: Unknown Pin: Pin D?-K
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Net: Net with name "Net_1" already exists
+Add Net: Net with name "Net_1" already exists
+Add Net: Net with name "Net_1" already exists
+Add Net: Net with name "Net_1" already exists
+Add Class Member: Failed to add class member : Component *3 Hirose DF1BZ-4P-2.5DSA
+Added Member To Class: ClassName=MainSchematic Member=Component * Texas Instruments LM7805MPX/NOPB
+Added Member To Class: ClassName=MainSchematic Member=Component * Molex 90142-0010
+Added Member To Class: ClassName=MainSchematic Member=Component * Molex 0353620450
+Added Member To Class: ClassName=MainSchematic Member=Component * Molex 0353620450
+Add Class Member: Failed to add class member : Component D? Dialight 598-8191-107F
+Add Class Member: Failed to add class member : Component R? 220Ohm
+Added Member To Class: ClassName=MainSchematic Member=Component  TXD ATMEGA
+Added Member To Class: ClassName=MainSchematic Member=Component  RXD ATMEGA
+Added Member To Class: ClassName=MainSchematic Member=Component  TXD ATMEGA
+Added Member To Class: ClassName=MainSchematic Member=Component  RXD ATMEGA
+Added Member To Class: ClassName=MainSchematic Member=Component  Amphenol ICC / FCI 68786-102LF
+Added Member To Class: ClassName=MainSchematic Member=Component U1 FTDI FT232RL
+Added Member To Class: ClassName=MainSchematic Member=Component U2 Microchip ATMEGA328P-AU
+Added Member To Class: ClassName=MainSchematic Member=Component U3 LD1117DT33TR
+Added Member To Class: ClassName=MainSchematic Member=Component U4 Espressif Systems ESP32-WROOM-32U
+Added Member To Class: ClassName=MainSchematic Member=Component X1 16.000MHZ
+Added Room: Name=MainSchematic

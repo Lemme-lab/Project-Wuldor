@@ -1,0 +1,33 @@
+Change Component Designator: OldDesignator=P? NewDesignator=RXD_ATMEGA
+Change Component Designator: OldDesignator=P? NewDesignator=RXD_ESP32
+Change Component Designator: OldDesignator=P? NewDesignator=TXD_ATMEGA
+Change Component Designator: OldDesignator=P? NewDesignator=TXD_ESP32
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Component: Footprint Not Found PCB-8gfa86omdps060zikj8u-1
+Add Component: Footprint Not Found RESC1608X55X30LL15T15
+Add Pin To Net: Unknown Pin: Pin 1-1
+Add Pin To Net: Unknown Pin: Pin 1-2
+Add Pin To Net: Unknown Pin: Pin 3.3V Power-A
+Add Pin To Net: Unknown Pin: Pin 3.3V Power-K
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-2
+Change Net Name : Old Net Name=NetP?_1 New Net Name=NetTXD_ATMEGA_1
+Change Net Name : Old Net Name=NetP?_2 New Net Name=NetTXD_ESP32_2
+Added Pin To Net: NetName=NetRXD_ATMEGA_1 Pin=RXD_ATMEGA-1
+Added Pin To Net: NetName=NetRXD_ATMEGA_1 Pin=U2-30
+Added Net: Name=NetRXD_ATMEGA_1
+Added Pin To Net: NetName=NetRXD_ESP32_2 Pin=RXD_ESP32-2
+Added Pin To Net: NetName=NetRXD_ESP32_2 Pin=U4-34
+Added Net: Name=NetRXD_ESP32_2
+Added Member To Class: ClassName=MainSchematic Member=Component * Hirose DF1BZ-4P-2.5DSA
+Added Member To Class: ClassName=MainSchematic Member=Component * Molex 90142-0010
+Added Member To Class: ClassName=MainSchematic Member=Component * Texas Instruments LM7805MPX/NOPB
+Add Class Member: Failed to add class member : Component 1 Amphenol ICC / FCI 68786-102LF
+Add Class Member: Failed to add class member : Component 3.3V Power Dialight 598-8191-107F
+Add Class Member: Failed to add class member : Component R? 220Ohm
+Added Member To Class: ClassName=MainSchematic Member=Component RXD_ATMEGA 22-27-2021
+Added Member To Class: ClassName=MainSchematic Member=Component RXD_ESP32 22-27-2021
+Added Member To Class: ClassName=MainSchematic Member=Component Step2_LED Dialight 598-8191-107F
+Added Member To Class: ClassName=MainSchematic Member=Component Step4_LED Dialight 598-8191-107F
+Added Member To Class: ClassName=MainSchematic Member=Component TXD_ATMEGA 22-27-2021
+Added Room: Name=MainSchematic

@@ -1,0 +1,11 @@
+Change Footprint: Footprint Not Found PCB-ab16gx9rkhzdcptx7kd3-1
+Change Component Footprint: Designator=R4 Old Footprint=RESC1005X40X25NL10T10 New Footprint=RESC1005X40X25NL05T05
+Change Component Comment : Designator=R4 Old Comment=2.4k New Comment=ERJ-2RKF2401X
+Change Component Comment : Designator=R8 Old Comment=CRCW04021R00FKED New Comment=1Ohm No short circuit
+Change Component Comment : Designator=R13 Old Comment=CRCW040210K0FKED New Comment=10k
+Change Component Comment : Designator=R14 Old Comment=RC0805FR-07100KL New Comment=100kOhm
+Change Managed Component Library Link : Designator=R4 Old VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=BDB62E8F-E3E5-4C8B-B3FA-B3FAD51410AA New ItemGUID=81D6372C-1149-4FC7-83DC-DA2A3378EA16 Old RevisionGUID=05CB8D6B-0E9D-426D-9782-3B275D8328E7 New RevisionGUID=4AAA30D9-11B6-43F5-98E4-149E94C06063
+Change component parameters: Designator = "R4" ("R4"); Footprint = "RESC1005X40X25NL10T10"; UniqueID = "\OEHCJQRI" ("\OEHCJQRI")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERJ-2RKF2401X"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=SteppperController Member=Component R7 2.2k

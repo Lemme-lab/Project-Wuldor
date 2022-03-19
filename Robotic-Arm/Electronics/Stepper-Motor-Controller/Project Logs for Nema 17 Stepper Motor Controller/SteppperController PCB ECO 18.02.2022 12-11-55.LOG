@@ -1,0 +1,6 @@
+Change Footprint: Footprint Not Found PCB-ab16gx9rkhzdcptx7kd3-1
+Change Component Designator: OldDesignator=R7 NewDesignator=R14
+Change Component Designator: OldDesignator=R? NewDesignator=R13
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR14_1
+Added Member To Class: ClassName=SteppperController Member=Component R14 RC0805FR-07100KL
+Added Room: Name=SteppperController

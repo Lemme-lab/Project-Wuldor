@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Vin Pin=C1-2
+Removed Member From Class: ClassName=SteppperController Member=C1
+Added Pin To Net: NetName=Vin Pin=C6-1
+Added Pin To Net: NetName=Vin Pin=U1-28
+Added Room: Name=SteppperController

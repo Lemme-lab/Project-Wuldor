@@ -1,0 +1,207 @@
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=VDD Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=R3-2
+Removed Pin From Net: NetName=VDD Pin=U1-14
+Removed Member From Class: ClassName=SteppperController Member=C7
+Removed Member From Class: ClassName=SteppperController Member=R3
+Change Component Footprint: Designator=R8 Old Footprint=RESC1608X55X30NL20T20 New Footprint=RESC1005X40X25ML05T05
+Change Component Comment : Designator=R8 Old Comment=5k New Comment=1Ohm No short circuit
+Change Managed Component Library Link : Designator=C1 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=6021ED4B-1010-45A6-842A-F490A995AC1C Old RevisionGUID= New RevisionGUID=6F2F3720-1403-42DD-A623-D96944B3C7EF
+Change Managed Component Library Link : Designator=C2 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=319B91B3-7BE9-4A04-86E3-38311FFE12CE Old RevisionGUID= New RevisionGUID=F5FCB4B0-2DAF-4EBF-BDA6-74411B961A02
+Change Managed Component Library Link : Designator=C3 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=AF3ADF15-7131-4921-82D5-A9949783AC24 Old RevisionGUID= New RevisionGUID=963C0BED-D1CD-446F-A750-905AD5DD06AB
+Change Managed Component Library Link : Designator=C4 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=AF3ADF15-7131-4921-82D5-A9949783AC24 Old RevisionGUID= New RevisionGUID=963C0BED-D1CD-446F-A750-905AD5DD06AB
+Change Managed Component Library Link : Designator=C5 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=AF3ADF15-7131-4921-82D5-A9949783AC24 Old RevisionGUID= New RevisionGUID=963C0BED-D1CD-446F-A750-905AD5DD06AB
+Change Managed Component Library Link : Designator=C6 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=AF3ADF15-7131-4921-82D5-A9949783AC24 Old RevisionGUID= New RevisionGUID=963C0BED-D1CD-446F-A750-905AD5DD06AB
+Change Managed Component Library Link : Designator=C8 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=89569F38-CBB2-4A4A-B862-BBA5488A7242 Old RevisionGUID= New RevisionGUID=4972DE1C-94C6-4695-B482-40FEAD5EAD73
+Change Managed Component Library Link : Designator=R1 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=ED4A0033-288E-4B8A-8CF8-2F7727E90E10 Old RevisionGUID= New RevisionGUID=87716C04-0935-4556-BEE8-603DD9B2439D
+Change Managed Component Library Link : Designator=R2 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=ED4A0033-288E-4B8A-8CF8-2F7727E90E10 Old RevisionGUID= New RevisionGUID=87716C04-0935-4556-BEE8-603DD9B2439D
+Change Managed Component Library Link : Designator=R4 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=6832A872-B02A-44C0-AB49-FD13B3B4934B Old RevisionGUID= New RevisionGUID=4CFB86E7-62B6-11E5-BD00-22000B510297
+Change Managed Component Library Link : Designator=R5 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=137F94A9-CCC4-45D3-BF3D-B1971F9C57D9 Old RevisionGUID= New RevisionGUID=498CCA79-62B0-11E5-BD00-22000B510297
+Change Managed Component Library Link : Designator=R6 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=F2787DD6-3BF1-4D2D-AE5A-97ED42935724 Old RevisionGUID= New RevisionGUID=F39E4D00-CB0A-467E-A0CE-AC2A88116CBF
+Change Managed Component Library Link : Designator=R8 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=DF0F3F13-31F5-4329-ACF6-507B849A8DF7 Old RevisionGUID= New RevisionGUID=1C2915C8-07CE-47A6-941D-FEDD379B25F0
+Change Managed Component Library Link : Designator=U1 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=B97BB51F-131A-4883-AFE2-DDE35FEB5685 Old RevisionGUID= New RevisionGUID=6C16FA15-6DDA-43FF-9D93-DD18BADD9B43
+Change Managed Component Library Link : Designator=U2 Old VaultGUID= New VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 Old ItemGUID= New ItemGUID=88a9a2b3-56fc-478e-a185-7d476c1172d9 Old RevisionGUID= New RevisionGUID=0cfc675f-a952-4dd1-9464-77acf45b2082
+Change component parameters: Designator = "C1" ("C1"); Footprint = "PCB-i2lbf4zom8ks3vbq1kyd-1"; UniqueID = "\LTSIUZCR" ("\LTSIUZCR")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Aluminum Electrolytic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead-Free Status"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "UWT1E101MCL1GS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Style"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart URL"; Value = "https://octopart.com/uwt1e101mcl1gs-nichicon-203197"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OctopartID"; Value = "3b00f20907dbe4c7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55.0 °C (min)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape & Reel (TR), Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size-Diameter"; Value = "6.30 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size-Height"; Value = "7.70 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size-Length"; Value = "7.70 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "25.0 V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "PCB-w610zufupuummbghd1in-1"; UniqueID = "\RMMUTLEL" ("\RMMUTLEL")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "330 nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead-Free Status"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CL31B334KBFNNNE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Style"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart URL"; Value = "https://octopart.com/cl31b334kbfnnne-samsung-9302177"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OctopartID"; Value = "6acba34cbf0cb50c"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50.0 V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "CAPC2013X140X50LL20T25"; UniqueID = "\BVNWYARC" ("\BVNWYARC")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "2.2e-07 F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead-Free Status"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "08055C224JAT2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Style"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart Url"; Value = "https://octopart.com/08055c224jat2a-avx+interconnect+%2F+elco-8665279"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OctopartID"; Value = "61bba8357c62be7c"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50.0 V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("R1"); Footprint = "PCB-h38ewjcsmg51leo397rp-1"; UniqueID = "\MFCSHOOB" ("\MFCSHOOB")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CRHV2512AF50M0FKET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart URL"; Value = "http://octopart.com/crhv2512af50m0fket-vishay-44499916"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OctopartID"; Value = "2fd8e4750972f01f"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "PCB-h38ewjcsmg51leo397rp-1"; UniqueID = "\WBLTDOJR" ("\WBLTDOJR")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CRHV2512AF50M0FKET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart URL"; Value = "http://octopart.com/crhv2512af50m0fket-vishay-44499916"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OctopartID"; Value = "2fd8e4750972f01f"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "RESC1608X55X30NL15T15"; UniqueID = "\NDVMBRJY" ("\NDVMBRJY")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead-Free Status"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Not Listed by Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ERJ-3GEYJ161V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Style"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart Url"; Value = "https://octopart.com/erj-3geyj161v-panasonic-39786526"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OctopartID"; Value = "556f9e3a68178aa8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "0.1 W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC Compliance"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "160.0 O"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size-Height"; Value = "0.00045 m"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size-Length"; Value = "0.0016 m"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size-Width"; Value = "0.0008 m"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "75.0 V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5" ("R5"); Footprint = "RESC2013X55X40LL15T20"; UniqueID = "\UEYKKNYF" ("\UEYKKNYF")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead-Free Status"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "TNPW080520K0BEEA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart Url"; Value = "https://octopart.com/tnpw080520k0beea-vishay-46507859"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OctopartID"; Value = "596b92a4db5e86ac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "0.125 W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "20000.0 O"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "±0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "100.0 V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "PCB-n97kkldbbf5rklmnt71m-1"; UniqueID = "\AMEFPSDL" ("\AMEFPSDL")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Not Listed by Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CRGCQ0402F100K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart URL"; Value = "https://octopart.com/crgcq0402f100k-te+connectivity-91017930"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OctopartID"; Value = "86ed4a8b7141592a"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape & Reel (TR)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "63.0 mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "100 kO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "-100 ppm/°C to 100 ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50.0 V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "RESC1608X55X30NL20T20"; UniqueID = "\CWLFVYQT" ("\CWLFVYQT")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CRCW04021R00FKED"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2" ("U2"); Footprint = "NXP-SOT89_A_M"; UniqueID = "\PTGJXNEC" ("\PTGJXNEC")
+Change component parameters (AddParameter): Name = "Lead-Free Status"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "MC78L05ACHT1G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Octopart Url"; Value = "https://octopart.com/mc78l05acht1g-onsemi-65529950"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OctopartID"; Value = "4fb3855e828b9074"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "0.00 °C (min)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Current"; Value = "100 mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Added Component: Designator=R13(FP-CRCW0402-e3-IPC_B)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "63mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "63mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "2.3E-05oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.02inch"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RESC2013X60X35ML10T20)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "ThickFilm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_5.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 5, 10/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "LeadFree"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "0.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mounted Device, Body 2 x 1.25 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "100KOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/degreesC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.049inch"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=VDD Pin=R14-2
+Added Pin To Net: NetName=NetR14_1 Pin=R14-1
+Added Pin To Net: NetName=NetR14_1 Pin=U1-12
+Added Net: Name=NetR14_1
+Added Pin To Net: NetName=ROSC Pin=R8-1
+Added Pin To Net: NetName=ROSC Pin=R13-2
+Added Pin To Net: NetName=ROSC Pin=U1-13
+Added Net: Name=ROSC
+Added Member To Class: ClassName=SteppperController Member=Component R13 10k
+Added Member To Class: ClassName=SteppperController Member=Component R14 100kOhm
+Added Room: Name=SteppperController

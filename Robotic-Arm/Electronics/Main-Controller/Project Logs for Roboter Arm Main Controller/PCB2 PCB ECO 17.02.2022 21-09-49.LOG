@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=DTR Pin=U1-18
+Removed Pin From Net: NetName=DTR Pin=U1-21
+Removed Pin From Net: NetName=Con2 Pin=U2-6
+Removed Pin From Net: NetName=Con2 Pin=U2-18
+Removed Pin From Net: NetName=DTR Pin=U4-15
+Removed Pin From Net: NetName=DTR Pin=U4-38
+Removed Pin From Net: NetName=DTR Pin=U4-39
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Pin To Net: Unknown Pin: Pin 1-1
+Add Pin To Net: Unknown Pin: Pin 1-2
+Added Member To Class: ClassName=MainSchematic Member=Component * Texas Instruments LM7805MPX/NOPB
+Add Class Member: Failed to add class member : Component 1 Amphenol ICC / FCI 68786-102LF
+Added Member To Class: ClassName=MainSchematic Member=Component M3 HSMD-C190
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Room: Name=MainSchematic

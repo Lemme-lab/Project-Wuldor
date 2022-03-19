@@ -1,0 +1,209 @@
+Removed Pin From Net: NetName=DTR Pin=3v3V Power-K
+Removed Pin From Net: NetName=DTR Pin=5V Power-K
+Removed Pin From Net: NetName=DTR Pin=D2-K
+Removed Pin From Net: NetName=DTR Pin=D3-K
+Removed Pin From Net: NetName=DTR Pin=D4-K
+Removed Pin From Net: NetName=DTR Pin=D5-K
+Removed Pin From Net: NetName=NetR17_1 Pin=RXD-A
+Removed Pin From Net: NetName=DTR Pin=RXD-K
+Removed Pin From Net: NetName=NetR2_1 Pin=TXD-A
+Removed Pin From Net: NetName=DTR Pin=TXD-K
+Removed Member From Class: ClassName=MainSchematic Member=D2
+Removed Member From Class: ClassName=MainSchematic Member=D4
+Change Component Footprint: Designator=3v3V Power Old Footprint=PCB-8gfa86omdps060zikj8u-1 New Footprint=AVAG-HSMX-C190_V
+Change Component Footprint: Designator=5V Power Old Footprint=PCB-8gfa86omdps060zikj8u-1 New Footprint=AVAG-HSMX-C190_V
+Change Component Footprint: Designator=RXD Old Footprint=PCB-8gfa86omdps060zikj8u-1 New Footprint=AVAG-HSMX-C190_V
+Change Component Footprint: Designator=TXD Old Footprint=PCB-8gfa86omdps060zikj8u-1 New Footprint=AVAG-HSMX-C190_V
+Change Component Comment : Designator=3v3V Power Old Comment=Dialight 598-8191-107F New Comment=HSMD-C190
+Change Component Comment : Designator=5V Power Old Comment=Dialight 598-8191-107F New Comment=HSMD-C190
+Change Component Comment : Designator=RXD Old Comment=Dialight 598-8191-107F New Comment=HSMD-C190
+Change Component Comment : Designator=TXD Old Comment=Dialight 598-8191-107F New Comment=HSMD-C190
+Change Managed Component Library Link : Designator=3v3V Power Old VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=523362E2-0D0D-461E-B57B-4193EDA1B9F2 New ItemGUID=8EFC37CB-1129-48A9-8F5D-5F0538AB159F Old RevisionGUID=66ADC6CB-F8DB-46A8-B13E-9FB3F21050A1 New RevisionGUID=9B9494D5-B122-469C-AE6A-5D1456CD76AE
+Change Managed Component Library Link : Designator=5V Power Old VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=523362E2-0D0D-461E-B57B-4193EDA1B9F2 New ItemGUID=8EFC37CB-1129-48A9-8F5D-5F0538AB159F Old RevisionGUID=66ADC6CB-F8DB-46A8-B13E-9FB3F21050A1 New RevisionGUID=9B9494D5-B122-469C-AE6A-5D1456CD76AE
+Change Managed Component Library Link : Designator=RXD Old VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=523362E2-0D0D-461E-B57B-4193EDA1B9F2 New ItemGUID=8EFC37CB-1129-48A9-8F5D-5F0538AB159F Old RevisionGUID=66ADC6CB-F8DB-46A8-B13E-9FB3F21050A1 New RevisionGUID=9B9494D5-B122-469C-AE6A-5D1456CD76AE
+Change Managed Component Library Link : Designator=TXD Old VaultGUID=7B5709D0-CFCB-11E1-A429-385E32E0CE67 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=523362E2-0D0D-461E-B57B-4193EDA1B9F2 New ItemGUID=8EFC37CB-1129-48A9-8F5D-5F0538AB159F Old RevisionGUID=66ADC6CB-F8DB-46A8-B13E-9FB3F21050A1 New RevisionGUID=9B9494D5-B122-469C-AE6A-5D1456CD76AE
+Change component parameters: Designator = "3v3V Power" ("3v3V Power"); Footprint = "PCB-8gfa86omdps060zikj8u-1"; UniqueID = "\KCFVLXDN" ("\KCFVLXDN")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avagotech.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://docs.avagotech.com/docs/AV02-0551EN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.fairchildsemi.com/dwg/MA/MA03D.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Mar-12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "225degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm, Height 0.9 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "HSMX-C190"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters: Designator = "5V Power" ("5V Power"); Footprint = "PCB-8gfa86omdps060zikj8u-1"; UniqueID = "\WGNTXJXQ" ("\WGNTXJXQ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avagotech.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://docs.avagotech.com/docs/AV02-0551EN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.fairchildsemi.com/dwg/MA/MA03D.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Mar-12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "225degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm, Height 0.9 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "HSMX-C190"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RXD" ("RXD"); Footprint = "PCB-8gfa86omdps060zikj8u-1"; UniqueID = "\FQCKPUMB" ("\FQCKPUMB")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avagotech.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://docs.avagotech.com/docs/AV02-0551EN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.fairchildsemi.com/dwg/MA/MA03D.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Mar-12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "225degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm, Height 0.9 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "HSMX-C190"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TXD" ("TXD"); Footprint = "PCB-8gfa86omdps060zikj8u-1"; UniqueID = "\ZFQNJHFA" ("\ZFQNJHFA")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avagotech.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://docs.avagotech.com/docs/AV02-0551EN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.fairchildsemi.com/dwg/MA/MA03D.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Mar-12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "225degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm, Height 0.9 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "HSMX-C190"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Added Component: Designator=DS?(AVAG-HSMX-C190_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avagotech.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://docs.avagotech.com/docs/AV02-0551EN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.fairchildsemi.com/dwg/MA/MA03D.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "225degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm, Height 0.9 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "HSMX-C190"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=DS?(AVAG-HSMX-C190_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avagotech.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://docs.avagotech.com/docs/AV02-0551EN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.fairchildsemi.com/dwg/MA/MA03D.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "225degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm, Height 0.9 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "HSMX-C190"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=DS?(AVAG-HSMX-C190_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avagotech.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://docs.avagotech.com/docs/AV02-0551EN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.fairchildsemi.com/dwg/MA/MA03D.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "225degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm, Height 0.9 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "HSMX-C190"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=DS?(AVAG-HSMX-C190_V)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.avagotech.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://docs.avagotech.com/docs/AV02-0551EN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.fairchildsemi.com/dwg/MA/MA03D.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "225degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.8 mm, Height 0.9 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "HSMX-C190"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=J?(FP-35362-0450-MFG)
+Add component (AddParameter): Name = "Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Mating"; Value = "TIN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Mating Length"; Value = "0.145inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Post Length"; Value = "0.13inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Glow Wire Compliant"; Value = "Non-compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen Free"; Value = "Low Halogen"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Color"; Value = "Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Color"; Value = "Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Height"; Value = "0.335inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mated Stacking Heights"; Value = "8.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Kinked Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "125V"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin 1-1
+Add Pin To Net: Unknown Pin: Pin 1-2
+Added Pin To Net: NetName=DTR Pin=3v3V Power-2
+Added Pin To Net: NetName=DTR Pin=5V Power-2
+Added Pin To Net: NetName=DTR Pin=DS?-2
+Added Pin To Net: NetName=DTR Pin=DS?-2
+Added Pin To Net: NetName=DTR Pin=DS?-2
+Added Pin To Net: NetName=DTR Pin=DS?-2
+Added Pin To Net: NetName=Dir6 Pin=J?-1
+Added Pin To Net: NetName=Step6 Pin=J?-2
+Added Pin To Net: NetName=DTR Pin=J?-3
+Added Pin To Net: NetName=Vin Pin=J?-4
+Added Pin To Net: NetName=NetR17_1 Pin=RXD-1
+Added Pin To Net: NetName=DTR Pin=RXD-2
+Added Pin To Net: NetName=NetR2_1 Pin=TXD-1
+Added Pin To Net: NetName=DTR Pin=TXD-2
+Added Pin To Net: NetName=Net3v3V Power_1 Pin=3v3V Power-1
+Added Pin To Net: NetName=Net3v3V Power_1 Pin=R16-1
+Added Net: Name=Net3v3V Power_1
+Added Pin To Net: NetName=Net5V Power_1 Pin=5V Power-1
+Added Pin To Net: NetName=Net5V Power_1 Pin=R15-1
+Added Net: Name=Net5V Power_1
+Added Pin To Net: NetName=NetDS?_1 Pin=DS?-1
+Added Pin To Net: NetName=NetDS?_1 Pin=R12-1
+Added Net: Name=NetDS?_1
+Add Net: Net with name "NetDS?_1" already exists
+Add Net: Net with name "NetDS?_1" already exists
+Add Net: Net with name "NetDS?_1" already exists
+Added Member To Class: ClassName=MainSchematic Member=Component * Texas Instruments LM7805MPX/NOPB
+Added Member To Class: ClassName=MainSchematic Member=Component * Molex 90142-0010
+Add Class Member: Failed to add class member : Component 1 Amphenol ICC / FCI 68786-102LF
+Added Member To Class: ClassName=MainSchematic Member=Component DS? HSMD-C190
+Added Member To Class: ClassName=MainSchematic Member=Component DS? HSMD-C190
+Added Member To Class: ClassName=MainSchematic Member=Component DS? HSMD-C190
+Added Member To Class: ClassName=MainSchematic Member=Component DS? HSMD-C190
+Added Member To Class: ClassName=MainSchematic Member=Component J? 35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component J? 35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component J? 35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component J? 35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component J? 35362-0450

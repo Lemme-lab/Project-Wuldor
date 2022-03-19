@@ -1,0 +1,14 @@
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Pin To Net: Unknown Pin: Pin 1-1
+Add Pin To Net: Unknown Pin: Pin 1-2
+Added Pin To Net: NetName=EOT-Pin Pin=U2-27
+Added Net: Name=EOT-Pin
+Added Member To Class: ClassName=MainSchematic Member=Component * Texas Instruments LM7805MPX/NOPB
+Add Class Member: Failed to add class member : Component 1 Amphenol ICC / FCI 68786-102LF
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Room: Name=MainSchematic

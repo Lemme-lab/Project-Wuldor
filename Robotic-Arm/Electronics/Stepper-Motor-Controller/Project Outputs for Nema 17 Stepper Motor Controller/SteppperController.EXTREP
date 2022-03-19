@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: SteppperController.GBR   12.03.2022  15:28:31
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Outline                                 
+.GM2                Top 3D Body                             
+.GM3                Top Courtyard                           
+.GM4                Top Component Center                    
+.GM5                Top Assembly                            
+.GM6                Assembly Text Top                       
+------------------------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Nema 11 Stepper Motor Controller.PrjPcb]
+   Generated File[StepperControllerNema11.TXT]
+   Generated File[StepperControllerNema11.LDP]
+   Generated File[StepperControllerNema11.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 09:34:05 On 19.03.2022

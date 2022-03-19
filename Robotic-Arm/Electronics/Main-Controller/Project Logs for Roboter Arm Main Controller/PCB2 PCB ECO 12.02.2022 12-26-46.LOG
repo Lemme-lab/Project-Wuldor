@@ -1,0 +1,30 @@
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator=DS? NewDesignator=M1
+Change Component Designator: OldDesignator=DS? NewDesignator=M2
+Change Component Designator: OldDesignator=DS? NewDesignator=M3
+Change Component Designator: OldDesignator=DS? NewDesignator=M4
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Pin To Net: Unknown Pin: Pin 1-1
+Add Pin To Net: Unknown Pin: Pin 1-2
+Change Net Name : Old Net Name=NetDS?_1 New Net Name=NetM3_1
+Added Pin To Net: NetName=NetM1_1 Pin=M1-1
+Added Pin To Net: NetName=NetM1_1 Pin=R13-1
+Added Net: Name=NetM1_1
+Added Pin To Net: NetName=NetM2_1 Pin=M2-1
+Added Pin To Net: NetName=NetM2_1 Pin=R11-1
+Added Net: Name=NetM2_1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Pin To Net: NetName=NetM4_1 Pin=R14-1
+Added Net: Name=NetM4_1
+Added Member To Class: ClassName=MainSchematic Member=Component * Molex 90142-0010
+Added Member To Class: ClassName=MainSchematic Member=Component * Texas Instruments LM7805MPX/NOPB
+Add Class Member: Failed to add class member : Component 1 Amphenol ICC / FCI 68786-102LF
+Added Member To Class: ClassName=MainSchematic Member=Component M1 HSMD-C190
+Added Member To Class: ClassName=MainSchematic Member=Component M2 HSMD-C190
+Added Member To Class: ClassName=MainSchematic Member=Component M4 HSMD-C190
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Member To Class: ClassName=MainSchematic Member=Component  35362-0450
+Added Room: Name=MainSchematic

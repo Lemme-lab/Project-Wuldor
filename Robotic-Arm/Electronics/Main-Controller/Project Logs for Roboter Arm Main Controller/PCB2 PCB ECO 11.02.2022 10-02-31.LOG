@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=Con3 Pin=R17-2
+Change Component Designator: OldDesignator=D2 NewDesignator=Step2_LED
+Change Component Designator: OldDesignator=D3 NewDesignator=Step3_LED
+Change Component Designator: OldDesignator=D4 NewDesignator=Step2_LED
+Change Component Designator: OldDesignator=D5 NewDesignator=Step4_LED
+Change Component Designator: OldDesignator=D6 NewDesignator=5V Power
+Change Component Designator: OldDesignator=D7 NewDesignator=RXD
+Change Component Designator: OldDesignator=D8 NewDesignator=TXD
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Component: Footprint Not Found PCB-8gfa86omdps060zikj8u-1
+Add Component: Footprint Not Found RESC1608X55X30LL15T15
+Add Pin To Net: Unknown Pin: Pin 1-1
+Add Pin To Net: Unknown Pin: Pin 1-2
+Add Pin To Net: Unknown Pin: Pin 3.3V Power-K
+Added Pin To Net: NetName=VCC Pin=R15-2
+Added Pin To Net: NetName=RXD Pin=R16-2
+Added Pin To Net: NetName=TXD Pin=R17-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Change Net Name : Old Net Name=NetD2_A New Net Name=NetR11_1
+Change Net Name : Old Net Name=NetD3_A New Net Name=NetR12_1
+Change Net Name : Old Net Name=NetD4_A New Net Name=NetR13_1
+Change Net Name : Old Net Name=NetD5_A New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetD6_A New Net Name=Net5V Power_A
+Change Net Name : Old Net Name=NetD7_A New Net Name=NetR16_1
+Change Net Name : Old Net Name=NetD8_A New Net Name=NetR17_1
+Change Net Name : Old Net Name=VCC New Net Name=Con2
+Added Net: Name=Net3.3V Power_A
+Added Member To Class: ClassName=MainSchematic Member=Component * Texas Instruments LM7805MPX/NOPB
+Added Member To Class: ClassName=MainSchematic Member=Component * Hirose DF1BZ-4P-2.5DSA
+Added Member To Class: ClassName=MainSchematic Member=Component * Molex 90142-0010
+Add Class Member: Failed to add class member : Component 1 Amphenol ICC / FCI 68786-102LF
+Add Class Member: Failed to add class member : Component 3.3V Power Dialight 598-8191-107F
+Added Member To Class: ClassName=MainSchematic Member=Component J? SNT-100-BK-G
+Added Member To Class: ClassName=MainSchematic Member=Component J? SNT-100-BK-G
+Added Member To Class: ClassName=MainSchematic Member=Component J? SNT-100-BK-G
+Add Class Member: Failed to add class member : Component R? 220Ohm
+Added Room: Name=MainSchematic

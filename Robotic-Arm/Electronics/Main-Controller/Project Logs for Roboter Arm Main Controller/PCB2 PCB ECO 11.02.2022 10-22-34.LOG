@@ -1,0 +1,29 @@
+Change Designator: Invalid Designator
+Change Designator: Invalid Designator
+Change Designator: Invalid Designator
+Change Designator: Invalid Designator
+Add Component: Footprint Not Found Amphenol ICC _ FCI 68786-102LF-Footprint-1
+Add Component: Footprint Not Found PCB-8gfa86omdps060zikj8u-1
+Add Component: Footprint Not Found RESC1608X55X30LL15T15
+Add Pin To Net: Unknown Pin: Pin 1-1
+Add Pin To Net: Unknown Pin: Pin 1-2
+Add Pin To Net: Unknown Pin: Pin 3.3V Power-A
+Add Pin To Net: Unknown Pin: Pin 3.3V Power-K
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-2
+Change Net Name : Old Net Name=NetR11_1 New Net Name=Net_A
+Change Net Name : Old Net Name=NetR12_1 New Net Name=Net_A
+Change Net Name : Old Net Name=NetR13_1 New Net Name=Net_A
+Change Net Name : Old Net Name=NetR14_1 New Net Name=Net_A
+Added Member To Class: ClassName=MainSchematic Member=Component * Hirose DF1BZ-4P-2.5DSA
+Added Member To Class: ClassName=MainSchematic Member=Component * Molex 90142-0010
+Added Member To Class: ClassName=MainSchematic Member=Component * Texas Instruments LM7805MPX/NOPB
+Add Class Member: Failed to add class member : Component 1 Amphenol ICC / FCI 68786-102LF
+Add Class Member: Failed to add class member : Component 3.3V Power Dialight 598-8191-107F
+Add Class Member: Failed to add class member : Component R? 220Ohm
+Added Member To Class: ClassName=MainSchematic Member=Component RXD ATMEGA 15-29-1025
+Added Member To Class: ClassName=MainSchematic Member=Component RXD ESP32 15-29-1025
+Add Class Member: Failed to add class member : Component  Dialight 598-8191-107F
+Added Member To Class: ClassName=MainSchematic Member=Component TXD ATMEGA 15-29-1025
+Added Member To Class: ClassName=MainSchematic Member=Component TXD ESP32 15-29-1025
+Added Room: Name=MainSchematic

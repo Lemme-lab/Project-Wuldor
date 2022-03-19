@@ -1,0 +1,27 @@
+Change Component Footprint: Designator=*1 Old Footprint=PCB-oacwd38k8qq9rl4q0vql-1 New Footprint=PCB-dbci3ib1q6wlta0cp8e4-1
+Change Component Footprint: Designator=*2 Old Footprint=PCB-oacwd38k8qq9rl4q0vql-1 New Footprint=PCB-dbci3ib1q6wlta0cp8e4-1
+Change Component Footprint: Designator=* Old Footprint=PCB-oacwd38k8qq9rl4q0vql-1 New Footprint=PCB-dbci3ib1q6wlta0cp8e4-1
+Change Component Footprint: Designator=* Old Footprint=PCB-oacwd38k8qq9rl4q0vql-1 New Footprint=PCB-dbci3ib1q6wlta0cp8e4-1
+Change Component Comment: Designator= Old Comment=FTDI on/off New Comment=Amphenol ICC / FCI 68786-102LF
+Change Component Comment: Designator=*1 Old Comment=Hirose DF1BZ-4P-2.5DSA New Comment=Molex 0353620450
+Change Component Comment: Designator=*2 Old Comment=Hirose DF1BZ-4P-2.5DSA New Comment=Molex 0353620450
+Change Component Comment: Designator=* Old Comment=Hirose DF1BZ-4P-2.5DSA New Comment=Molex 0353620450
+Change Component Comment: Designator=* Old Comment=Hirose DF1BZ-4P-2.5DSA New Comment=Molex 0353620450
+Change Component Designator: OldDesignator=Step1_LED NewDesignator=D2
+Change Component Designator: OldDesignator=Step2_LED NewDesignator=D3
+Change Component Designator: OldDesignator=Step3_LED NewDesignator=D5
+Change Component Designator: OldDesignator=Step4_LED NewDesignator=D6
+Change Pin Designator/Name:  Old Designator=*1-1 Old Name=1 New Designator =4 New Name=4
+Change Pin Designator/Name:  Old Designator=*1-2 Old Name=2 New Designator =3 New Name=3
+Change Pin Designator/Name:  Old Designator=*1-3 Old Name=3 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=*1-4 Old Name=4 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=*2-1 Old Name=1 New Designator =4 New Name=4
+Change Pin Designator/Name:  Old Designator=*2-2 Old Name=2 New Designator =3 New Name=3
+Change Pin Designator/Name:  Old Designator=*2-3 Old Name=3 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=*2-4 Old Name=4 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=*-1 Old Name=1 New Designator =4 New Name=4
+Change Pin Designator/Name:  Old Designator=*-2 Old Name=2 New Designator =OUTPUT New Name=3
+Change Pin Designator/Name:  Old Designator=*-3 Old Name=3 New Designator =GND New Name=2
+Change Pin Designator/Name:  Old Designator=*-3 Old Name=3 New Designator =GND New Name=2
+Change Pin Designator/Name:  Old Designator=*-4 Old Name=4 New Designator =INPUT New Name=1
+Change Pin Designator/Name:  Old Designator=*-4 Old Name=4 New Designator =INPUT New Name=1

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=Vmotor Pin=C1-1
+Removed Member From Class: ClassName=SteppperController Member=C1
+Added Pin To Net: NetName=Vmotor Pin=C2-2
+Added Pin To Net: NetName=Vmotor Pin=U2-3
+Change Net Name : Old Net Name=Vmotor New Net Name=Vin
+Added Room: Name=SteppperController
