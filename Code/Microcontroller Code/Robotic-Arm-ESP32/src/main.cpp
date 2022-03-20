@@ -1,93 +1,84 @@
-#include <WiFi.h>
 
-#include <HTTPClient.h>
-
-const char * ssid = "ssid";
-const char * password = "pwd";
+#include "WiFi.h"
+#include "ESPAsyncWebServer.h"
+#include "SPIFFS.h"
 
 
+const char* ssid = "ssid";
+const char* password = "pwd";
 
 
-String serverName = "https://lemme-lab.github.io";
+const int ledPin = 2;
 
-unsigned long lastTime = 0;
-unsigned long timerDelay = 200;
+String ledState;
 
-void setup() {
+
+AsyncWebServer server(80);
+
+
+String processor(const String& var){
+  Serial.println(var);
+  if(var == "STATE"){
+    if(digitalRead(ledPin)){
+      ledState = "ON";
+    }
+    else{
+      ledState = "OFF";
+    }
+    Serial.print(ledState);
+    return ledState;
+  }
+  return String();
+}
+ 
+void setup(){
+  // Serial port for debugging purposes
   Serial.begin(9600);
+  pinMode(ledPin, OUTPUT);
 
+  // Initialize SPIFFS
+  if(!SPIFFS.begin(true)){
+    Serial.println("An Error has occurred while mounting SPIFFS");
+    return;
+  }
+
+  // Connect to Wi-Fi
   WiFi.begin(ssid, password);
-  Serial.println("Connecting");
+   Serial.println("Connecting to WiFi..");
   while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
+    delay(1000);
     Serial.print(".");
   }
-  Serial.println("");
-  Serial.print("Connected to WiFi network with IP Address: ");
+
+  // Print ESP32 Local IP Address
   Serial.println(WiFi.localIP());
+
+  // Route for root / web page
+  server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
+    request->send(SPIFFS, "/index.html", String(), false, processor);
+  });
+  
+  // Route to load style.css file
+  server.on("/style.css", HTTP_GET, [](AsyncWebServerRequest *request){
+    request->send(SPIFFS, "/style.css", "text/css");
+  });
+
+  // Route to set GPIO to HIGH
+  server.on("/on", HTTP_GET, [](AsyncWebServerRequest *request){
+    digitalWrite(ledPin, HIGH);    
+    request->send(SPIFFS, "/index.html", String(), false, processor);
+  });
+  
+  // Route to set GPIO to LOW
+  server.on("/off", HTTP_GET, [](AsyncWebServerRequest *request){
+    digitalWrite(ledPin, LOW);    
+    request->send(SPIFFS, "/index.html", String(), false, processor);
+  });
+
+  // Start server
+  server.begin();
 }
-
-void loop() {
-  if ((millis() - lastTime) > timerDelay) {
-
-    if (WiFi.status() == WL_CONNECTED) {
-      HTTPClient http;
-
-      String serverPath = serverName + "?stop_status=true";
-
-
-      http.begin(serverPath.c_str());
-      int httpResponseCode = http.GET();
-
-      if (httpResponseCode > 0) {
-        Serial.print("HTTP Response code: ");
-        Serial.println(httpResponseCode);
-        String payload = http.getString();
-        Serial.println(payload);
-      } else {
-        Serial.print("Error code: ");
-        Serial.println(httpResponseCode);
-      }
-
-      serverPath = serverName + "?hold_input=true";
-
-      http.begin(serverPath.c_str());
-      httpResponseCode = http.GET();
-
-      if (httpResponseCode > 0) {
-        Serial.print("HTTP Response code: ");
-        Serial.println(httpResponseCode);
-        String payload = http.getString();
-        Serial.println(payload);
-      } else {
-        Serial.print("Error code: ");
-        Serial.println(httpResponseCode);
-      }
-
-      serverPath = serverName + "?start_input=true";
-
-      http.begin(serverPath.c_str());
-      httpResponseCode = http.GET();
-
-      if (httpResponseCode > 0) {
-        Serial.print("HTTP Response code: ");
-        Serial.println(httpResponseCode);
-        String payload = http.getString();
-        Serial.println(payload);
-      } else {
-        Serial.print("Error code: ");
-        Serial.println(httpResponseCode);
-      }
-
-
-
-
-
-
-      http.end();
-    } else {
-      Serial.println("WiFi Disconnected");
-    }
-    lastTime = millis();
-  }
+ 
+void loop(){
+  
 }
