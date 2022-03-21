@@ -1,14 +1,17 @@
 #include <Arduino.h>
 #include <AccelStepper.h>
 
-const int dir_pin = 32;
-const int speed_pin = 33;
+#define dir_pin 32
+#define speed_pin 33
+#define motorInterfaceType 1
+
+AccelStepper stepper = AccelStepper(motorInterfaceType, speed_pin, dir_pin);
 
 void setup() {
-  pinMode(dir_pin,OUTPUT);
-  pinMode(speed_pin,OUTPUT);
+  stepper.setMaxSpeed(1000);
 }
 
 void loop() {
-  
+  stepper.setSpeed(400);
+  stepper.runSpeed();
 }
