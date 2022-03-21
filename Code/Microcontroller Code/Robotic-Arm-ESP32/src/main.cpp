@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <wireless.h>
+#include <wireless.cpp>
 
 void setup() {
   web();
