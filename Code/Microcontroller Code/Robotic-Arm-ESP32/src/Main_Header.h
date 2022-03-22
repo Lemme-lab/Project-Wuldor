@@ -5,3 +5,4 @@
 
 void web();
 void setMotor(int dir_pin, int speed_pin, int motorInterfaceType);
+String processor(const String& var);
