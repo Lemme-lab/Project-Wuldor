@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include "Main_Header.h"
 
-const char* ssid = "LenardoWireless";
-const char* password = "0987654321";
+const char* ssid = "ssid";
+const char* password = "pwd";
 
 
 const int ledPin = 2;
