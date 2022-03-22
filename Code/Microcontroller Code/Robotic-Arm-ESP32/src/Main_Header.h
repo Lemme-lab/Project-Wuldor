@@ -4,5 +4,5 @@
  #include <Arduino.h>
 
 void web();
-void setMotor(int dir_pin, int speed_pin, int motorInterfaceType);
+void setMotor(int dir_pin, int speed_pin, int motorInterfaceType, int moveto);
 String processor(const String& var);

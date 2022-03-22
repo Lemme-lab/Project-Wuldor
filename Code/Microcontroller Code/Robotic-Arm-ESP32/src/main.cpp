@@ -9,8 +9,9 @@
 
 
 void setup() {
+  Serial.begin(9600);
   web();
-  setMotor(dir_pin,speed_pin,motorInterfaceType);
+  setMotor(dir_pin,speed_pin,motorInterfaceType, 200);
 }
 
 void loop() {

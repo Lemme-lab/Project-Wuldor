@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include "Main_Header.h"
 
-const char* ssid = "ssid";
-const char* password = "pwd";
+const char* ssid = "LenardoWireless";
+const char* password = "0987654321";
 
 
 const int ledPin = 2;
@@ -27,8 +27,6 @@ String processor(const String& var){
 
  void web(){
 
-   Serial.begin(9600);
-
    if(!SPIFFS.begin(true)){
      Serial.println("An Error has occurred while mounting SPIFFS");
      return;
@@ -41,7 +39,7 @@ String processor(const String& var){
      delay(1000);
      Serial.print(".");
    }
-
+   Serial.println(" ");
    Serial.println(WiFi.localIP());
 
    server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
