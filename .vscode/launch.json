@@ -9,11 +9,11 @@
         ""
       ],
       "stopAtEntry": true,
-      "cwd": "/Users/luce/Desktop/Robotic-Arm",
+      "cwd": "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32",
       "environment": [],
-      "program": "/Users/luce/Desktop/Robotic-Arm/build/Debug/outDebug",
+      "program": "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
-      "MIMode": "gdb",
+      "MIMode": "lldb",
       "externalConsole": true
     }
   ]
