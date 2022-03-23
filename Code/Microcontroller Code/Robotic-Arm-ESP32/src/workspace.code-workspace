@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"name": "Robotic-Arm-ESP32",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
