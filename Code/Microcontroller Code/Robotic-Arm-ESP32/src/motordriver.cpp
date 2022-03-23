@@ -2,9 +2,10 @@
 #include <AccelStepper.h>
 #include "Main_Header.h"
 
-#define nema17 = 1
-#define nema11_gearbox = 1
-#define nema17_gearbox = 1
+#define nema17 1
+#define nema11_gearbox 1
+#define nema17_gearbox 1
+#define nema11 1
 int counter = 0;
 boolean state1 = false;
 boolean state2 = false;

@@ -26,5 +26,5 @@ class Motor {
 };
 
 
-void driveMotor(Motor, Motor , Motor , Motor , Motor, Motor );
+static void driveMotor(Motor, Motor , Motor , Motor , Motor, Motor );
 
