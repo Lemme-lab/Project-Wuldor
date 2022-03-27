@@ -1,12 +1,12 @@
 #include <iostream>
-#include <rl/math/Transform.h>
-#include <rl/math/Unit.h>
-#include <rl/mdl/Kinematic.h>
-#include <rl/mdl/Model.h>
-#include <rl/mdl/XmlFactory.h>
+#include <rl\math\Transform.h>
+#include <rl\math\Unit.h>
+#include <rl\mdl\Kinematic.h>
+#include <rl\mdl\Model.h>
+#include <rl\mdl\XmlFactory.h>
 
-int
-main(int argc, char** argv)
+
+int main(int argc, char** argv)
 {
 	rl::mdl::XmlFactory factory;
 	std::shared_ptr<rl::mdl::Model> model(factory.create("C:\\Program Files\\Robotics Library\\0.7.0\\MSVC\\14.1\\x64\\share\\rl-0.7.0\\examples\\rlmdl\\unimation-puma560.xml"));
