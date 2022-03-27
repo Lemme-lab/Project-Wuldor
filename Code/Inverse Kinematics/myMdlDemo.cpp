@@ -1,9 +1,10 @@
-#include <iostream>
+
 #include <rl\math\Transform.h>
 #include <rl\math\Unit.h>
 #include <rl\mdl\Kinematic.h>
 #include <rl\mdl\Model.h>
 #include <rl\mdl\XmlFactory.h>
+#include <iostream>
 
 
 int main(int argc, char** argv)
@@ -23,3 +24,4 @@ int main(int argc, char** argv)
 	std::cout << "End-effector position: [m] " << position.transpose() << " orientation [deg] " << orientation.transpose() * rl::math::RAD2DEG << std::endl;
 	return 0;
 }
+

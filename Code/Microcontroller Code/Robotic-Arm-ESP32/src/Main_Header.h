@@ -14,12 +14,15 @@ class Motor {
     int motorInterfaceType;
     int moveto;
     void setmoveto();
+    
     void driveMotor();
+
     Motor(int dir_pin1, int speed_pin1, int motorInterfaceType1) { 
       dir_pin = dir_pin1;
       speed_pin = speed_pin1;
       motorInterfaceType = motorInterfaceType1;
     }
+
     void setmoveto(int input) {
       moveto = input;
     }
