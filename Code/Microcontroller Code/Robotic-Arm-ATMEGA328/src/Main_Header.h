@@ -1,7 +1,4 @@
- #include "WiFi.h"
- #include "ESPAsyncWebServer.h"
- #include "SPIFFS.h"
- #include <Arduino.h>
+#include <Arduino.h>
 
 
 void web();
@@ -28,6 +25,5 @@ class Motor {
     }
 };
 
-void driveMotorSetup(Motor, Motor , Motor , Motor , Motor, Motor );
 void driveMotor(Motor, Motor , Motor , Motor , Motor, Motor );
 

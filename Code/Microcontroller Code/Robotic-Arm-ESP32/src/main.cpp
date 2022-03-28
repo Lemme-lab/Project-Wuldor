@@ -1,17 +1,20 @@
 #include <Arduino.h>
+#include <avr/io.h>
+#include <util/delay.h>
 #include <AccelStepper.h>
 #include "Main_Header.h"
 
-#define dir_pin 32
-#define speed_pin 33
-#define motorInterfaceType 1
+
 
 
 
 void setup() {
   Serial.begin(9600);
-  web();
-  
+  DDRD |= 0b11111100;
+  DDRB |= 0b00000011;
+  DDRC |= 0b00011111;
+  //Motor motor1 = new Motor();
+
 }
 
 void loop() {
