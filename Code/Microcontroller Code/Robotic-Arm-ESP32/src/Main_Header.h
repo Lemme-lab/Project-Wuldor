@@ -14,7 +14,11 @@ class Motor {
     int motorInterfaceType;
     int moveto;
     void setmoveto();
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 494ede430fb6a300d29ebf43dc6e3211d30eda97
     void driveMotor();
 
     Motor(int dir_pin1, int speed_pin1, int motorInterfaceType1) { 

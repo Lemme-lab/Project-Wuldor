@@ -1,12 +1,8 @@
 {
-  "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang",
+  "C_Cpp_Runner.cCompilerPath": "/Users/luce/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc",
   "C_Cpp_Runner.cppCompilerPath": "/usr/bin/clang++",
   "C_Cpp_Runner.debuggerPath": "/usr/bin/lldb",
-  "C_Cpp_Runner.warnings": [
-    "-Wall",
-    "-Wextra",
-    "-Wpedantic"
-  ],
+  "C_Cpp_Runner.warnings": [],
   "C_Cpp_Runner.compilerArgs": [
     "-mlongcalls",
     ""
@@ -15,10 +11,10 @@
     "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/include",
     "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/src",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
-    "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/.pio/libdeps/esp32dev/AccelStepper/src",
     "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/.pio/libdeps/esp32dev/ESPAsyncWebServer-esphome/src",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
+    "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/.pio/libdeps/esp32dev/AccelStepper/src",
     "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/.pio/libdeps/esp32dev/AsyncTCP-esphome/src",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
