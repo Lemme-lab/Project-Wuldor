@@ -6,7 +6,6 @@
 #define nema11_gearbox 1
 #define nema17_gearbox 1
 #define nema11 1
-int counter = 0;
 boolean state1 = false;
 boolean state2 = false;
 boolean state3 = false;
@@ -17,6 +16,8 @@ boolean state6 = false;
 
 
 void driveMotor(Motor motor1, Motor motor2, Motor motor3, Motor motor4, Motor motor5, Motor motor6){
+  
+int counter = 0;
 
 AccelStepper stepper1 = AccelStepper(motor1.dir_pin, motor1.speed_pin, motor1.motorInterfaceType);
 stepper1.setMaxSpeed(1000);

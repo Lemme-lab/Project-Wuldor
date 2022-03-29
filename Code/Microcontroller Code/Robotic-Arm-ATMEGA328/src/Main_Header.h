@@ -1,3 +1,5 @@
+#ifndef Main_Header_H
+#define Main_Header_H
 #include <Arduino.h>
 
 
@@ -25,5 +27,7 @@ class Motor {
     }
 };
 
-void driveMotor(Motor, Motor , Motor , Motor , Motor, Motor );
+void driveMotor(Motor motor1, Motor motor2, Motor motor3, Motor motor4, Motor motor5, Motor motor6);
+
+#endif
 
