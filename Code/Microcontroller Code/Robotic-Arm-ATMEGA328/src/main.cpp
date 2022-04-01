@@ -13,6 +13,7 @@
 // S -- SAVE
 // R -- Read
 // D -- Drive
+// E -- END
 
 char buf [30];
 volatile byte pos;
@@ -76,7 +77,7 @@ void driveMotors(){
 
   for (last_stop < arr_counter || hold = false;)
   {   
-    if(buf[0] != 'H' && buf[0] != 'S'){
+    if(buf[0] != 'H' && buf[0] != 'O'){
       motor1.setmoveto(arr_motor_value[motor_values[0]]);
       motor2.setmoveto(arr_motor_value[motor_values[0]]);
       motor3.setmoveto(arr_motor_value[motor_values[0]]);
