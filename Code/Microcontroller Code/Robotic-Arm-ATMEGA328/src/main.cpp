@@ -203,6 +203,8 @@ void loop() {
   }
 }
 
+
+
 ISR(SPI_STC_vect) {
   Serial.println("Incoming input from ESP32...");
   byte c = SPDR;
@@ -223,8 +225,8 @@ ISR(SPI_STC_vect) {
         SPI.transfer(motor_values_return[i].charAt(j));
       }
     }
-
   }
+  
 
    if (buf[0] == 'f') {
      Serial.println("Sending speed back...");

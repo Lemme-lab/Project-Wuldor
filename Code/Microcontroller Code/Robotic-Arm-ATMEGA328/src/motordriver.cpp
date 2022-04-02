@@ -15,7 +15,7 @@ boolean state5 = false;
 boolean state6 = false;
 
 
-static int get_speed(){
+int get_speed(){
  int speed = speed_value;
  return speed;
 }
