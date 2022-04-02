@@ -6,6 +6,7 @@
 #define nema11_gearbox 1
 #define nema17_gearbox 1
 #define nema11 1
+#define speed_value 1000
 boolean state1 = false;
 boolean state2 = false;
 boolean state3 = false;
@@ -14,28 +15,33 @@ boolean state5 = false;
 boolean state6 = false;
 
 
+static int get_speed(){
+ int speed = speed_value;
+ return speed;
+}
+
 
 void driveMotor(Motor motor1, Motor motor2, Motor motor3, Motor motor4, Motor motor5, Motor motor6){
   
 int counter = 0;
 
 AccelStepper stepper1 = AccelStepper(motor1.dir_pin, motor1.speed_pin, motor1.motorInterfaceType);
-stepper1.setMaxSpeed(1000);
+stepper1.setMaxSpeed(speed_value);
 stepper1.setAcceleration(50);
 AccelStepper stepper2 = AccelStepper(motor2.dir_pin, motor2.speed_pin, motor2.motorInterfaceType);
-stepper2.setMaxSpeed(1000);
+stepper2.setMaxSpeed(speed_value);
 stepper2.setAcceleration(50);
 AccelStepper stepper3 = AccelStepper(motor2.dir_pin, motor3.speed_pin, motor3.motorInterfaceType);
-stepper3.setMaxSpeed(1000);
+stepper3.setMaxSpeed(speed_value);
 stepper3.setAcceleration(50);
 AccelStepper stepper4 = AccelStepper(motor3.dir_pin, motor4.speed_pin, motor4.motorInterfaceType);
-stepper4.setMaxSpeed(1000);
+stepper4.setMaxSpeed(speed_value);
 stepper4.setAcceleration(50);
 AccelStepper stepper5 = AccelStepper(motor4.dir_pin, motor5.speed_pin, motor5.motorInterfaceType);
-stepper5.setMaxSpeed(1000);
+stepper5.setMaxSpeed(speed_value);
 stepper5.setAcceleration(50);
 AccelStepper stepper6 = AccelStepper(motor5.dir_pin, motor6.speed_pin, motor6.motorInterfaceType);
-stepper6.setMaxSpeed(1000);
+stepper6.setMaxSpeed(speed_value);
 stepper6.setAcceleration(50);
 
 
