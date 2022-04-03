@@ -1,14 +1,14 @@
 #include <Arduino.h>
 #include <TFT_eSPI.h>
-#include "bitmap.h"     
+   
  
 TFT_eSPI tft = TFT_eSPI(); 
 
-U8GLIB_SSD1306_128X64 u8g(13, 11, 8, 9, 10); 
+//TFT_eSPI.h had to be edited 
 
 
 // 'Display_1', 240x135px
-const unsigned char epd_bitmap_Display_1 [] PROGMEM = {
+const uint16_t epd_bitmap_Display_1[] PROGMEM = {
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -267,18 +267,18 @@ const unsigned char epd_bitmap_Display_1 [] PROGMEM = {
 
 
 void setup() {
-  Serial.begin(115200);  
+  Serial.begin(9600);  
   Serial.print("TFT Test"); 
  
   tft.begin();     
   tft.setSwapBytes(true); 
  
   tft.fillScreen(TFT_BLACK);  
-  tft.pushImage(0,0,135,240,mercy);  
+  tft.pushImage(0,0,135,240,epd_bitmap_Display_1);  
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
 
 }
