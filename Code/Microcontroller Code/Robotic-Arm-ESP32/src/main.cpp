@@ -1,14 +1,18 @@
 #include <Arduino.h>
 #include <TFT_eSPI.h>
+#include "header.h"
    
  
-TFT_eSPI tft = TFT_eSPI(); 
+bool web = false;
+bool mc = false;
+
+
 
 //TFT_eSPI.h had to be edited 
 
 
-// 'Display_1', 240x135px
-const uint16_t epd_bitmap_Display_1[] PROGMEM = {
+//Bitmap Web and Power
+uint16_t epd_bitmap_Display_1[] PROGMEM = {
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -265,20 +269,22 @@ const uint16_t epd_bitmap_Display_1[] PROGMEM = {
 	0xff, 0xff
 };
 
+//Bitmap Web, Power wired Connection
+
 
 void setup() {
-  Serial.begin(9600);  
-  Serial.print("TFT Test"); 
- 
-  tft.begin();     
-  tft.setSwapBytes(true); 
- 
-  tft.fillScreen(TFT_BLACK);  
-  tft.pushImage(0,0,135,240,epd_bitmap_Display_1);  
-
+	Serial.begin(9600);
+	startWebserver();
+    
 }
 
 void loop() {
+	if(web == true && mc == true){
+      display_contents(epd_bitmap_Display_1);
+	} else if(web == true && mc == true && Serial.available()){
+       // new bitmap 
+	}
   
+
 
 }

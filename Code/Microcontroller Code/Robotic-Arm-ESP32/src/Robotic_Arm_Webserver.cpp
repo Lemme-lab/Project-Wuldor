@@ -2,7 +2,11 @@
 #include <WiFi.h>
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
+<<<<<<< HEAD
 #include "SPIFFS.h"
+=======
+#include "header.h"
+>>>>>>> 6a1d27b2bc634fd2de3b83abb7c2f09f854f601c
 
 // Replace with your network credentials
 const char* ssid = "technicus";
@@ -1032,7 +1036,7 @@ hold_status = params.hold_input;
 </html>
 )rawliteral";
 
-void setup(){
+void startWebserver(){
   // Serial port for debugging purposes
   Serial.begin(9600);
 
@@ -1080,8 +1084,4 @@ void setup(){
   // Start server
   server.begin();
   */
-}
-
-void loop() {
-
 }
