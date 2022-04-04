@@ -2,6 +2,7 @@
 #include <WiFi.h>
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
+#include "SPIFFS.h"
 
 // Replace with your network credentials
 const char* ssid = "technicus";
