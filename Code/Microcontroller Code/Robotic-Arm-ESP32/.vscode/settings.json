@@ -12,10 +12,6 @@
     "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/src",
     "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/.pio/libdeps/esp32dev/ESPAsyncWebServer-esphome/src",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
-    "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/.pio/libdeps/esp32dev/WROVER KIT LCD/src",
-    "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/.pio/libdeps/esp32dev/Adafruit GFX Library",
-    "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/.pio/libdeps/esp32dev/Adafruit BusIO",
-    "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
     "/Users/luce/Desktop/Robotic-Arm/Code/Microcontroller Code/Robotic-Arm-ESP32/.pio/libdeps/esp32dev/TFT_eSPI",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
@@ -108,6 +104,7 @@
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
     "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
+    "/Users/luce/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
     ""
   ],
   "C_Cpp_Runner.linkerArgs": [
