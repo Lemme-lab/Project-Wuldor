@@ -24,7 +24,7 @@
 // f -- speed check
 
 
-char buf[30];
+char buf[50];
 volatile byte pos;
 volatile boolean senden;
 
@@ -214,6 +214,11 @@ void loop() {
 ISR(SPI_STC_vect) {
   Serial.println("Incoming input from ESP32...");
   byte c = SPDR;
+  for (size_t i = 0; i < 50; i++)
+  {
+    buf[i] = ' ';
+  }
+  
 
   if (pos < sizeof buf) {
     buf[pos++] = c;
