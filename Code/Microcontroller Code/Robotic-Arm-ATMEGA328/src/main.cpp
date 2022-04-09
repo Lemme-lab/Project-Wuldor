@@ -24,7 +24,7 @@
 // f -- speed check
 
 
-char buf[30];
+char buf[50];
 volatile byte pos;
 volatile boolean senden;
 
@@ -41,7 +41,9 @@ bool hold = false;
 int tempPin = 0;      
 int printPin = 2;     
 int erasePin = 4;    
-int address = 0;     
+int address = 0;    
+
+String input_terminal;
  
 
 #define step1 19
@@ -113,10 +115,10 @@ void driveMotors() {
 
       last_stop++;
 
-    } else if (buf[0] != 'O') {
+    } else if (buf[0] != 'O' || input_terminal == "Stop") {
       last_stop == arr_counter;
       Serial.println("Stopping Motors");
-    } else if (buf[0] != 'H') {
+    } else if (buf[0] != 'H' || input_terminal == "Hold") {
       hold = true;
       Serial.println("Holding Motors");
     }
@@ -175,27 +177,31 @@ void clearEEPROM()
 
 
 void loop() {
+  if(Serial.available()){
+        input_terminal = Serial.readStringUntil('\n');
+    }
+
   if (buf[pos] == 'E') {
 
-    if (buf[0] == 'R') {
+    if (buf[0] == 'R' || input_terminal == "Read") {
        Serial.println("Starting to Read Input Data...");
       ReadInput();
       Serial.println("Finished Read Input Data!");
     }
 
-    if (buf[0] == 'S') {
+    if (buf[0] == 'S' || input_terminal == "Save") {
       Serial.println("Starting to Save Commands to EEPROM...");
       SaveCommands();
       Serial.println("Finished Save Commands to EEPROM!");
     }
 
-    if (buf[0] == 'D') {
+    if (buf[0] == 'D' || input_terminal == "Drive") {
        Serial.println("Starting to Drive Motors...");
       driveMotors();
       Serial.println("Finished Driving Motors!");
     }
 
-    if (buf[0] == 'l') {
+    if (buf[0] == 'l' || input_terminal == "Delete") {
       Serial.println("Deleting EEPROM...");
       clearEEPROM();
       Serial.println("Finished Deleting EEPROM!");
@@ -208,6 +214,11 @@ void loop() {
 ISR(SPI_STC_vect) {
   Serial.println("Incoming input from ESP32...");
   byte c = SPDR;
+  for (size_t i = 0; i < 50; i++)
+  {
+    buf[i] = ' ';
+  }
+  
 
   if (pos < sizeof buf) {
     buf[pos++] = c;
