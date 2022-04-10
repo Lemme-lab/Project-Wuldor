@@ -5,7 +5,7 @@
 #include <SPI.h>
 #include <EEPROM.h>
 
-
+/*
 #define STATE_LOCATION 513
 #define EEPROM_BUFFER 514
 #define BUFFER_LENGTH 121
@@ -46,19 +46,19 @@ int address = 0;
 String input_terminal;
  
 
-#define step1 19
-#define step2 20
-#define step3 22
-#define step4 0
-#define step5 8
-#define step6 10
+#define step1 2
+#define step2 4
+#define step3 6
+#define step4 8
+#define step5 14
+#define step6 16
 
-#define dir1 19
-#define dir2 21
-#define dir3 23
-#define dir4 1
-#define dir5 9
-#define dir6 11
+#define dir1 3
+#define dir2 5
+#define dir3 7
+#define dir4 9
+#define dir5 15
+#define dir6 17
 
 Motor motor1(step1, dir1, 1);
 Motor motor2(step2, dir2, 1);
@@ -243,4 +243,24 @@ ISR(SPI_STC_vect) {
      Serial.println("Sending speed back...");
      SPI.transfer(get_speed());
   }
+}*/
+
+// Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver:
+#define dirPin 3
+#define stepPin 2
+#define motorInterfaceType 1
+
+// Create a new instance of the AccelStepper class:
+AccelStepper stepper = AccelStepper(motorInterfaceType, stepPin, dirPin);
+
+void setup() {
+  // Set the maximum speed in steps per second:
+  stepper.setMaxSpeed(6000);
+}
+
+void loop() {
+  // Set the speed in steps per second:
+  stepper.setSpeed(-400);
+  // Step the motor with a constant speed as set by setSpeed():
+  stepper.runSpeed();
 }
