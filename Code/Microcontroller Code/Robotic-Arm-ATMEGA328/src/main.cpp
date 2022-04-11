@@ -5,7 +5,7 @@
 #include <SPI.h>
 #include <EEPROM.h>
 
-
+/*
 #define STATE_LOCATION 513
 #define EEPROM_BUFFER 514
 #define BUFFER_LENGTH 121
@@ -24,7 +24,7 @@
 // f -- speed check
 
 
-char buf[30];
+char buf[50];
 volatile byte pos;
 volatile boolean senden;
 
@@ -41,22 +41,24 @@ bool hold = false;
 int tempPin = 0;      
 int printPin = 2;     
 int erasePin = 4;    
-int address = 0;     
+int address = 0;    
+
+String input_terminal;
  
 
-#define step1 19
-#define step2 20
-#define step3 22
-#define step4 0
-#define step5 8
-#define step6 10
+#define step1 2
+#define step2 4
+#define step3 6
+#define step4 8
+#define step5 14
+#define step6 16
 
-#define dir1 19
-#define dir2 21
-#define dir3 23
-#define dir4 1
-#define dir5 9
-#define dir6 11
+#define dir1 3
+#define dir2 5
+#define dir3 7
+#define dir4 9
+#define dir5 15
+#define dir6 17
 
 Motor motor1(step1, dir1, 1);
 Motor motor2(step2, dir2, 1);
@@ -113,10 +115,10 @@ void driveMotors() {
 
       last_stop++;
 
-    } else if (buf[0] != 'O') {
+    } else if (buf[0] != 'O' || input_terminal == "Stop") {
       last_stop == arr_counter;
       Serial.println("Stopping Motors");
-    } else if (buf[0] != 'H') {
+    } else if (buf[0] != 'H' || input_terminal == "Hold") {
       hold = true;
       Serial.println("Holding Motors");
     }
@@ -175,27 +177,31 @@ void clearEEPROM()
 
 
 void loop() {
+  if(Serial.available()){
+        input_terminal = Serial.readStringUntil('\n');
+    }
+
   if (buf[pos] == 'E') {
 
-    if (buf[0] == 'R') {
+    if (buf[0] == 'R' || input_terminal == "Read") {
        Serial.println("Starting to Read Input Data...");
       ReadInput();
       Serial.println("Finished Read Input Data!");
     }
 
-    if (buf[0] == 'S') {
+    if (buf[0] == 'S' || input_terminal == "Save") {
       Serial.println("Starting to Save Commands to EEPROM...");
       SaveCommands();
       Serial.println("Finished Save Commands to EEPROM!");
     }
 
-    if (buf[0] == 'D') {
+    if (buf[0] == 'D' || input_terminal == "Drive") {
        Serial.println("Starting to Drive Motors...");
       driveMotors();
       Serial.println("Finished Driving Motors!");
     }
 
-    if (buf[0] == 'l') {
+    if (buf[0] == 'l' || input_terminal == "Delete") {
       Serial.println("Deleting EEPROM...");
       clearEEPROM();
       Serial.println("Finished Deleting EEPROM!");
@@ -208,6 +214,11 @@ void loop() {
 ISR(SPI_STC_vect) {
   Serial.println("Incoming input from ESP32...");
   byte c = SPDR;
+  for (size_t i = 0; i < 50; i++)
+  {
+    buf[i] = ' ';
+  }
+  
 
   if (pos < sizeof buf) {
     buf[pos++] = c;
@@ -232,4 +243,24 @@ ISR(SPI_STC_vect) {
      Serial.println("Sending speed back...");
      SPI.transfer(get_speed());
   }
+}*/
+
+// Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver:
+#define dirPin 3
+#define stepPin 2
+#define motorInterfaceType 1
+
+// Create a new instance of the AccelStepper class:
+AccelStepper stepper = AccelStepper(motorInterfaceType, stepPin, dirPin);
+
+void setup() {
+  // Set the maximum speed in steps per second:
+  stepper.setMaxSpeed(6000);
+}
+
+void loop() {
+  // Set the speed in steps per second:
+  stepper.setSpeed(-400);
+  // Step the motor with a constant speed as set by setSpeed():
+  stepper.runSpeed();
 }

@@ -1,11 +1,13 @@
 #include <Arduino.h>
 #include <TFT_eSPI.h>
 #include "header.h"
+#include <SPI.h>
    
  
 bool web = false;
 bool mc = false;
-
+SPIClass SPI1(HSPI);
+String input_terminal;
 
 
 //TFT_eSPI.h had to be edited 
@@ -275,10 +277,16 @@ uint16_t epd_bitmap_Display_1[] PROGMEM = {
 void setup() {
 	Serial.begin(9600);
 	startWebserver();
+	SPI1.begin();
+    Serial.println("Hello I'm SPI Mega_Master");
     
 }
 
 void loop() {
+	if(Serial.available()){
+        input_terminal = Serial.readStringUntil('\n');
+    }
+
 	if(web == true && mc == true){
       display_contents(epd_bitmap_Display_1);
 	} else if(web == true && mc == true && Serial.available()){
