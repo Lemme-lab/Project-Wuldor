@@ -88,6 +88,7 @@ void setup() {
   DDRC |= 0b00011111;
    Serial.println("Starting loop(): ");
    Serial.println("Test Features:  ");
+   Serial.println("");
 }
 
 void driveMotors() {
