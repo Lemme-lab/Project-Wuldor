@@ -1,9 +1,9 @@
 # Robotic-Arm
 A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
 ---
-![Banner_2](https://user-images.githubusercontent.com/71924682/162977453-54134027-f8bc-473d-8994-de47d969693a.png)
+![Banner_2](https://user-images.githubusercontent.com/71924682/162983932-14e28e71-1308-4a22-9e03-0190208a9919.png)
 ---
-![ezgif com-gif-maker (16)](https://user-images.githubusercontent.com/71924682/156929833-3aeb3690-7c2c-4587-8655-9fb804bf347f.gif)
+![3D-Modell_2022-Mar-06_03-12-34PM-000_CustomizedView13790056020_mp4 (1)](https://user-images.githubusercontent.com/71924682/162983907-fc5d91c6-affc-4a69-b7b2-4bfbc3d428b0.gif)
 ---
 
 ## Features 
