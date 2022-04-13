@@ -1,15 +1,274 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>ESP32 Web Server</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="data:,">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controll Panel</title>
+    <link rel = "stylesheet" type="text/css" href="styles.css" />
+
 </head>
 <body>
-  <h1>ESP32 Web Server</h1>
-  <p>GPIO state: <strong> %STATE%</strong></p>
-  <p><a href="/on"><button class="button">ON</button></a></p>
-  <p><a href="/off"><button class="button button2">OFF</button></a></p>
+    
+<nav class = Main >
+    <div class = switch_modes>
+        <div class="tab" id="tab_change">
+            <button class="tablinks" onclick="changemode(event, 'Normal')">Normal</button>
+            <button class="tablinks" onclick="changemode(event, 'Training')">Training</button>
+            <button class="tablinks" onclick="changemode(event, 'Sleep')">Sleep</button>
+          </div>
+    </div>
+
+
+    
+    
+    <div id="Normal" class="tabcontent">
+
+        <div class = upper_boxes>
+
+            <div class = buttons_side>
+
+                
+                <div class = sequence>
+                  <button type="button" style="color: white; background-color: rgb(255, 255, 255);  border: 8px solid #455559; margin-bottom: 30px;"> <img src="data/saved.png" height ="120" width="120" /></button>
+                </div>
+      
+                <div class = check>
+                    <img name="check" class="check_img" style="color: white; background-color: rgb(255, 255, 255);  border: 8px solid #455559; margin-bottom: 30px; " onclick="next_check()" width="134" height="120" src="data/check_green.png" >
+                </div>
+      
+                <div class = loading>
+                    <img src="data/loading_png.png" id="hiddenimageid" style="border: 8px solid #455559;" onclick="character();" height ="135" width="135"/>
+                  </div>
+      
+      
+             </div>
+         </div>
+           
+
+        <div class = cam>
+            <!--//Cam-->
+           <!--<img name="main" class="cam_img" width="475" height="475" src="http://192.168.1.109">-->
+
+           <!--//test imgae-->
+           <img name="main" class="cam_img" width="525" height="525" src="data/shutter.png">
+       </div>
+    
+
+       <div class = buttons>
+
+          <div class = stop>
+            <button type="button" style="color: white; background-color: white;  border: 5px solid #2F3D40;" onclick="stop_programm();"> <img src="data/84381.png" height ="80" width="80" /></button>
+          </div>
+
+          <div class = start>
+            <button type="button" style="color: white; background-color: white;  border: 5px solid #2F3D40;" onclick="start_programm();"> <img src="data/startsymbol.png" height ="80" width="80" /></button>
+          </div>
+
+          <div class = hold>
+            <button type="button" style="color: white; background-color: white;  border: 5px solid #2F3D40;" onclick="hold_programm();"> <img src="data/pause.png" height ="80" width="80" /></button>
+          </div>
+
+
+       </div>
+
+
+       <div class = lower_boxes>
+
+            <div class = Coordinates>
+            
+            <input id="input1" type="text" style="width: 252px; height: 44px; color: white;" placeholder="20/123/233/65/41/237">
+            <h1 style="font-size: 2.6em; margin-top: 0px;margin-left: 20px; margin-top: -100px;">Coordinates: </h1>
+            </div>
+        
+            <div class = status_modes>
+   
+                <div class = box>
+                    <img name="power" class="power_img_power" onclick="next_power()" width="75" height="75" src="data/PowerOn.png" >
+                </div>
+    
+                <div class = box>
+                    <img name="status" class="power_img_status" onclick="next_connection()" width="80" height="70" src="data/connection_on.png"> 
+                </div>
+        
+        
+            </div>
+             
+            <div id = "rightbox">
+                <div class = Voltage> 
+                    <h1 style="font-size: 2em; margin-top: 10px;margin-left: 15px">Voltage: </h1>
+                    <h3 style="font-size: 1.7em; margin-top: -20px; margin-left: 25px;" id = "coordinates_text">4.95V</h1>
+                </div>
+    
+                <div class = speed>
+                    <input id="input3" type="text" style="width: 110px; height: 44px;" placeholder="20 Steps">
+                    <h1 style="font-size: 2em; margin-top: 10px;margin-left: 25px; margin-top: -90px;">Speed: </h1>
+                </div>
+                
+            </div>
+
+
+
+        </div>
+
+    
+    </div>
+
+    <!--//Hier das ganze vom Matteo einfügen-->
+    <div id="Training" class="tabcontent">
+    
+        <div class = upper_boxesTraining>
+            <div class = axisl style="margin-top: 0px;">
+                <div class = slidecontainer>
+                    <input type="range" min="1" max="360" value="0" class="slider" id="myRange1">
+                    <input id="inaxis1" style="width: 295px;" class = "inputAXIS" type="text"  placeholder="              AXIS 1">
+                </div>
+            </div>
+            <div class = axism>
+                <div class = slidecontainer>
+                    <input type="range" min="1" max="360" value="0" class="slider" id="myRange2">
+                    <input id="inaxis2" style="width: 295px;" class = "inputAXIS" type="text"  placeholder="              AXIS 2">
+                </div>
+            </div>
+            <div class = axisr>
+                <div class = slidecontainer>
+                    <input type="range" min="1" max="360" value="0" class="slider" id="myRange3">
+                    <input id="inaxis3" style="width: 295px;" class = "inputAXIS" type="text"  placeholder="              AXIS 3">
+                </div>
+            </div>
+            
+        </div>
+        <div class = lower_boxesTraining>
+            <div class = axisl style="margin-top: 0px;">
+                <div class = slidecontainer>
+                    <input type="range" min="1" max="360" value="0" class="slider" id="myRange4">
+                    <input id="inaxis4" style="width: 295px;" class = "inputAXIS" type="text"  placeholder="              AXIS 4">
+                </div>
+            </div>
+            <div class = axism>
+                <div class = slidecontainer>
+                    <input type="range" min="1" max="360" value="0" class="slider" id="myRange5">
+                    <input id="inaxis5" style="width: 295px;" class = "inputAXIS" type="text"  placeholder="              AXIS 5">
+                </div>
+            </div>
+            <div class = axisr>
+                <div class = slidecontainer>
+                    <input type="range" min="1" max="360" value="0" class="slider" id="myRange6">
+                    <input id="inaxis6" style="width: 295px;" class = "inputAXIS" type="text"  placeholder="              AXIS 6">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class = mid>
+          <div class = mid_left>
+            <div class = EOAT>
+                <input id="input4" type="text" style="width: 180px; height: 60px; padding-left: 30px; border: 5px solid #455559; background-color: #2F3D40;" placeholder="    EOAT">
+            </div>
+
+            <div class = path_list style="background-color: #ffffff;">
+                <div class =list>
+
+                </div>
+
+                <div class = elements id =jselements>
+                
+                 </div>
+                </div>
+
+            </div>
+
+            <div class = arm_img>          
+                <img name="status" class="arm_img"  width="430" height="430" style="padding-top: 80px; border-width: 5px;" src="data/Model-of-Articulated-robotic-arm.png"> 
+            </div>
+
+         </div>
+
+         <div class = lower>
+
+            
+                <button type="button" class = estop onclick="estop_programm();"></button>
+    
+                <button type="button" class = save onclick="save_programm();"></button>
+    
+                <button type="button"  class = test onclick="test_programm();"></button>
+
+              <div class = buttons_training>
+                <button class = "add" style="color: white; background-color: rgb(0, 255, 179); font-size: 2rem;" onclick="addCoordiantes()">+</button>
+                <button class = "remove" style="color: white; background-color: rgb(255, 0, 0); font-size: 2rem;" onclick="removeCoordinates()">-</button>
+              </div>
+              
+
+
+         </div>
+
+
+            
+
+        </div>
+        
+
+    </div>
+
+    <div id="Sleep" class="tabcontent" style = "overflow-y: hidden;">
+        <div class = mid_boxes_sleep>
+
+            <div class = sleep_main>
+                <div class = box_sleep_left>
+                    <div class = box_sleep_left_innerboxes>
+                        <h1 style="font-size: 1.7em; margin-top: 10px; color: #000000; text-align: center;">ATMEGA</h1>
+                    </div>
+                    <div class = box_sleep_left_innerboxes_small>
+                        <button style="font-size: 1.4em; margin-top: 10px; color: #000000; text-align: center;
+                            background: transparent; border: none !important; padding-left: 20px;">Set Sleep</button>
+                    </div>
+                    <div class = box_sleep_left_innerboxes_small>
+                        <h2 style="font-size: 1.4em; margin-top: 10px; color: #000000; text-align: center;">1,3mA</h1>
+                    </div>
+                    <div class = box_sleep_left_innerboxes>
+                        <h1 style="font-size: 1.7em; margin-top: 10px; color: #000000; text-align: center;">ESP32</h1>
+                    </div>
+                    <div class = box_sleep_left_innerboxes_small>
+                        <button style="font-size: 1.4em; margin-top: 10px; color: #000000; text-align: center;
+                            background: transparent; border: none !important; padding-left: 20px;">Set Sleep</button>
+                    </div>
+                    <div class = box_sleep_left_innerboxes_small>
+                        <h2 style="font-size: 1.4em; margin-top: 10px; color: #000000; text-align: center;">0,25mA</h1>
+                    </div>
+                </div>
+            <div class = box_sleep>
+                <img name="status" class="arm_img_2"  width="550" height="650" src="data/robotic_arm.png">
+            </div>
+
+            <div class = sleep_rigth_box>
+                   <div class = doxc>
+                    <a href="data/documentation.docx"><img src="data/documentation.png" style="width:180px;height:180px;"></a>
+                   </div>
+                   <div class = github>
+                    <a href="https://github.com/Lemme-lab/Robotic-Arm"><img src="data/github.png" style="width:180px;height:180px;"></a>
+                   </div>
+                   <div class = version>
+                       <h1 style="font-size: 1.9rem; padding-left: 45px">Robotic Arm:</h1>
+                       <h1 style="font-size: 1.7rem; margin-top: -20px; padding-left: 45px; color: #035951;">Version: 0.1.1</h1>
+                       <h1 style="font-size: 1.2rem; margin-top: -25px; padding-left: 52px; color: #035951;">Lenarcic Lucas, <br>Matteo Müller</h1>
+                   </div>
+            </div>
+             
+        </div>
+    
+            
+    
+        </div>
+    
+    </div>
+
+    
+
+</nav>
+
+
+
+
 </body>
+<script src="app.js"></script>
 </html>

@@ -261,27 +261,6 @@ void loop() {
 
   if (buf[pos] == 'E') {
 
-if(input_terminal == "Test") {
-       Serial.println("Giving Motor Array Values!");
-       motor_values[0] = 90;
-       Serial.print(motor_values[0]);
-       Serial.print(", ");
-       motor_values[1] = 180;
-       Serial.print(motor_values[1]);
-       Serial.print(", ");
-       motor_values[2] = 45;
-       Serial.print(motor_values[2]);
-       Serial.print(", ");
-       motor_values[3] = 30;
-       Serial.print(motor_values[3]);
-       Serial.print(", ");
-       motor_values[4] = 10;
-       Serial.print(motor_values[4]);
-       Serial.print(", ");
-       motor_values[5] = 340;
-       Serial.print(motor_values[5]);
-    }
-
     if (buf[0] == 'R') {
        Serial.println("Starting to Read Input Data...");
       ReadInput();
