@@ -7,11 +7,10 @@
 
 
 void startWebserver(){
-  // Replace with your network credentials
+ 
   const char* ssid = "technicus";
   const char* password = "Werkstatt-G";
 
-  // Create AsyncWebServer object on port 80
   AsyncWebServer server(80);
 
   // Serial port for debugging purposes

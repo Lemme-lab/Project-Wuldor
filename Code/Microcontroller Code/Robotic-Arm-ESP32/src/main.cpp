@@ -8,6 +8,7 @@ bool web = false;
 bool mc = false;
 SPIClass SPI1(HSPI);
 String input_terminal;
+String Website_input = "";
 
 
 //TFT_eSPI.h had to be edited 
@@ -279,13 +280,68 @@ void setup() {
 	startWebserver();
 	SPI1.begin();
     Serial.println("Hello I'm SPI Mega_Master");
-    
+    pinMode(PIN_SCK, OUTPUT);
+    pinMode(PIN_MOSI, OUTPUT);
+    pinMode(PIN_MISO, INPUT);
+    pinMode(RESET, OUTPUT);
+  
+    SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE0)); 
+    SPI.transfer(0xFF);
 }
 
 void loop() {
+
 	if(Serial.available()){
         input_terminal = Serial.readStringUntil('\n');
+
+		if(input_terminal == "Stop Window"){
+			Serial.println("Ending Serial Communication");
+			Serial.end();
+		}
+
+		if(input_terminal == "Stop"){
+			Serial.println("Stoping Motors");
+			digitalWrite(2, HIGH);
+			digitalWrite(2, LOW);
+		}
+
+		if(input_terminal == "Hold"){
+			SPI.transfer('H');
+		}
+
+		if(input_terminal == "Save"){
+			SPI.transfer('S');
+		}
+
+		if(input_terminal == "Read"){
+			SPI.transfer('R');
+		}
+
+		if(input_terminal == "Drive"){
+			SPI.transfer('D');
+		}
+
+		if(input_terminal == "End"){
+			SPI.transfer('E');
+		}
+
+		if(input_terminal == "Check"){
+			SPI.transfer('C');
+		}
+
+		if(input_terminal == "get"){
+			SPI.transfer('A');
+		}
+
+		if(input_terminal == "Delete"){
+			SPI.transfer('l');
+		}
+
+		if(input_terminal == "Speed"){
+			SPI.transfer('f');
+		}
     }
+
 
 	if(web == true && mc == true){
       display_contents(epd_bitmap_Display_1);
