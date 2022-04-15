@@ -2,11 +2,11 @@
 #include <AccelStepper.h>
 #include "Main_Header.h"
 
-#define nema17 1
-#define nema11_gearbox 1
-#define nema17_gearbox 1
-#define nema11 1
-#define speed_value 1000
+#define nema17 0.5555
+#define nema11_gearbox 28.333
+#define nema17_gearbox 55.5555
+#define nema11 0.5555
+#define speed_value 2000
 boolean state1 = false;
 boolean state2 = false;
 boolean state3 = false;
@@ -21,9 +21,8 @@ int get_speed(){
 }
 
 
+//this works so bad need to rework with non blocking and simultaneous code --> fixed
 void driveMotor(Motor motor1, Motor motor2, Motor motor3, Motor motor4, Motor motor5, Motor motor6){
-  
-int counter = 0;
 
 AccelStepper stepper1 = AccelStepper(motor1.dir_pin, motor1.speed_pin, motor1.motorInterfaceType);
 stepper1.setMaxSpeed(speed_value);
@@ -44,74 +43,64 @@ AccelStepper stepper6 = AccelStepper(motor5.dir_pin, motor6.speed_pin, motor6.mo
 stepper6.setMaxSpeed(speed_value);
 stepper6.setAcceleration(50);
 
+Serial.print("Motor go ehhhhhh: ");
 
+int motor1_steps = (motor1.moveto) * nema17;
+int motor2_steps = (motor2.moveto) * nema17_gearbox;
+int motor3_steps = (motor3.moveto) * nema17_gearbox;
+int motor4_steps = (motor4.moveto) * nema11_gearbox;
+int motor5_steps = (motor5.moveto) * nema11_gearbox;
+int motor6_steps = (motor5.moveto) * nema11;
 
+int arr[6] = {motor1_steps,motor2_steps,motor3_steps,motor4_steps,motor5_steps,motor6_steps};
+int max = 0;
 
-Serial.print("Motor go ehhhhhh");
-
-while(state1 == false &&  state2 == false && state3 == false && state4 == false && state5 == false && state6 == false){
-stepper1.moveTo(motor1.moveto);
-stepper2.moveTo(motor2.moveto);
-stepper3.moveTo(motor3.moveto);
-stepper4.moveTo(motor4.moveto);
-stepper5.moveTo(motor5.moveto);
-stepper6.moveTo(motor6.moveto);
-
-if(stepper1.distanceToGo() == 0){
-stepper1.stop();
-state1 = true;
-}
-if(stepper2.distanceToGo() == 0){
-stepper2.stop();
-state2 = true;
-}
-
-if(stepper3.distanceToGo() == 0){
-stepper3.stop();
-state3 = true;
-}
-
-if(stepper4.distanceToGo() == 0){
-stepper4.stop();
-state4 = true;
-}
-
-if(stepper5.distanceToGo() == 0){
-stepper5.stop();
-state5 = true;
-}
-
-if(stepper6.distanceToGo() == 0){
-stepper6.stop();
-state6 = true;
-}
-
-counter++;
-
-if(state1 == false){
-stepper1.run();
-}
-if(state2 == false){
-stepper2.run();
-}
-if(state3 == false){
-stepper3.run();
-}
-if(state4 == false){
-stepper4.run();
-}
-if(state5 == false){
-stepper5.run();
-}
-if(state6 == false){
-stepper6.run();
-}
-
-if(counter == 500000){
-      counter = 0;
-      Serial.print(".");
+for (int i = 5; i >= 0; i--)
+{
+  if(max < arr[i]){
+    max = arr[i];
   }
 }
+
+int counter = 0;
+int counter_1 = 0;
+
+while(counter < max){
+
+  if(counter < motor1_steps){
+    stepper1.move(1);
+  }
+
+  if(counter < motor2_steps){
+    stepper2.move(1);
+  }
+
+  if(counter < motor3_steps){
+    stepper3.move(1);
+  }
+
+  if(counter < motor4_steps){
+    stepper4.move(1);
+  }
+
+  if(counter < motor5_steps){
+    stepper5.move(1);
+  }
+
+  if(counter < motor6_steps){
+    stepper6.move(1);
+  }
+
+
+  if(counter_1 == 2000){
+      Serial.print(".");
+      counter_1 = 0;
+  }
+  
+  counter++;
+  counter_1++;
+}
+
  Serial.println(" ");
  Serial.println("Motor go chilling");
 }

@@ -5,7 +5,7 @@
 #include <SPI.h>
 #include <EEPROM.h>
 
-/*
+
 #define STATE_LOCATION 513
 #define EEPROM_BUFFER 514
 #define BUFFER_LENGTH 121
@@ -31,6 +31,7 @@ volatile boolean senden;
 int motor_values[motor_length];
 int arr_motor_value[motor_arr][motor_length];
 String motor_values_return[motor_length];
+bool drive_check = false;
 
 int arr_counter = 0;
 String conv = "";
@@ -44,6 +45,7 @@ int erasePin = 4;
 int address = 0;    
 
 String input_terminal;
+bool test_inter = false;
  
 
 #define step1 2
@@ -85,35 +87,43 @@ void setup() {
   DDRB |= 0b00000011;
   DDRC |= 0b00011111;
    Serial.println("Starting loop(): ");
+   Serial.println("Test Features:  ");
+   Serial.println("");
 }
 
 void driveMotors() {
+  Serial.println("Starting first row of coordinates: ");
   do{
     if (buf[0] != 'H' && buf[0] != 'O') {
-      Serial.println("Starting first row of coordinates: ");
-      motor1.setmoveto(arr_motor_value[last_stop][motor_values[0]]);
-      Serial.print(arr_motor_value[last_stop][motor_values[0]] + ", ");
-      motor2.setmoveto(arr_motor_value[last_stop][motor_values[1]]);
-      Serial.print(arr_motor_value[last_stop][motor_values[1]] + ", ");
-      motor3.setmoveto(arr_motor_value[last_stop][motor_values[2]]);
-      Serial.print(arr_motor_value[last_stop][motor_values[2]] + ", ");
-      motor4.setmoveto(arr_motor_value[last_stop][motor_values[3]]);
-      Serial.print(arr_motor_value[last_stop][motor_values[3]] + ", ");
-      motor5.setmoveto(arr_motor_value[last_stop][motor_values[4]]);
-      Serial.print(arr_motor_value[last_stop][motor_values[4]] + ", ");
-      motor6.setmoveto(arr_motor_value[last_stop][motor_values[5]]);
-      Serial.print(arr_motor_value[last_stop][motor_values[5]] + ", ");
+      motor1.setmoveto(arr_motor_value[last_stop][0]);
+      Serial.print(arr_motor_value[last_stop][0]);
+      Serial.print(", ");
+      motor2.setmoveto(arr_motor_value[last_stop][1]);
+      Serial.print(arr_motor_value[last_stop][1]);
+      Serial.print(", ");
+      motor3.setmoveto(arr_motor_value[last_stop][2]);
+      Serial.print(arr_motor_value[last_stop][2]);
+      Serial.print(", ");
+      motor4.setmoveto(arr_motor_value[last_stop][3]);
+      Serial.print(arr_motor_value[last_stop][3]);
+      Serial.print(", ");
+      motor5.setmoveto(arr_motor_value[last_stop][4]);
+      Serial.print(arr_motor_value[last_stop][4]);
+      Serial.print(", ");
+      motor6.setmoveto(arr_motor_value[last_stop][5]);
+      Serial.print(arr_motor_value[last_stop][5]);
+      Serial.print(", ");
       driveMotor(motor1, motor2, motor3, motor4, motor5, motor6);
       Serial.println();
 
-      motor_values_return[0] = arr_motor_value[last_stop][motor_values[0]] + "";
-      motor_values_return[1] = arr_motor_value[last_stop][motor_values[1]]+ "";
-      motor_values_return[2] = arr_motor_value[last_stop][motor_values[2]]+ "";
-      motor_values_return[3] = arr_motor_value[last_stop][motor_values[3]]+ "";
-      motor_values_return[4] = arr_motor_value[last_stop][motor_values[4]]+ "";
-      motor_values_return[5] = arr_motor_value[last_stop][motor_values[5]]+ "";
+      motor_values_return[0] = arr_motor_value[last_stop][motor_values[0]];
+      motor_values_return[1] = arr_motor_value[last_stop][motor_values[1]];
+      motor_values_return[2] = arr_motor_value[last_stop][motor_values[2]];
+      motor_values_return[3] = arr_motor_value[last_stop][motor_values[3]];
+      motor_values_return[4] = arr_motor_value[last_stop][motor_values[4]];
+      motor_values_return[5] = arr_motor_value[last_stop][motor_values[5]];
 
-      last_stop++;
+
 
     } else if (buf[0] != 'O' || input_terminal == "Stop") {
       last_stop == arr_counter;
@@ -122,8 +132,18 @@ void driveMotors() {
       hold = true;
       Serial.println("Holding Motors");
     }
+
     last_stop++;
-  }while(last_stop < arr_counter || hold == false);
+
+   if(hold == false ){
+     drive_check = true;
+   }else if( last_stop < arr_counter){
+     drive_check = true;
+   }
+    
+  }while(drive_check == false);
+
+  drive_check = false;
   last_stop = 0;
 }
 
@@ -177,35 +197,98 @@ void clearEEPROM()
 
 
 void loop() {
+
+
   if(Serial.available()){
         input_terminal = Serial.readStringUntil('\n');
+       
+       if(input_terminal == "Test") {
+       Serial.println("Giving Motor Array Values!");
+       arr_motor_value[0][0] = 180;
+       Serial.print(arr_motor_value[0][0]);
+       Serial.print(", ");
+       arr_motor_value[0][1] = 90;
+       Serial.print(arr_motor_value[0][1]);
+       Serial.print(", ");
+       arr_motor_value[0][2] = 45;
+       Serial.print(arr_motor_value[0][2]);
+       Serial.print(", ");
+       arr_motor_value[0][3] = 30;
+       Serial.print(arr_motor_value[0][3]);
+       Serial.print(", ");
+       arr_motor_value[0][4] = 10;
+       Serial.print(arr_motor_value[0][4]);
+       Serial.print(", ");
+       arr_motor_value[0][5] = 340;
+       Serial.print(arr_motor_value[0][5]);
+       arr_counter=1;
+       Serial.println("");
+       Serial.println("");
+    }
+
+    if (input_terminal == "Read") {
+       Serial.println("Starting to Read Input Data...");
+      ReadInput();
+      Serial.println("Finished Read Input Data!");
+      Serial.println("");
+      Serial.println("");
+    }
+
+    if (input_terminal == "Save") {
+      Serial.println("Starting to Save Commands to EEPROM...");
+      SaveCommands();
+      Serial.println("Finished Save Commands to EEPROM!");
+      Serial.println("");
+      Serial.println("");
+    }
+
+    if (input_terminal == "Drive") {
+       Serial.println("Starting to Drive Motors...");
+      driveMotors();
+      Serial.println("Finished Driving Motors!");
+      Serial.println("");
+      Serial.println("");
+    }
+
+    if (input_terminal == "Delete") {
+      Serial.println("Deleting EEPROM...");
+      clearEEPROM();
+      Serial.println("Finished Deleting EEPROM!");
+      Serial.println("");
+      Serial.println("");
+    }
     }
 
   if (buf[pos] == 'E') {
 
-    if (buf[0] == 'R' || input_terminal == "Read") {
+    if (buf[0] == 'R') {
        Serial.println("Starting to Read Input Data...");
       ReadInput();
       Serial.println("Finished Read Input Data!");
+      Serial.println("");
     }
 
-    if (buf[0] == 'S' || input_terminal == "Save") {
+    if (buf[0] == 'S') {
       Serial.println("Starting to Save Commands to EEPROM...");
       SaveCommands();
       Serial.println("Finished Save Commands to EEPROM!");
+      Serial.println("");
     }
 
-    if (buf[0] == 'D' || input_terminal == "Drive") {
+    if (buf[0] == 'D') {
        Serial.println("Starting to Drive Motors...");
       driveMotors();
       Serial.println("Finished Driving Motors!");
+      Serial.println("");
     }
 
-    if (buf[0] == 'l' || input_terminal == "Delete") {
+    if (buf[0] == 'l') {
       Serial.println("Deleting EEPROM...");
       clearEEPROM();
       Serial.println("Finished Deleting EEPROM!");
+      Serial.println("");
     }
+    
   }
 }
 
@@ -243,8 +326,9 @@ ISR(SPI_STC_vect) {
      Serial.println("Sending speed back...");
      SPI.transfer(get_speed());
   }
-}*/
+}
 
+/*
 // Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver:
 #define dirPin 3
 #define stepPin 2
@@ -260,7 +344,7 @@ void setup() {
 
 void loop() {
   // Set the speed in steps per second:
-  stepper.setSpeed(-400);
+  stepper.setSpeed(400);
   // Step the motor with a constant speed as set by setSpeed():
   stepper.runSpeed();
-}
+}*/
