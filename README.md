@@ -1,7 +1,6 @@
 # Project Wuldor
-A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
 ---
-![Logo_Wuldor](https://user-images.githubusercontent.com/71924682/163667751-f37d213e-db68-4aec-8125-1122d6a17ff0.png)
+![Logo_Wuldor](https://user-images.githubusercontent.com/71924682/163667821-6a27e33e-1b7f-4ece-97e3-0f821fb9d46e.png)
 ---
 ![Logo](https://user-images.githubusercontent.com/71924682/163667757-7f6cb828-fb65-4eb2-ae69-8ef3ffe92f84.png)
 ---
@@ -9,6 +8,8 @@ A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award.
 ---
 ![3D-Modell_2022-Mar-06_03-12-34PM-000_CustomizedView13790056020_mp4 (1)](https://user-images.githubusercontent.com/71924682/162983907-fc5d91c6-affc-4a69-b7b2-4bfbc3d428b0.gif)
 ---
+
+A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
 
 ## Features 
 - Self Designed Stepper Motor Controller (A4988) 
