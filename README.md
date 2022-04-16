@@ -1,7 +1,5 @@
 # Project Wuldor
 ---
-![Logo_Wuldor](https://user-images.githubusercontent.com/71924682/163667821-6a27e33e-1b7f-4ece-97e3-0f821fb9d46e.png)
----
 ![Logo](https://user-images.githubusercontent.com/71924682/163667757-7f6cb828-fb65-4eb2-ae69-8ef3ffe92f84.png)
 ---
 ![Banner](https://user-images.githubusercontent.com/71924682/163182237-645129a7-b3d2-4f1d-b3c3-a3557a9aed62.png)
