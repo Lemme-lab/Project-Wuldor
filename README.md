@@ -1,5 +1,9 @@
-# Robotic-Arm
+# Project Wuldor
 A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award. 
+---
+![Logo_Wuldor](https://user-images.githubusercontent.com/71924682/163667751-f37d213e-db68-4aec-8125-1122d6a17ff0.png)
+---
+![Logo](https://user-images.githubusercontent.com/71924682/163667757-7f6cb828-fb65-4eb2-ae69-8ef3ffe92f84.png)
 ---
 ![Banner](https://user-images.githubusercontent.com/71924682/163182237-645129a7-b3d2-4f1d-b3c3-a3557a9aed62.png)
 ---
@@ -13,10 +17,13 @@ A 5 Axis Roboter-Arm (Still in progress) designed for the HTL Technicus Award.
 - Esthetic 
 - Many other little Features
 
+---
+![Main_PCB_Renders](https://user-images.githubusercontent.com/71924682/163667769-41ce03c1-6c7b-4661-8a2b-bfcb614f81bc.png)
+---
+![Stepper_motors_driver_renders](https://user-images.githubusercontent.com/71924682/163667771-07915689-6b87-48ac-b06e-d02059a8ad2e.png)
+---
 
 ## Planned Code:
-
-
 ### General:  
 A few bullet points and explanations for the code part. Different technologies and programming languages such as C++, WEB-Dev, and Flutter will be used. It will go from Basic C and register manipulation to UI-Development on Cross-Platform Mobile Apps.  
   
