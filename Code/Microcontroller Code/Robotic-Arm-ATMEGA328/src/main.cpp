@@ -42,7 +42,8 @@ bool hold = false;
 int tempPin = 0;      
 int printPin = 2;     
 int erasePin = 4;    
-int address = 0;    
+int address = 0;   
+bool testmode = true; 
 
 String input_terminal;
 bool test_inter = false;
@@ -199,8 +200,13 @@ void clearEEPROM()
 void loop() {
 
 
-  if(Serial.available()){
+  if(Serial.available() && testmode == true){
         input_terminal = Serial.readStringUntil('\n');
+
+    if(input_terminal == "Stop Test"){
+			Serial.println("Ending Serial Communication");
+		  testmode = false;
+		}
        
        if(input_terminal == "Test") {
        Serial.println("Giving Motor Array Values!");
@@ -327,6 +333,7 @@ ISR(SPI_STC_vect) {
      SPI.transfer(get_speed());
   }
 }
+
 
 /*
 // Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver:
