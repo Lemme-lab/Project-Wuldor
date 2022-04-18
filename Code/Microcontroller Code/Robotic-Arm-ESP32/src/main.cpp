@@ -4,7 +4,7 @@
 #include <SPI.h>
 #include <string>
    
-
+/*
 bool web = true;
 bool mc = true;
 String input_terminal;
@@ -683,4 +683,6 @@ void loop() {
 		}
     }
 }
+*/
+
 
