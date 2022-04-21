@@ -4,7 +4,7 @@
 #include <SPI.h>
 #include <string>
    
-/*
+
 bool web = true;
 bool mc = true;
 String input_terminal;
@@ -547,44 +547,22 @@ const unsigned char bitmap2 [] PROGMEM = {
  
 void setup() {
 	Serial.begin(9600);
-	//startWebserver();
-	//SPI.begin();
+	startWebserver();
+	SPI.begin();
 
     Serial.println("Hello I'm SPI Mega_Master");
     pinMode(PIN_SCK, OUTPUT);
     pinMode(PIN_MOSI, OUTPUT);
     pinMode(PIN_MISO, INPUT);
     pinMode(RESET, OUTPUT);
-
-	
   
-    //SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE0)); 
-    //SPI.transfer(0xFF);
-	Serial.println("Testing Modus: ON");
+    SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE0)); 
+	Serial.println("going into loop");
 	
 }
 
-void loop() {
-
-	if(web == true && mc == true && testmode == false){
-      state_1 = true;
-	} else if(web == true && mc == true && testmode == true){
-	  state_2 = true;
-	}
-	
-	if(state_1!=old_state_1 ){
-      display_contents(bitmap);
-	  old_state_1 = state_1;
-	} else if(state_2!=old_state_2){
-      display_contents(bitmap2);
-	  old_state_2 = state_2;
-	}
-
-
-	if(Serial.available() && testmode == true){
-        input_terminal = Serial.readStringUntil('\n');
-
-		if(input_terminal == "Test") {
+void testingMode(){
+	if(input_terminal == "Test") {
        Serial.println("Giving Motor Array Values!");
        arr_motor_value[0][0] = 180;
        Serial.print(arr_motor_value[0][0]);
@@ -681,8 +659,103 @@ void loop() {
 			//SPI.transfer('f');
 			Serial.println(atmega_input);
 		}
-    }
 }
-*/
+
+void loop() {
+
+	if(web == true && mc == true && testmode == false){
+      state_1 = true;
+	} else if(web == true && mc == true && testmode == true){
+	  state_2 = true;
+	}
+	
+	if(state_1!=old_state_1 ){
+      display_contents(bitmap);
+	  old_state_1 = state_1;
+	} else if(state_2!=old_state_2){
+      display_contents(bitmap2);
+	  old_state_2 = state_2;
+	}
+
+
+	if(Serial.available() && testmode == true){
+        input_terminal = Serial.readStringUntil('\n');
+        testingMode();
+    }
+
+	if(input_terminal == "Stop"){
+			Serial.println("Stoping Motors");
+			digitalWrite(2, HIGH);
+			digitalWrite(2, LOW);
+		}
+
+		if(input_terminal == "Hold"){
+			Serial.println("Holding Motors");
+			SPI.transfer('H');
+		}
+
+		if(input_terminal == "Save"){
+			Serial.println("Saving Sequenz");
+			SPI.transfer('S');
+		}
+
+		if(input_terminal == "Transfer_Coordinates"){
+			SPI.transfer('R');
+			SPI.transfer(':');
+             
+			for (int i = 20 - 1; i >= 0; i--)
+			{
+			  for(int j = 7 -1; j >= 0; j--){
+
+				  int val = arr_motor_value[i][j];
+				  String motor_string = String(val);
+				  int length = motor_string.length();
+			
+			   for (int k = length - 1; k >= 0; k--)
+			   {
+				   SPI.transfer(motor_string.charAt(k));
+				   Serial.println(motor_string.charAt(k));
+			   }
+			   
+			   SPI.transfer(',');		   
+			  }
+			}
+			 SPI.transfer(':');		
+			 SPI.transfer('E');	
+		}
+
+		if(input_terminal == "Drive"){
+			Serial.println("Driving Motors");
+			SPI.transfer('D');
+		}
+
+		if(input_terminal == "End"){
+			SPI.transfer('E');
+		}
+
+		if(input_terminal == "Check"){
+			Serial.println("Checking Status");
+			SPI.transfer('C');
+			Serial.println(atmega_input);
+		}
+
+		if(input_terminal == "get"){
+			Serial.println("Stoping Motors");
+			SPI.transfer('A');
+			Serial.println(atmega_input);
+		}
+
+		if(input_terminal == "Delete"){
+			Serial.println("Deleting EEPROM");
+			SPI.transfer('l');
+		}
+
+		if(input_terminal == "Speed"){
+			Serial.println("Getting Speed");
+			//SPI.transfer('f');
+			Serial.println(atmega_input);
+
+        }
+}
 
 

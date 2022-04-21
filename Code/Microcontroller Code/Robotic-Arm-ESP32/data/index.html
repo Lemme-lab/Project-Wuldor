@@ -5,8 +5,558 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controll Panel</title>
-    <link rel = "stylesheet" type="text/css" href="style.css" />
+    <style>
+    
+body {
+  background: #0d1117;
+}
 
+.tab {
+    overflow: hidden;
+    border: 1px solid #455559;
+    background-color: #010e1d;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tablinks{
+      font-size: 1.9rem;
+      color: white;
+  }
+
+  .buttons{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+ 
+  .lower_boxes{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Coordinates{
+      border: 5px solid #28403D;
+      background-color: #455559;
+      color: white;
+      height: 100px;
+      width: 300px;
+      margin-right: 10px;
+      float:left;
+  }
+
+  .status_modes{
+      border-color: #2F3D40;
+      display: flex;
+      justify-content: center;
+      float:left;
+  }
+
+  .box{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 60px;
+    padding-top: 40px;
+    border-color: black;
+    border: 5px solid #2F3D40;
+  }
+
+  .power_img_power{
+   margin-top: -25px;
+   margin-left: 10px;
+
+  }
+  
+  .power_img_status{
+    margin-top: -25px;
+    margin-left: 10px;
+   }
+
+   #rightbox{
+    float:right;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+    #input1{
+      margin-top: +50px;
+      margin-left: +25px;
+      border-color: rgba(204, 204, 204, 0);
+      background-color: #455559;
+      color: rgb(255, 255, 255);
+      font-size: 1.9em;
+    }
+
+
+    #input3{
+      margin-top: +50px;
+      margin-left: +15px;
+      background-color: #455559;
+      border-color: rgba(204, 204, 204, 0);
+      color: rgb(255, 255, 255);
+      font-size: 1.7em;
+    }
+
+    #input4{
+      margin-top: +50px;
+      margin-left: +15px;
+      border-color: rgba(204, 204, 204, 0);
+      background-color: #455559;
+      color: rgb(255, 255, 255);
+      font-size: 1.9em;
+      border: 5px solid rgb(39, 39, 39);
+    }
+
+    #input1::placeholder {
+      color: rgb(255, 255, 255);
+      font-size: 0.9em;
+    }
+
+    #input3::placeholder {
+      color: rgb(255, 255, 255);
+      font-size: 1.2em;
+    }
+
+    #input4::placeholder {
+      color: rgb(255, 255, 255);
+      font-size: 1em;
+    }
+   
+
+  .Voltage{
+    border: 5px solid #28403D;
+    background-color: #455559;
+    color: white;
+    height: 100px;
+    width: 150px;
+  }
+
+  .speed{
+    border: 5px solid #28403D;
+    background-color: #455559;
+    color: white;
+    height: 100px;
+    width: 150px;
+    margin-left: -10px;
+  }
+
+  .tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 80px;
+    transition: 0.3s;
+    
+  }
+  
+  .tab button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(224, 224, 224);
+    padding: 10px 140px;
+    border-radius: 10px;
+  }
+  
+  .tab button.active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+  .upper_boxes{
+    display: flex;
+    justify-content: center;
+    float:left;
+    padding-top: 100px;
+    padding-left: 60px;
+  }
+
+  .cam{
+    background-color: #455559;
+    width: 550px; 
+    height: 550px; 
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+  }
+
+  .cam_img{
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+
+  .path_list{
+    margin-left: +15px;
+    border: 5px solid #455559;
+    background-color: rgb(255, 255, 255);
+    width: 212px;
+    height: 350px;
+    overflow-y: scroll;
+  }
+
+  .mid{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+
+  }
+
+  .mid_left{
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .style_element{
+    border: 3px solid #455559;
+    background-color: rgb(214, 214, 214);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    font-size: 0.8em; 
+    padding-top: 10px; 
+    padding-left: 8px; 
+  } 
+
+  .arm_img{
+    padding-top: 70px;
+    padding-right: 100px;
+    float:right;
+
+  }
+
+  .lower{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .buttons_training{
+    height: 85px;
+    width: 120px;
+    border: 5px solid rgb(39, 39, 39);
+  }
+  .estop{
+    height: 95px;
+    width: 115px;
+    background: url('data/estop.png');
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    color: white; 
+    background-color: white;  
+    border: 5px solid #455559;
+  }
+
+  .save{
+    height: 95px;
+    width: 115px;
+    background: url('data/save.png');
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    color: white; 
+    background-color: white;  
+    border: 5px solid #455559; 
+    padding-left: 20px; padding-right: 20px;
+  }
+
+  .test{
+    height: 95px;
+    width: 115px;
+    background: url('data/test.png');
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    color: white; 
+    background-color: white;  
+    border: 5px solid #455559;
+     padding-left: 20px; 
+     padding-right: 20px;
+  }
+
+  .add{
+    width: 120px;
+    height: 44px;
+    float: both;
+    border-bottom: 5px solid rgb(39, 39, 39);
+  }
+
+  .remove{
+    width: 120px;
+    height: 42px;
+    float: both;
+  }
+
+  .upper_boxesTraining{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .lower_boxesTraining{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .inputAXIS{
+    border-color: #28403D;
+    color: black;
+    font-size: 1.7em;
+    margin-left: -4px;
+    margin-top: 21px;
+    margin-bottom: -4px;
+    width: 290px; 
+    height: 45px; 
+    border-top: 5px solid #28403D;
+    border-left: 5px solid #28403D;
+    border-right: 5px solid #28403D;
+    border-bottom: 5px solid #28403D;
+  }
+  
+  .axisl{
+    float: left;
+    border: 5px solid #28403D;
+    background-color: #455559;
+  }
+
+  .axism{
+    border: 5px solid #28403D;
+    background-color: #455559;
+    float: left;
+    margin-left: 30px;
+  }
+
+  .axisr{
+    border: 5px solid #28403D;
+    background-color: #455559;
+    float: right;
+    margin-left: 30px;
+  }
+
+  .axisup{
+    border: 5px solid #28403D;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 300px;
+  }
+
+  .axisdown{
+    border: 5px solid #28403D;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 300px;
+  }
+  #inaxis1{
+    background-color: #455559;
+  }
+  #inaxis2{
+    background-color: #455559;
+  }
+  #inaxis3{
+    background-color: #455559;
+  }
+  #inaxis4{
+    background-color: #455559;
+  }
+  #inaxis5{
+    background-color: #455559;
+  }
+  #inaxis6{
+    background-color: #455559;
+  }
+
+  #inaxis1::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis2::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis3::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis4::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis5::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+  #inaxis6::placeholder{
+    background-color: #455559;
+    color: white;
+  }
+
+  .slidecontainer {
+    width: 300px;
+    padding-top: 20px;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: calc(100% - 10px);
+    height: 20px;
+    background: #000000;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 25px;
+    margin-top: 5px;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #000000;
+    cursor: pointer;
+  }
+
+  .sleep_main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box_sleep_left {
+    padding-top: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border-color: #28403D;
+    color: black;
+    font-size: 1.7em;
+    width: 300px; 
+    height: 725px; 
+    border: 5px solid #28403D;
+  }
+
+  .box_sleep_left_innerboxes {
+    margin-top: 40px;
+    margin-left: 15px;
+    border: 5px solid #28403D;
+    border-radius: 20px;
+    background-color: white;
+    width: 260px;
+    height: 70px;
+  }
+
+  .box_sleep_left_innerboxes {
+    margin-top: 40px;
+    margin-left: 15px;
+    border: 5px solid #28403D;
+    border-radius: 20px;
+    background-color: white;
+    width: 260px;
+    height: 70px;
+  }
+
+  .box_sleep_left_innerboxes_small {
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: 45px;
+    border: 5px solid #28403D;
+    border-radius: 20px;
+    background-color: white;
+    width: 200px;
+    height: 70px;
+  }
+
+  .box_sleep{
+    border-radius: 20px;
+    border: 5px solid #28403D;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-top: 125px;
+    padding-right: 30px;
+    background-color: rgb(0, 0, 0);
+    width: 590px; 
+    height: 650px; 
+  }
+
+  .mid_boxes_sleep{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+
+  .arm_img_2{
+    margin-left: 45px;
+    margin-top: -80px;
+  }
+
+  .sleep_main{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sleep_rigth_box{
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 5px solid #28403D;
+    border-radius: 20px;
+    width: 270px;
+  }
+
+  .doxc{
+    padding-left: 50px;
+    margin-top: -20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-top:5px solid #28403D;
+    border-bottom:5px solid #28403D;
+    background-color: white;
+  }
+
+  .github{
+    padding-left: 50px;
+    margin-top: -20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top:5px solid #28403D;
+    border-bottom:5px solid #28403D;
+    background-color: white;
+  }
+
+  .version{
+    height: 180px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top:5px solid #28403D;
+    border-bottom:5px solid #28403D;
+    background-color: white;
+  }
+   </style>
 </head>
 <body>
     
