@@ -90,6 +90,10 @@ Testclasses to exclude code-mistakes. Motors are working in the corract way and 
 - Connections Seriell/Connectors 
   
 ---
+### Currently in Work
+---
+![IN_WORK](https://user-images.githubusercontent.com/71924682/164968803-e9cef057-9668-4230-84af-13a69991e0e7.png)
+---
 The whole code will be versioned via GIT, inputs to the Roboter Arm tested, and the whole project will be publicly available on GitHub.
 ---
 https://trello.com/b/jWCULnX8
