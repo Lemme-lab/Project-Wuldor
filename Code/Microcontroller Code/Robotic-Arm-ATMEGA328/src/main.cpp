@@ -195,15 +195,8 @@ void clearEEPROM()
   address = 0;                                  
 }
 
-
-
-void loop() {
-
-
-  if(Serial.available() && testmode == true){
-        input_terminal = Serial.readStringUntil('\n');
-
-    if(input_terminal == "Stop Test"){
+void testProgramm(){
+      if(input_terminal == "Stop Test"){
 			Serial.println("Ending Serial Communication");
 		  testmode = false;
 		}
@@ -263,7 +256,9 @@ void loop() {
       Serial.println("");
       Serial.println("");
     }
-    }
+}
+
+void mainProgramm(){
 
   if (buf[pos] == 'E') {
 
@@ -293,9 +288,23 @@ void loop() {
       clearEEPROM();
       Serial.println("Finished Deleting EEPROM!");
       Serial.println("");
-    }
-    
+    }   
   }
+}
+
+void loop() {
+
+
+  if(Serial.available() && testmode == true){
+        input_terminal = Serial.readStringUntil('\n');
+        testProgramm();
+  }
+
+  if(!Serial.available()){
+     testmode == false;
+  }
+
+  mainProgramm();
 }
 
 
