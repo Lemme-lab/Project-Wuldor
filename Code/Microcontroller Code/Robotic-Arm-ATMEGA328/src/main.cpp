@@ -195,20 +195,14 @@ void clearEEPROM()
   address = 0;                                  
 }
 
-
-
-void loop() {
-
-
-  if(Serial.available() && testmode == true){
-        input_terminal = Serial.readStringUntil('\n');
-
-    if(input_terminal == "Stop Test"){
+void testingMode(){
+      if(input_terminal == "Stop Test"){
 			Serial.println("Ending Serial Communication");
 		  testmode = false;
 		}
+
        
-       if(input_terminal == "Test") {
+    if(input_terminal == "Test") {
        Serial.println("Giving Motor Array Values!");
        arr_motor_value[0][0] = 180;
        Serial.print(arr_motor_value[0][0]);
@@ -263,6 +257,17 @@ void loop() {
       Serial.println("");
       Serial.println("");
     }
+
+  	}
+
+void loop() {
+   if(!Serial.available()){
+		  testmode = true;
+		}
+
+  if(Serial.available() && testmode == true){
+        input_terminal = Serial.readStringUntil('\n');
+        testingMode();
     }
 
   if (buf[pos] == 'E') {
