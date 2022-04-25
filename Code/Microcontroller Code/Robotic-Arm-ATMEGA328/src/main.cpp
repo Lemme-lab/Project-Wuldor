@@ -200,8 +200,9 @@ void testProgramm(){
 			Serial.println("Ending Serial Communication");
 		  testmode = false;
 		}
+
        
-       if(input_terminal == "Test") {
+    if(input_terminal == "Test") {
        Serial.println("Giving Motor Array Values!");
        arr_motor_value[0][0] = 180;
        Serial.print(arr_motor_value[0][0]);
