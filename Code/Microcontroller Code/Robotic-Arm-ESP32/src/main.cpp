@@ -599,16 +599,16 @@ void testingMode(){
 		}
 
 		if(input_terminal == "Hold"){
-			//SPI.transfer('H');
+			SPITransfer('H');	
 		}
 
 		if(input_terminal == "Save"){
-			//SPI.transfer('S');
+			SPITransfer('S');	
 		}
 
 		if(input_terminal == "Transfer_Coordinates"){
-			//SPI.transfer('R');
-			//SPI.transfer(':');
+			SPITransfer('R');	
+			SPITransfer(':');	
              
 			for (int i = 20 - 1; i >= 0; i--)
 			{
@@ -620,45 +620,46 @@ void testingMode(){
 			
 			   for (int k = length - 1; k >= 0; k--)
 			   {
-				   SPI.transfer(motor_string.charAt(k));
+				   SPITransfer(motor_string.charAt(k));	
 				   Serial.println(motor_string.charAt(k));
 			   }
-			   
-			   //SPI.transfer(',');		   
+			   if(j == 0){
+                  SPITransfer(',');	
+			   }   
 			  }
 			}
-			 //SPI.transfer(':');		
-			 //SPI.transfer('E');	
+			 SPITransfer(':');		
+			 SPITransfer('E');
 		}
 
 		if(input_terminal == "Drive"){
 			Serial.println("Driving Motors");
-			//SPI.transfer('D');
+			SPITransfer('D');
 		}
 
 		if(input_terminal == "End"){
-			//SPI.transfer('E');
+			SPITransfer('E');
 		}
 
 		if(input_terminal == "Check"){
 			Serial.println("Checking Status");
-			//SPI.transfer('C');
+			SPITransfer('C');
 			Serial.println(atmega_input);
 		}
 
 		if(input_terminal == "get"){
-			//SPI.transfer('A');
+			SPITransfer('A');
 			Serial.println(atmega_input);
 		}
 
 		if(input_terminal == "Delete"){
 			Serial.println("Deleting EEPROM");
-			//SPI.transfer('l');
+			SPITransfer('l');
 		}
 
 		if(input_terminal == "Speed"){
 			Serial.println("Getting Speed");
-			//SPI.transfer('f');
+			SPITransfer('f');
 			Serial.println(atmega_input);
 		}
 }
