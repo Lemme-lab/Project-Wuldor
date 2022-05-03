@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "header.h"
 #include <Adafruit_GFX.h>    // Core graphics library
 #include <Adafruit_I2CDevice.h>
 #include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
@@ -23,5 +24,6 @@ void display_contents(const unsigned char contents[] PROGMEM){
   tft.invertDisplay(true);
   
   tft.drawBitmap(0,0,contents,240,135, ST77XX_WHITE);
-
+  
+    extern int display == 1;
 }

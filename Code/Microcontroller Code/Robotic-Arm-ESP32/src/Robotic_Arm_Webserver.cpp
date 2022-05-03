@@ -44,6 +44,8 @@ void startWebserver(){
   });
   
   server.begin();
+  extern int web == 1;
+
   
 
   /*

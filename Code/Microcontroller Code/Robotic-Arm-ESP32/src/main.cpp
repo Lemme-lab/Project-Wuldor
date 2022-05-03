@@ -5,7 +5,8 @@
 #include <string>
    
 
-bool web = true;
+extern int web;
+extern int display;
 bool mc = true;
 String input_terminal;
 String Website_input = "";
@@ -560,6 +561,7 @@ void setup() {
   
     SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE0)); 
 	Serial.println("going into loop");
+	LedRing(1,100);
 	
 }
 
@@ -674,6 +676,10 @@ digitalWrite(chipSelectPin, HIGH);
 
 void loop() {
 
+	if(display == 1 || web == 1 || mc == 1){
+		LedRing(2,0);
+	}	
+
 	if(web == true && mc == true && testmode == false){
       state_1 = true;
 	} else if(web == true && mc == true && testmode == true){
@@ -681,10 +687,10 @@ void loop() {
 	}
 	
 	if(state_1!=old_state_1 ){
-      //display_contents(bitmap);
+      display_contents(bitmap);
 	  old_state_1 = state_1;
 	} else if(state_2!=old_state_2){
-      //display_contents(bitmap2);
+      display_contents(bitmap2);
 	  old_state_2 = state_2;
 	}
 
