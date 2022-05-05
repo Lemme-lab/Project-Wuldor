@@ -26,11 +26,9 @@ bool old_state_1 = false;
 bool old_state_2 = false;
 
 const int chipSelectPin = 5;
-
-
+int test_counter_1 = 0;
 
 //TFT_eSPI.h had to be edited 
-
 //Bitmap Web and Power
 const unsigned char bitmap [] PROGMEM = {
 	// 'display, 240x135px
@@ -565,8 +563,24 @@ void setup() {
 	
 }
 
+String split(String s, char parser, int index) {
+  String rs="";
+  int parserIndex = index;
+  int parserCnt=0;
+  int rFromIndex=0, rToIndex=-1;
+  while (index >= parserCnt) {
+    rFromIndex = rToIndex+1;
+    rToIndex = s.indexOf(parser,rFromIndex);
+    if (index == parserCnt) {
+      if (rToIndex == 0 || rToIndex == -1) return "";
+      return s.substring(rFromIndex,rToIndex);
+    } else parserCnt++;
+  }
+  return rs;
+}
+
 void testingMode(){
-	    if(input_terminal == "Test") {
+	if(input_terminal == "Test") {
        Serial.println("Giving Motor Array Values!");
        arr_motor_value[0][0] = 180;
        Serial.print(arr_motor_value[0][0]);
@@ -587,7 +601,18 @@ void testingMode(){
        Serial.print(arr_motor_value[0][5]);
        Serial.println("");
        Serial.println("");
+	   test_counter_1++;
     }
+
+	// set 123/123/123/123/123/123
+	    if(input_terminal.charAt(0) == 's' && input_terminal.charAt(1) == 'e' && input_terminal.charAt(3) == 't' && input_terminal.length() <= 27 && input_terminal.length() >= 21){
+			String Sub_string = MyString.substring(3, input_terminal.length()-1);
+			for(int i = 0 ; i<6; i++){
+             String test_value = split(Sub_string, '/', i);
+			 arr_motor_value[test_counter_1][i] = test_value.toInt();
+			}
+			test_counter_1++;
+		}
 
 		if(input_terminal == "Testmode"){
 			Serial.println("Ending Serial Communication");
