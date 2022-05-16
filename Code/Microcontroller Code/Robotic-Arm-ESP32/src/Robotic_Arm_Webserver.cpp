@@ -4,16 +4,17 @@
 #include <ESPAsyncWebServer.h>
 #include "SPIFFS.h"
 
+// Replace with your network credentials
+const char* ssid = "technicus";
+const char* password = "Werkstatt-G";
 
 
-void startWebserver(){
-  // Replace with your network credentials
-  const char* ssid = "technicus";
-  const char* password = "Werkstatt-G";
+const char* PARAM_OUTPUT = "output";
 
-  // Create AsyncWebServer object on port 80
-  AsyncWebServer server(80);
+// Create AsyncWebServer object on port 80
+AsyncWebServer server(80);
 
+void setup(){
   // Serial port for debugging purposes
   Serial.begin(9600);
 
@@ -34,37 +35,31 @@ void startWebserver(){
 
   server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
     request->send(SPIFFS, "/index.html", String(), false);
-});
+  });
 
-  server.on("/style.css", HTTP_GET, [](AsyncWebServerRequest *request){
-    request->send(SPIFFS, "/style.css", "text/css");
+  server.on("/styles.css", HTTP_GET, [](AsyncWebServerRequest *request){
+    request->send(SPIFFS, "/styles.css", "text/css");
   });
 
   server.on("/app.js", HTTP_GET, [](AsyncWebServerRequest *request){
     request->send(SPIFFS, "/app.js", "text/javascript");
   });
-  
-  server.begin();
-  
 
-  /*
-  // Connect to Wi-Fi
-  WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(1000);
-    Serial.println("Connecting to WiFi..");
-  }
-
-  // Print ESP Local IP Address
-  Serial.println(WiFi.localIP());
-
-  // Route for root / web page
-  server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
-    request->send_P(200, "text/html", index_html);
+  server.on("/update", HTTP_GET, [](AsyncWebServerRequest *request){
+    String outputmessage;
+    if (request->hasParam(PARAM_OUTPUT)) {
+      outputmessage = request->getParam(PARAM_OUTPUT)->value();
+    } else {
+      outputmessage = "No message sent";
+    }
+    Serial.println(outputmessage);
+    request->send(200, "text/plain", "OK");
   });
-
-
-  // Start server
+  
   server.begin();
-  */
+  
+}
+
+void loop() {
+
 }
