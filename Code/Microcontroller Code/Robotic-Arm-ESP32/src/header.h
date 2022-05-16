@@ -2,7 +2,11 @@
 #define header_h
 #include <Arduino.h>
 
-void display_contents(uint16_t contents[] PROGMEM);
+int web = 0;
+int display = 0;
+
+void display_contents(const unsigned char contents[] PROGMEM);
 void startWebserver();
+void LedRing(int type, int speed);
 
 #endif

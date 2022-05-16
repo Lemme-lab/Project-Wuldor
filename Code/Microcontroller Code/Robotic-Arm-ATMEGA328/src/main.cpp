@@ -42,7 +42,8 @@ bool hold = false;
 int tempPin = 0;      
 int printPin = 2;     
 int erasePin = 4;    
-int address = 0;    
+int address = 0;   
+bool testmode = true; 
 
 String input_terminal;
 bool test_inter = false;
@@ -194,15 +195,14 @@ void clearEEPROM()
   address = 0;                                  
 }
 
+void testProgramm(){
+      if(input_terminal == "Stop Test"){
+			Serial.println("Ending Serial Communication");
+		  testmode = false;
+		}
 
-
-void loop() {
-
-
-  if(Serial.available()){
-        input_terminal = Serial.readStringUntil('\n');
        
-       if(input_terminal == "Test") {
+    if(input_terminal == "Test") {
        Serial.println("Giving Motor Array Values!");
        arr_motor_value[0][0] = 180;
        Serial.print(arr_motor_value[0][0]);
@@ -257,7 +257,9 @@ void loop() {
       Serial.println("");
       Serial.println("");
     }
-    }
+}
+
+void mainProgramm(){
 
   if (buf[pos] == 'E') {
 
@@ -287,9 +289,23 @@ void loop() {
       clearEEPROM();
       Serial.println("Finished Deleting EEPROM!");
       Serial.println("");
-    }
-    
+    }   
   }
+}
+
+void loop() {
+
+
+  if(Serial.available() && testmode == true){
+        input_terminal = Serial.readStringUntil('\n');
+        testProgramm();
+  }
+
+  if(!Serial.available()){
+     testmode == false;
+  }
+
+  mainProgramm();
 }
 
 
@@ -327,6 +343,7 @@ ISR(SPI_STC_vect) {
      SPI.transfer(get_speed());
   }
 }
+
 
 /*
 // Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver:

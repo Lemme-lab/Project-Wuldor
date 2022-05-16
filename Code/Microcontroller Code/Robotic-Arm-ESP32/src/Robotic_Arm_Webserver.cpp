@@ -9,10 +9,19 @@ const char* ssid = "technicus";
 const char* password = "Werkstatt-G";
 
 
+<<<<<<< HEAD
 const char* PARAM_OUTPUT = "output";
 
 // Create AsyncWebServer object on port 80
 AsyncWebServer server(80);
+=======
+void startWebserver(){
+ 
+  const char* ssid = "technicus";
+  const char* password = "Werkstatt-G";
+
+  AsyncWebServer server(80);
+>>>>>>> a03ec470f79fc4690a335f0be8d85f88b06b8490
 
 void setup(){
   // Serial port for debugging purposes
@@ -57,6 +66,8 @@ void setup(){
   });
   
   server.begin();
+  extern int web == 1;
+
   
 }
 
