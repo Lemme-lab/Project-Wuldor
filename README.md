@@ -42,7 +42,9 @@ A few bullet points and explanations for the code part. Different technologies a
   
 ### Website:  
 An HTML Website that must be functional and appealing to use. Features will be send via a ESP32 and the included Wireless module. Cross-platform Data will mean that we will have to save the current data and inputs on a small database. UI and other Features will mean that we have to use JS with or without an additional framework.  
-  
+ --- 
+ ![Website-Wuldor](https://user-images.githubusercontent.com/71924682/174283243-d87d0f66-6094-4267-964e-426b13ef7c48.png)
+ --- 
 - Checking Power Status  
 - Check Wireless Connection  
 - Current Voltage/Power Levels  
@@ -74,8 +76,10 @@ A C++ or Java desktop client to be used when wired up to the robot arm. From the
 --- 
   
 ### Mobile Client  
-Last we will do a Mobile Client app for controlling and checking the robot arm on the go. It will be programmed in Flutter or another Mobile Cross Platform Developer Kit.  
-  
+Last we will do a Mobile Client app for controlling and checking the robot arm on the go. It will be programmed in Flutter or another Mobile Cross Platform Developer Kit.
+--- 
+  ![App-Prototype](https://user-images.githubusercontent.com/71924682/174283200-e9082e55-8ff7-4b68-a1ac-c82ccfe6f026.png)
+---   
 - Checking Power Status  
 - Check Wireless Connection  
 - Current-Voltage/Power Levels  
