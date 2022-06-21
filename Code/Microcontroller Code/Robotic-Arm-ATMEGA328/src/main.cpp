@@ -5,7 +5,7 @@
 #include <SPI.h>
 #include <EEPROM.h>
 
-
+/*
 #define STATE_LOCATION 513
 #define EEPROM_BUFFER 514
 #define BUFFER_LENGTH 121
@@ -343,9 +343,9 @@ ISR(SPI_STC_vect) {
      SPI.transfer(get_speed());
   }
 }
+*/
 
 
-/*
 // Define stepper motor connections and motor interface type. Motor interface type must be set to 1 when using a driver:
 #define dirPin 3
 #define stepPin 2
@@ -364,4 +364,4 @@ void loop() {
   stepper.setSpeed(400);
   // Step the motor with a constant speed as set by setSpeed():
   stepper.runSpeed();
-}*/
+}

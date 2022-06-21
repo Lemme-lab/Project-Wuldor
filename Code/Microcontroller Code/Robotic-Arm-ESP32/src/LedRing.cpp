@@ -2,7 +2,7 @@
 #include "header.h"
 
 const uint16_t PixelCount = 6; 
-const uint8_t PixelPin = 9;  
+const uint8_t PixelPin = 13;  
 
 #define colorSaturation 128
 
@@ -34,7 +34,7 @@ void LedRing(int type, int speed)
 if(type == 1){
  for(int i = 0; i<PixelCount; i++){
       strip.SetPixelColor(i, green);
-      strip.SetPixelColor(i-1, black);
+      strip.SetPixelColor(i-1, white);
       strip.Show();
       delay(speed);
     }
