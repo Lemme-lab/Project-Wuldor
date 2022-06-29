@@ -6,7 +6,8 @@
 ---
 ![unnamed](https://user-images.githubusercontent.com/71924682/174161704-4a6a0930-17b0-4eb0-8d15-6856ae47b7ed.jpg)
 ---
-![Uploading PCB-Display.png…]()
+![PCB-Display](https://user-images.githubusercontent.com/71924682/176549191-eafeca05-2f2f-4f0e-ad06-6beeb9baefd2.png)
+
 ---
 ![3D-Modell_2022-Mar-06_03-12-34PM-000_CustomizedView13790056020_mp4 (1)](https://user-images.githubusercontent.com/71924682/162983907-fc5d91c6-affc-4a69-b7b2-4bfbc3d428b0.gif)
 ---
