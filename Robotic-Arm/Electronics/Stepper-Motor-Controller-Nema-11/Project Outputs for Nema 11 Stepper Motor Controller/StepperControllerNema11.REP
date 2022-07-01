@@ -2,132 +2,6 @@
 FileName = StepperControllerNema11.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : StepperControllerNema11.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : StepperControllerNema11.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D18
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : StepperControllerNema11.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : StepperControllerNema11.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D13
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-*************************************************************
-
-*************************************************************
 Generating : Top Overlay
       File : StepperControllerNema11.GTO
 
@@ -175,6 +49,142 @@ Used DCodes :
     D28
     D29
     D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : StepperControllerNema11.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D24
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : StepperControllerNema11.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : StepperControllerNema11.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : StepperControllerNema11.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
 *************************************************************
 
 *************************************************************
@@ -195,32 +205,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : StepperControllerNema11.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Outline
-
-
-Used DCodes :
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Outline
-      File : StepperControllerNema11.GM1
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Outline
-
-
-Used DCodes :
-    D13
-*************************************************************
-
-*************************************************************
 Generating : Assembly Text Top
       File : StepperControllerNema11.GM6
 
@@ -230,7 +214,6 @@ Generating : Assembly Text Top
 
 
 Used DCodes :
-    D12
     D13
 *************************************************************
 
@@ -263,6 +246,33 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Overlay
+      File : StepperControllerNema11.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Outline
+      File : StepperControllerNema11.GM1
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
 Generating : Top Component Center
       File : StepperControllerNema11.GM4
 
@@ -273,7 +283,7 @@ Generating : Top Component Center
 
 Used DCodes :
     D13
-    D59
+    D66
 *************************************************************
 
 *************************************************************

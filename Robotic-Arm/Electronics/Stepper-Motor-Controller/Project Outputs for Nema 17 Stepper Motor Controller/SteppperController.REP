@@ -2,16 +2,30 @@
 FileName = SteppperController.GBR
 AutoAperture = True
 *************************************************************
-Generating : Assembly Text Top
-      File : SteppperController.GM6
+Generating : Top Component Center
+      File : SteppperController.GM4
 
-    Adding Layer      : Assembly Text Top
+    Adding Layer      : Top Component Center
 
     Adding Layer      : Outline
 
 
 Used DCodes :
-    D14
+    D15
+    D68
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : SteppperController.GM3
+
+    Adding Layer      : Top Courtyard
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D12
     D15
 *************************************************************
 
@@ -25,7 +39,7 @@ Generating : Top 3D Body
 
 
 Used DCodes :
-    D11
+    D12
     D15
 *************************************************************
 
@@ -34,6 +48,19 @@ Generating : Outline
       File : SteppperController.GM1
 
     Adding Layer      : Outline
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Assembly Text Top
+      File : SteppperController.GM6
+
+    Adding Layer      : Assembly Text Top
 
     Adding Layer      : Outline
 
@@ -52,35 +79,7 @@ Generating : Top Assembly
 
 
 Used DCodes :
-    D11
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Top Component Center
-      File : SteppperController.GM4
-
-    Adding Layer      : Top Component Center
-
-    Adding Layer      : Outline
-
-
-Used DCodes :
-    D15
-    D66
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : SteppperController.GM3
-
-    Adding Layer      : Top Courtyard
-
-    Adding Layer      : Outline
-
-
-Used DCodes :
-    D11
+    D12
     D15
 *************************************************************
 
@@ -94,47 +93,9 @@ Generating : Bottom Overlay
 
 
 Used DCodes :
+    D11
+    D14
     D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : SteppperController.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : SteppperController.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Outline
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
 *************************************************************
 
 *************************************************************
@@ -169,12 +130,12 @@ Generating : Bottom Layer
 Used DCodes :
     D14
     D15
-    D60
-    D61
     D62
     D63
     D64
     D65
+    D66
+    D67
 *************************************************************
 
 *************************************************************
@@ -211,12 +172,53 @@ Used DCodes :
     D33
     D34
     D35
-    D60
-    D61
+    D36
     D62
     D63
     D64
     D65
+    D66
+    D67
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : SteppperController.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : SteppperController.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Outline
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
 *************************************************************
 
 *************************************************************
@@ -234,8 +236,8 @@ Generating : Top Solder
 
 Used DCodes :
     D15
-    D17
-    D36
+    D20
+    D23
     D37
     D38
     D39
@@ -259,6 +261,8 @@ Used DCodes :
     D57
     D58
     D59
+    D60
+    D61
 *************************************************************
 
 *************************************************************
@@ -296,5 +300,6 @@ Used DCodes :
     D33
     D34
     D35
+    D36
 *************************************************************
 

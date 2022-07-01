@@ -1,13 +1,12 @@
 Output: NC Drill Files
 Type  : NC Drill
 From  : Project [Roboter Arm Main Controller.PrjPcb]
-   Generated File[PCB2-RoundHoles.TXT]
-   Generated File[PCB2-SlotHoles.TXT]
-   Generated File[PCB2.LDP]
-   Generated File[PCB2.DRR]
+   Generated File[PCB1.TXT]
+   Generated File[PCB1.LDP]
+   Generated File[PCB1.DRR]
 
 
-Files Generated   : 4
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 09:33:31 On 19.03.2022
+Finished Output Generation At 14:47:26 On 30.06.2022
