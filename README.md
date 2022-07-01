@@ -2,17 +2,17 @@
 ---
 ## A completely custom 6 Axis Roboter-Arm (Still in progress) that won the 2022 HTL Mössingerstraße Technicus Award. 
 ---
-![Logo](https://user-images.githubusercontent.com/71924682/163667757-7f6cb828-fb65-4eb2-ae69-8ef3ffe92f84.png)
+![Logo](https://user-images.githubusercontent.com/71924682/176889683-ce06f6b1-4021-4f41-9f95-f9de0e4c8e2d.png)
 ---
 ![Banner](https://user-images.githubusercontent.com/71924682/163182237-645129a7-b3d2-4f1d-b3c3-a3557a9aed62.png)
 ---
 ![unnamed](https://user-images.githubusercontent.com/71924682/174161704-4a6a0930-17b0-4eb0-8d15-6856ae47b7ed.jpg)
 ---
-![Packaging_Arm](https://user-images.githubusercontent.com/71924682/176860059-a872393a-3037-409e-b3f2-3a51f8c3f57b.png)
+![Packaging_Arm](https://user-images.githubusercontent.com/71924682/176889760-4fde1e47-e28a-4131-8343-0f1ae1778399.png)
 ---
-![Packaging_PCB's](https://user-images.githubusercontent.com/71924682/176860047-57b8fb82-48d8-4175-89a1-5a985d61803a.png)
+![Packaging_PCB's](https://user-images.githubusercontent.com/71924682/176889770-3f93556b-0338-43da-88a1-d4b7408e873c.png)
 ---
-![PCB-Display](https://user-images.githubusercontent.com/71924682/176549191-eafeca05-2f2f-4f0e-ad06-6beeb9baefd2.png)
+![PCB-Display](https://user-images.githubusercontent.com/71924682/176889785-07e952ef-9fc3-4b2d-ae9f-c55c6f9ce349.png)
 ---
 ![20220630_121323](https://user-images.githubusercontent.com/71924682/176860115-f045ef31-d4b3-4335-a10a-a1e75737de9a.jpg)
 ---
@@ -27,9 +27,9 @@
 - Many other little Features
 
 ---
-![Main_PCB_Renders](https://user-images.githubusercontent.com/71924682/163667769-41ce03c1-6c7b-4661-8a2b-bfcb614f81bc.png)
+![Main_PCB_Renders](https://user-images.githubusercontent.com/71924682/176889810-2718931a-76b3-448d-b97d-be2a3cb72dbb.png)
 ---
-![Stepper_motors_driver_renders](https://user-images.githubusercontent.com/71924682/163667771-07915689-6b87-48ac-b06e-d02059a8ad2e.png)
+![Stepper_motors_driver_renders](https://user-images.githubusercontent.com/71924682/176889823-f2102f27-e34e-4860-ab90-768e1afe88b0.png)
 ---
 
 ## Planned Code:
@@ -51,7 +51,7 @@ A few bullet points and explanations for the code part. Different technologies a
 ### Website:  
 An HTML Website that must be functional and appealing to use. Features will be send via a ESP32 and the included Wireless module. Cross-platform Data will mean that we will have to save the current data and inputs on a small database. UI and other Features will mean that we have to use JS with or without an additional framework.  
  --- 
- ![Website-Wuldor](https://user-images.githubusercontent.com/71924682/174283243-d87d0f66-6094-4267-964e-426b13ef7c48.png)
+![Website-Wuldor](https://user-images.githubusercontent.com/71924682/176889860-0bb44c3b-7929-4867-9c0b-16012f84b507.png)
  --- 
 - Checking Power Status  
 - Check Wireless Connection  
@@ -86,7 +86,7 @@ A C++ or Java desktop client to be used when wired up to the robot arm. From the
 ### Mobile Client  
 Last we will do a Mobile Client app for controlling and checking the robot arm on the go. It will be programmed in Flutter or another Mobile Cross Platform Developer Kit.
 --- 
-  ![App-Prototype](https://user-images.githubusercontent.com/71924682/174283200-e9082e55-8ff7-4b68-a1ac-c82ccfe6f026.png)
+  ![App-Prototype](https://user-images.githubusercontent.com/71924682/176889877-8fad88aa-a936-485a-b439-318b7f31bda3.png)
 ---   
 - Checking Power Status  
 - Check Wireless Connection  
@@ -106,7 +106,7 @@ Testclasses to exclude code-mistakes. Motors are working in the corract way and 
 ---
 ### Currently in Work
 ---
-![IN_WORK](https://user-images.githubusercontent.com/71924682/164968803-e9cef057-9668-4230-84af-13a69991e0e7.png)
+![IN_WORK](https://user-images.githubusercontent.com/71924682/176889892-48be1b40-b2a0-4fce-82e5-abb11356f14f.png)
 ---
 The whole code will be versioned via GIT, inputs to the Roboter Arm tested, and the whole project will be publicly available on GitHub.
 ---
@@ -149,15 +149,15 @@ https://trello.com/b/jWCULnX8
 
 ## Roboter-Arm
 ---
-![Pr_1](https://user-images.githubusercontent.com/71924682/174161553-aae333e0-0505-49c0-9cf9-d45af9523c51.png)
+![Assemlby Bottom](https://user-images.githubusercontent.com/71924682/176889947-20d4d246-dcba-47f3-84e0-ab89c786e5d7.png)
 ---
-![Pr_2](https://user-images.githubusercontent.com/71924682/174161582-c9f3f4b6-53cf-43e1-b05f-80f3a960bc51.png)
+![Assembly Arm 2](https://user-images.githubusercontent.com/71924682/176889987-5a62f4df-7da8-40a1-b7aa-c573293a9f9f.png)
 ---
-![Pr_3](https://user-images.githubusercontent.com/71924682/174161590-ae99e1b9-a07f-4817-bb78-bb09a03a54bb.png)
+![Assembly Gripper](https://user-images.githubusercontent.com/71924682/176890013-187ed552-aec6-40ad-addf-8367c1671c65.png)
 ---
-![Pr_4](https://user-images.githubusercontent.com/71924682/174161601-31ec4d24-b536-4ecf-b792-09307122cfae.png)
+![View Arm 3-4-5](https://user-images.githubusercontent.com/71924682/176890022-76d7f0ce-6a86-46b0-9121-b29c366bc9a2.png)
 ---
-![Pr_5](https://user-images.githubusercontent.com/71924682/174161614-79b28936-628b-4247-852c-29107661b0a6.png)
+![Assembly Led Ring - Base](https://user-images.githubusercontent.com/71924682/176890039-43e2691c-b131-4e55-801a-dbc21f5ad780.png)
 ---
 
 
